@@ -1,0 +1,24 @@
+[
+    {
+        "ZoneId": "themachine_greenscreen_customs",
+        "ZoneName": "themachine_greenscreen_customs",
+        "ZoneLocation": "bigmap",
+        "ZoneType": "visit",
+        "FlareType": "",
+        "Position": {
+            "X": "568.2974",
+            "Y": "6.721847",
+            "Z": "-80.97454"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0",
+            "Z": "0"
+        },
+        "Scale": {
+            "X": "3",
+            "Y": "6.5",
+            "Z": "4"
+        }
+    }
+]
