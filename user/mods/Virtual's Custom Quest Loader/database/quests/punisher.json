@@ -1,0 +1,2834 @@
+{
+    "themachine_1": {
+        "QuestName": "Знакомство",
+        "_id": "themachine_1",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "themachine_1 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_1 AFF_0",
+                    "index": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "59f32bb586f774757e1e8442"  
+                    ],
+                    "value": 15,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "compareMethod": ">=",
+                    "conditionType": "Level",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_1 AFS_0",
+                    "index": 0,
+                    "parentId": "",
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "themachine_1 declinePlayerMessage",
+        "description": "themachine_1 description",
+        "failMessageText": "themachine_1 failMessageText",
+        "image": "/files/quest/icon/themachine_1_thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "themachine_1 name",
+        "note": "themachine_1 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "themachine_1_Reward_0",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "6500"
+                },
+                {
+                    "id": "themachine_1_Reward_1",
+                    "index": 1,
+                    "target": "themachine",
+                    "type": "TraderStanding",
+                    "value": "0.05"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "themachine_1 description",
+        "successMessageText": "themachine_1 successMessageText",
+        "traderId": "themachine",
+        "type": "PickUp"
+    },
+    "themachine_2": {
+        "QuestName": "Отголоски из армы",
+        "_id": "themachine_2",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "themachine_2 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                    {
+                        "completeInSeconds": 0,
+                        "conditionType": "HandoverItem",
+                        "dogtagLevel": 0,
+                        "dynamicLocale": false,
+                        "globalQuestCounterId": "",
+                        "id": "themachine_2 AFF_0",
+                        "index": 0,
+                        "maxDurability": 100,
+                        "minDurability": 30,
+                        "onlyFoundInRaid": true,
+                        "parentId": "",
+                        "target": [
+                            "5448bd6b4bdc2dfc2f8b4569","579204f224597773d619e051"
+                            
+                        ],
+                        "value": 10,
+                        "visibilityConditions": []
+                    }
+                ],
+                "AvailableForStart": [
+                    {
+                        "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_2 AFS_0",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "themachine_1",
+                    "visibilityConditions": []
+                    }
+                ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "themachine_2 declinePlayerMessage",
+        "description": "themachine_2 description",
+        "failMessageText": "themachine_2 failMessageText",
+        "image": "/files/quest/icon/themachine_2_thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "themachine_2 name",
+        "note": "themachine_2 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "themachine_2_Reward_1",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "10200"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "punisher_2_Reward_2",
+                    "index": 2,
+                    "items": [
+                        {
+                            "_id": "punisher_2_Reward_TankBattery",
+                            "_tpl": "5d03794386f77420415576f5", 
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "punisher_2_Reward_TankBattery",
+                    "type": "Item",
+                    "value": "1"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "themachine_2 startedMessageText",
+        "successMessageText": "themachine_2 successMessageText",
+        "traderId": "themachine",
+        "type": "PickUp"
+    },
+    "themachine_3": {
+        "QuestName": "Мастер гранат",
+        "_id": "themachine_3",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "themachine_3 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_3 AFF_0_Kills",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [],
+                                "target": "Any",
+                                "value": 1,
+                                "weapon": ["618a431df1eb8e24b8741deb"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_3 AFF_0_Location",
+                                "target": [
+                                    "any"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_3 AFF_0_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_3 AFF_0",
+                    "index": 1,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 5,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_3 AFS_0",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "themachine_1",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "themachine_3 declinePlayerMessage",
+        "description": "themachine_3 description",
+        "failMessageText": "themachine_3 failMessageText",
+        "image": "/files/quest/icon/themachine_3_thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "themachine_3 name",
+        "note": "themachine_3 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "themachine_3_Reward_0",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "26666"
+                },
+                {
+                    "id": "themachine_3_Reward_1",
+                    "index": 1,
+                    "target": "themachine",
+                    "type": "TraderStanding",
+                    "value": "0.20"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_3_Reward_2",
+                    "index": 2,
+                    "items": [
+                        {
+                            "_id": "themachine_3_Reward_GrenadeCase",
+                            "_tpl": "5e2af55f86f7746d4159f07c",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "themachine_3_Reward_GrenadeCase",
+                    "type": "Item",
+                    "value": "1"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "themachine_3 description",
+        "successMessageText": "themachine_3 successMessageText",
+        "traderId": "themachine",
+        "type": "Elimination"
+    },
+    "themachine_4": {
+        "QuestName": "Первый большой шаг",
+        "_id": "themachine_4",
+        "acceptPlayerMessage": "themachine_4 acceptPlayerMessage",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "themachine_4 changeQuestMessageText",
+        "completePlayerMessage": "themachine_4 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_4 AFF_0",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "target": [
+                        "5c0d5e4486f77478390952fe"
+                    ],
+                    "value": 90,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_4 AFF_1",
+                    "index": 1,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "5d08d21286f774736e7c94c3"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_4 AFF_0_Kills",
+                                "resetOnSessionEnd": false,
+                                "savageRole": ["bossKojaniy"],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": ["5448bd6b4bdc2dfc2f8b4569","579204f224597773d619e051"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_4 AFF_0_Location",
+                                "target": [
+                                    "any"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_4 AFF_0_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_4 AFF_2",
+                    "index": 2,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_4 AFS_0",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "themachine_2",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "themachine_4 declinePlayerMessage",
+        "description": "themachine_4 description",
+        "failMessageText": "themachine_4 failMessageText",
+        "image": "/files/quest/icon/themachine_4_thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "themachine_4 name",
+        "note": "themachine_4 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "themachine_4 reward_0",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "50000"
+                },
+                {
+                    "id": "themachine_4 reward_1",
+                    "index": 1,
+                    "target": "themachine",
+                    "type": "TraderStanding",
+                    "value": "0.25"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_4_Reward_3",
+                    "index": 2,
+                    "items": [
+                        {
+                            "_id": "themachine_4_Reward_item_container_magbox",
+                            "_tpl": "5c127c4486f7745625356c13",
+                            "upd": {
+                                "StackObjectsCount": 2
+                            }
+                        }
+                    ],
+                    "target": "themachine_4_Reward_item_container_magbox",
+                    "type": "Item",
+                    "value": "2"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "themachine_4 startedMessageText",
+        "successMessageText": "themachine_4 successMessageText",
+        "traderId": "themachine",
+        "type": "PickUp"
+    },
+    "themachine_5": {
+        "QuestName": "Недооцененная мощь",
+        "_id": "themachine_5",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "themachine_5 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": ["Head"],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 10
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_5 AFF_0_Kills",
+                            "resetOnSessionEnd": true,
+                                "savageRole": [],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": ["5448bd6b4bdc2dfc2f8b4569","579204f224597773d619e051"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_5 AFF_0_Location",
+                                "target": [
+                                    "Woods"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_5 AFF_0_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_5 AFF_0",
+                    "index": 1,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 4,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_5 AFS_0",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "themachine_4",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "themachine_5 declinePlayerMessage",
+        "description": "themachine_5 description",
+        "failMessageText": "themachine_5 failMessageText",
+        "image": "/files/quest/icon/themachine_5_thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "5704e3c2d2720bac5b8b4567",
+        "name": "themachine_5 name",
+        "note": "themachine_5 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "themachine_5_Reward_0",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "5000"
+                },
+                {
+                    "id": "themachine_5_Reward_1",
+                    "index": 1,
+                    "target": "themachine",
+                    "type": "TraderStanding",
+                    "value": "0.25"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_5_Reward_2",
+                    "index": 2,
+                    "items": [
+                        {
+                            "_id": "themachine_5_Reward_Roubles",
+                            "_tpl": "5ed51652f6c34d2cc26336a1",
+                            "upd": {
+                                "StackObjectsCount": 2
+                            }
+                        }
+                    ],
+                    "target": "themachine_5_Reward_Roubles",
+                    "type": "Item",
+                    "value": "2"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_5_Reward_3",
+                    "index": 3,
+                    "items": [
+                        {
+                            "_id": "themachine_5_Reward_item_equipment_armor_a18",
+                            "_tpl": "59e7708286f7742cbd762753",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "themachine_5_Reward_item_equipment_armor_a18",
+                    "type": "Item",
+                    "value": "1"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_5_Reward_4",
+                    "index": 4,
+                    "items": [
+                        {
+                            "_id": "themachine_5_Reward_backpack_Raid_6SH118",
+                            "_tpl": "5df8a4d786f77412672a1e3b",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "themachine_5_Reward_backpack_Raid_6SH118",
+                    "type": "Item",
+                    "value": "1"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_5_Reward_5",
+                    "index": 5,
+                    "items": [
+                        {
+                            "_id": "themachine_5_Reward_item_container_lopouch",
+                            "_tpl": "5d235b4d86f7742e017bc88a",
+                            "upd": {
+                                "StackObjectsCount": 5
+                            }
+                        }
+                    ],
+                    "target": "themachine_5_Reward_item_container_lopouch",
+                    "type": "Item",
+                    "value": "5"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "themachine_5 description",
+        "successMessageText": "themachine_5 successMessageText",
+        "traderId": "themachine",
+        "type": "Elimination"
+    },
+    "themachine_6": {
+        "QuestName": "Приказ | B",
+        "_id": "themachine_6",
+        "acceptPlayerMessage": "themachine_6 acceptPlayerMessage",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "themachine_6 changeQuestMessageText",
+        "completePlayerMessage": "themachine_6 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_6 AFF_0",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "5c1d0f4986f7744bb01837fa"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_6 AFF_1",
+                    "index": 1,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "5c0530ee86f774697952d952"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_6 AFF_2",
+                    "index": 2,
+                    "isEncoded": true,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "5c94bbff86f7747ee735c08f"
+                    ],
+                    "value": 10,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": ["RightLeg","LeftLeg"],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": "<=",
+                                    "value": 10
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_6 AFF_0_Kills",
+                                "resetOnSessionEnd": false,
+                                "savageRole": ["exUsec"],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": [],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_6 AFF_0_Location",
+                                "target": [
+                                    "any"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_6 AFF_0_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_6 AFF_3",
+                    "index": 3,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 10,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_6 AFS_0",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "themachine_3",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "themachine_6 declinePlayerMessage",
+        "description": "themachine_6 description",
+        "failMessageText": "themachine_6 failMessageText",
+        "image": "/files/quest/icon/themachine_6_thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "themachine_6 name",
+        "note": "themachine_6 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "themachine_6 reward_0",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "100069"
+                },
+                {
+                    "id": "themachine_6 reward_1",
+                    "index": 1,
+                    "target": "themachine",
+                    "type": "TraderStanding",
+                    "value": "0.25"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_6_Reward_2",
+                    "index": 2,
+                    "items": [
+                        {
+                            "_id": "themachine_6_Reward_item_container_items_thicc",
+                            "_tpl": "5c0a840b86f7742ffa4f2482",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "themachine_6_Reward_item_container_items_thicc",
+                    "type": "Item",
+                    "value": "1"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_6_Reward_4",
+                    "index": 4,
+                    "items": [
+                        {
+                            "_id": "themachine_6_Reward_item_container_items_gp",
+                            "_tpl": "5d235b4d86f7742e017bc88a",
+                            "upd": {
+                                "StackObjectsCount": 15
+                            }
+                        }
+                    ],
+                    "target": "themachine_6_Reward_item_container_items_gp",
+                    "type": "Item",
+                    "value": "15"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_6_Reward_3",
+                    "index": 3,
+                    "items": [
+                        {
+                            "_id": "themachine_6_Reward_item_container_items_silicon",
+                            "_tpl": "6389c8fb46b54c634724d847",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "themachine_6_Reward_item_container_items_silicon",
+                    "type": "Item",
+                    "value": "1"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "themachine_6 startedMessageText",
+        "successMessageText": "themachine_6 successMessageText",
+        "traderId": "themachine",
+        "type": "Elimination"
+    },
+    "themachine_7": {
+        "QuestName": "На богатом | AS",
+        "_id": "themachine_7",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "themachine_7 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": ["Head","LeftArm"],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 1380,
+                                    "to": 360
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_7 AFF_0_Kills",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": ["5b3b713c5acfc4330140bd8d"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_7 AFF_0_Location",
+                                "target": [
+                                    "Shoreline"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_7 AFF_0_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_7 AFF_0",
+                    "index": 1,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 10,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_7 AFS_0",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "themachine_5",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "themachine_7 declinePlayerMessage",
+        "description": "themachine_7 description",
+        "failMessageText": "themachine_7 failMessageText",
+        "image": "/files/quest/icon/themachine_7_thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "5704e554d2720bac5b8b456e",
+        "name": "themachine_7 name",
+        "note": "themachine_7 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "themachine_7_Reward_0",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "69420"
+                },
+                {
+                    "id": "themachine_7_Reward_1",
+                    "index": 1,
+                    "target": "themachine",
+                    "type": "TraderStanding",
+                    "value": "0.50"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_7_Reward_2",
+                    "index": 2,
+                    "items": [
+                        {
+                            "_id": "themachine_7_Reward_Roubles",
+                            "_tpl": "5d235b4d86f7742e017bc88a", 
+                            "upd": {
+                                "StackObjectsCount": 10
+                            }
+                        }
+                    ],
+                    "target": "themachine_7_Reward_Roubles",
+                    "type": "Item",
+                    "value": "10"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_7_Reward_3",
+                    "index": 3,
+                    "items": [
+                        {
+                            "_id": "themachine_7_Reward_item_container_weaponcase_THICC",
+                            "_tpl": "5b6d9ce188a4501afc1b2b25",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "themachine_7_Reward_item_container_weaponcase_THICC",
+                    "type": "Item",
+                    "value": "1"
+                },
+                {
+                    "id": "themachine_7_Reward_4",
+                    "index": 4,
+                    "target": "579dc571d53a0658a154fbec",
+                    "type": "TraderStanding", 
+                    "value": "-0.55"
+                },
+                {
+                    "id": "themachine_7_Reward_5",
+                    "index": 5,
+                    "target": "5c0647fdd443bc2504c2d371",
+                    "type": "TraderStanding", 
+                    "value": "1.0"
+                },
+                {
+                    "id": "themachine_7_Reward_6",
+                    "index": 6,
+                    "target": "5935c25fb3acc3127c3d8cd9",
+                    "type": "TraderStanding", 
+                    "value": "1.0"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "themachine_7 description",
+        "successMessageText": "themachine_7 successMessageText",
+        "traderId": "themachine",
+        "type": "Elimination"
+    },
+    "themachine_8": {
+        "QuestName": "Свои методы 1 | C",
+        "_id": "themachine_8",
+        "acceptPlayerMessage": "themachine_8 acceptPlayerMessage",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "themachine_8 changeQuestMessageText",
+        "completePlayerMessage": "themachine_8 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": ["Head"],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 15
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_8 AFF_0_Kills",
+                                "resetOnSessionEnd": false,
+                                "savageRole": ["bossBully"],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": ["5b3b713c5acfc4330140bd8d"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_8 AFF_0_Location",
+                                "target": [
+                                    "any"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_8 AFF_0_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_8 AFF_0",
+                    "index": 1,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 3,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_8 AFS_0",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "themachine_7",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "themachine_8 declinePlayerMessage",
+        "description": "themachine_8 description",
+        "failMessageText": "themachine_8 failMessageText",
+        "image": "/files/quest/icon/themachine_8_thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "themachine_8 name",
+        "note": "themachine_8 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "themachine_8 reward_0",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "75000"
+                },
+                {
+                    "id": "themachine_8 reward_1",
+                    "index": 1,
+                    "target": "themachine",
+                    "type": "TraderStanding",
+                    "value": "0.20"
+                },
+                {
+                    "id": "themachine_8_Reward_2",
+                    "index": 2,
+                    "type": "Skill",
+                    "target": "Pistol", 
+                    "value": 30 
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_8_Reward_2",
+                    "index": 3,
+                    "items": [
+                        {
+                            "_id": "themachine_8_Reward_item_keycard_lab_red",
+                            "_tpl": "5580223e4bdc2d1c128b457f",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "themachine_8_Reward_item_keycard_lab_red",
+                    "type": "Item",
+                    "value": "1"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "themachine_8 startedMessageText",
+        "successMessageText": "themachine_8 successMessageText",
+        "traderId": "themachine",
+        "type": "Elimination"
+    },
+    "themachine_9": {
+        "QuestName": "Свои методы 2 | С",
+        "_id": "themachine_9",
+        "acceptPlayerMessage": "themachine_9 acceptPlayerMessage",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "themachine_9 changeQuestMessageText",
+        "completePlayerMessage": "themachine_9 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": ["RightArm", "LeftArm"],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_9 AFF_0_Kills",
+                                "resetOnSessionEnd": false,
+                                "savageRole": ["Tagilla "],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": ["5580223e4bdc2d1c128b457f"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_9 AFF_0_Location",
+                                "target": [
+                                    "any"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_9 AFF_0_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_9 AFF_0",
+                    "index": 1,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_9 AFS_0",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "themachine_8",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "themachine_9 declinePlayerMessage",
+        "description": "themachine_9 description",
+        "failMessageText": "themachine_9 failMessageText",
+        "image": "/files/quest/icon/themachine_9_thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "themachine_9 name",
+        "note": "themachine_9 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "themachine_9_Reward_0",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "50420"
+                },
+                {
+                    "id": "themachine_9_Reward_1",
+                    "index": 1,
+                    "target": "themachine",
+                    "type": "TraderStanding",
+                    "value": "0.3"
+                },
+                {
+                    "id": "themachine_9_Reward_2",
+                    "index": 2,
+                    "type": "Skill",
+                    "target": "Shotgun", 
+                    "value": 30 
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_9_Reward_3",
+                    "index": 3,
+                    "items": [
+                        {
+                            "_id": "themachine_9_LEDX_0",
+                            "_tpl": "5c0530ee86f774697952d952",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "themachine_9_LEDX_0",
+                    "type": "Item",
+                    "value": "1"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "themachine_9 description",
+        "successMessageText": "themachine_9 successMessageText",
+        "traderId": "themachine",
+        "type": "Elimination"
+    },
+    "themachine_10": {
+        "QuestName": "Свои методы 3 | C",
+        "_id": "themachine_10",
+        "acceptPlayerMessage": "themachine_10 acceptPlayerMessage",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "themachine_10 changeQuestMessageText",
+        "completePlayerMessage": "themachine_10 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": ["Head"],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 7
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_10 AFF_0_Kills",
+                                "resetOnSessionEnd": false,
+                                "savageRole": ["bossKnight"],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": ["5a7ae0c351dfba0017554310","5b1fa9b25acfc40018633c01"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_10 AFF_0_Location",
+                                "target": [
+                                    "any"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_10 AFF_0_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_10 AFF_0",
+                    "index": 1,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": ["Chest","Stomach"],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_10 AFF_1_Kills",
+                                "resetOnSessionEnd": false,
+                                "savageRole": ["followerBigPipe"],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": ["5a7828548dc32e5a9c28b516"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_10 AFF_1_Location",
+                                "target": [
+                                    "any"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_10 AFF_1_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_10 AFF_1",
+                    "index": 1,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": ["Head"],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 30
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_10 AFF_2_Kills",
+                                "resetOnSessionEnd": false,
+                                "savageRole": ["followerBirdEye"],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": ["5df8ce05b11454561e39243b"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_10 AFF_2_Location",
+                                "target": [
+                                    "any"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_10 AFF_2_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_10 AFF_2",
+                    "index": 1,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_10 AFS_0",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "themachine_9",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "themachine_10 declinePlayerMessage",
+        "description": "themachine_10 description",
+        "failMessageText": "themachine_10 failMessageText",
+        "image": "/files/quest/icon/themachine_10_thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "themachine_10 name",
+        "note": "themachine_10 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "themachine_10_Reward_1",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "60000"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_10_Reward_1",
+                    "index": 1,
+                    "items": [
+                        {
+                            "_id": "themachine_10_Reward_Roubles",
+                            "_tpl": "5d235b4d86f7742e017bc88a",
+                            "upd": {
+                                "StackObjectsCount": 15
+                            }
+                        }
+                    ],
+                    "target": "themachine_10_Reward_Roubles",
+                    "type": "Item",
+                    "value": "15"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_10_Reward_2",
+                    "index": 2,
+                    "items": [
+                        {
+                            "_id": "themachine_10_Reward_tetriz",
+                            "_tpl": "5c052e6986f7746b207bc3c9",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "themachine_10_Reward_tetriz",
+                    "type": "Item",
+                    "value": "1"
+                },
+                {
+                    "id": "themachine_9_Reward_2",
+                    "index": 3,
+                    "type": "Skill",
+                    "target": "Sniper", 
+                    "value": 30 
+                },
+                {
+                    "id": "themachine_9_Reward_2",
+                    "index": 4,
+                    "type": "Skill",
+                    "target": "StressResistance", 
+                    "value": 10 
+                },
+                {
+                    "id": "themachine_9_Reward_2",
+                    "index": 5,
+                    "type": "Skill",
+                    "target": "RecoilControl", 
+                    "value": 20 
+                },
+                {
+                    "id": "themachine_10_Reward_5",
+                    "index": 6,
+                    "target": "themachine",
+                    "type": "TraderStanding",
+                    "value": "0.50"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "themachine_10 startedMessageText",
+        "successMessageText": "themachine_10 successMessageText",
+        "traderId": "themachine",
+        "type": "Elimination"
+    },
+    "themachine_11": {
+        "QuestName": "Dangerous Waters",
+        "_id": "themachine_11",
+        "acceptPlayerMessage": "themachine_11 acceptPlayerMessage",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "themachine_11 changeQuestMessageText",
+        "completePlayerMessage": "themachine_11 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": ["Chest","Stomach"],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_11 AFF_0_Kills",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [],
+                                "target": "any",
+                                "value": 1,
+                                "weapon": ["5448bd6b4bdc2dfc2f8b4569","579204f224597773d619e051"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_11 AFF_0_Location",
+                                "target": [
+                                    "The Lab"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_11 AFF_0_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_11 AFF_0",
+                    "index": 1,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 8,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_11 AFS_0",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "themachine_5",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "themachine_11 declinePlayerMessage",
+        "description": "themachine_11 description",
+        "failMessageText": "themachine_11 failMessageText",
+        "image": "/files/quest/icon/themachine_11_thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "5b0fc42d86f7744a585f9105",
+        "name": "themachine_11 name",
+        "note": "themachine_11 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "themachine_11_Reward_1",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "35000"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_11_Reward_2",
+                    "index": 1,
+                    "items": [
+                        {
+                            "_id": "themachine_11_gpu",
+                            "_tpl": "57347ca924597744596b4e71",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "themachine_11_gpu",
+                    "type": "Item",
+                    "value": "1"
+                },
+                {
+                    "id": "themachine_11_Reward_3",
+                    "index": 2,
+                    "target": "themachine",
+                    "type": "TraderStanding",
+                    "value": "0.20"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_11_Reward_4",
+                    "index": 3,
+                    "items": [
+                        {
+                            "_id": "themachine_11_kit",
+                            "_tpl": "5910968f86f77425cf569c32",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "themachine_11_kit",
+                    "type": "Item",
+                    "value": "1"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "themachine_11 startedMessageText",
+        "successMessageText": "themachine_11 successMessageText",
+        "traderId": "themachine",
+        "type": "Elimination"
+    },
+    "themachine_12": {
+        "QuestName": "Демонстрация силы 2 | D",
+        "_id": "themachine_12",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "themachine_12 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_12 AFF_0_Kills",
+                                "resetOnSessionEnd": true,
+                                "savageRole": [],
+                                "target": "any",
+                                "value": 1,
+                                "weapon": ["633ec7c2a6918cb895019c6c"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_12 AFF_0_Location",
+                                "target": [
+                                    "Factory Day"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_12 AFF_0_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_12 AFF_0",
+                    "index": 1,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 5,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_12 AFS_0",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "themachine_11",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "themachine_12 declinePlayerMessage",
+        "description": "themachine_12 description",
+        "failMessageText": "themachine_12 failMessageText",
+        "image": "/files/quest/icon/themachine_12_thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "55f2d3fd4bdc2d5f408b4567",
+        "name": "themachine_12 name",
+        "note": "themachine_12 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "themachine_12_Reward_1",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "30000"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_12_Reward_2",
+                    "index": 1,
+                    "items": [
+                        {
+                            "_id": "98e5bbea36d09bd7682632a5",
+                            "_tpl": "65290f395ae2ae97b80fdf2d",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        },
+                        {
+                            "_id": "9f156fc95a8b472be80b3875",
+                            "_tpl": "602e71bd53a60014f9705bfa",
+                            "slotId": "mod_pistol_grip",
+                            "parentId": "98e5bbea36d09bd7682632a5"
+                        },
+                        {
+                            "_id": "b780cf80a2ce044a8cb95e01",
+                            "_tpl": "65293c38fc460e50a509cb25",
+                            "slotId": "mod_magazine",
+                            "parentId": "98e5bbea36d09bd7682632a5"
+                        },
+                        {
+                            "_id": "14750eaabb7ce5777d51e95a",
+                            "_tpl": "6529119424cbe3c74a05e5bb",
+                            "slotId": "mod_reciever",
+                            "parentId": "98e5bbea36d09bd7682632a5"
+                        },
+                        {
+                            "_id": "5836c7215802cc98113451b1",
+                            "_tpl": "59db7eed86f77461f8380365",
+                            "slotId": "mod_scope",
+                            "parentId": "14750eaabb7ce5777d51e95a"
+                        },
+                        {
+                            "_id": "5a9e563c397928347959f10d",
+                            "_tpl": "59db7e1086f77448be30ddf3",
+                            "slotId": "mod_scope",
+                            "parentId": "5836c7215802cc98113451b1"
+                        },
+                        {
+                            "_id": "f663cf763f193c4f1c38e986",
+                            "_tpl": "652910565ae2ae97b80fdf35",
+                            "slotId": "mod_barrel",
+                            "parentId": "14750eaabb7ce5777d51e95a"
+                        },
+                        {
+                            "_id": "b844e371f1432e27f3c410e6",
+                            "_tpl": "6529113b5ae2ae97b80fdf39",
+                            "slotId": "mod_muzzle",
+                            "parentId": "f663cf763f193c4f1c38e986"
+                        },
+                        {
+                            "_id": "861fad8601465b509afb1d69",
+                            "_tpl": "652911e650dc782999054b9d",
+                            "slotId": "mod_muzzle",
+                            "parentId": "b844e371f1432e27f3c410e6"
+                        },
+                        {
+                            "_id": "b56cc3c8da4e3ec2f6893918",
+                            "_tpl": "652910bc24cbe3c74a05e5b9",
+                            "slotId": "mod_gas_block",
+                            "parentId": "f663cf763f193c4f1c38e986"
+                        },
+                        {
+                            "_id": "3e620097abf906975cfd90e9",
+                            "_tpl": "652910ef50dc782999054b97",
+                            "slotId": "mod_handguard",
+                            "parentId": "14750eaabb7ce5777d51e95a"
+                        },
+                        {
+                            "_id": "f79b93a5a23292027d82352c",
+                            "_tpl": "6269545d0e57f218e4548ca2",
+                            "slotId": "mod_mount_000",
+                            "parentId": "3e620097abf906975cfd90e9"
+                        },
+                        {
+                            "_id": "078ad1e87850ab4f8d77f829",
+                            "_tpl": "57d17e212459775a1179a0f5",
+                            "slotId": "mod_tactical",
+                            "parentId": "f79b93a5a23292027d82352c"
+                        },
+                        {
+                            "_id": "af862adbba44476a80cdaa62",
+                            "_tpl": "5b7be47f5acfc400170e2dd2",
+                            "slotId": "mod_mount_001",
+                            "parentId": "3e620097abf906975cfd90e9"
+                        },
+                        {
+                            "_id": "18d213947a5c42d61961b812",
+                            "_tpl": "5ba26b01d4351e0085325a51",
+                            "slotId": "mod_sight_front",
+                            "parentId": "3e620097abf906975cfd90e9"
+                        },
+                        {
+                            "_id": "9097b9237c1dee3ff307ce39",
+                            "_tpl": "57cffb66245977632f391a99",
+                            "slotId": "mod_foregrip",
+                            "parentId": "3e620097abf906975cfd90e9"
+                        },
+                        {
+                            "_id": "3d80cd7c7b945fb676323b3f",
+                            "_tpl": "5bb20e49d4351e3bac1212de",
+                            "slotId": "mod_sight_rear",
+                            "parentId": "14750eaabb7ce5777d51e95a"
+                        },
+                        {
+                            "_id": "bed288208d7c79d73fd8f990",
+                            "_tpl": "5c5db6ee2e221600113fba54",
+                            "slotId": "mod_stock_000",
+                            "parentId": "98e5bbea36d09bd7682632a5"
+                        },
+                        {
+                            "_id": "08da72dc7ad61499726cc5ce",
+                            "_tpl": "6529109524cbe3c74a05e5b7",
+                            "slotId": "mod_charge",
+                            "parentId": "98e5bbea36d09bd7682632a5"
+                        }
+                    ],
+                    "target": "98e5bbea36d09bd7682632a5",
+                    "type": "Item",
+                    "value": "1"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_12_Reward_4",
+                    "index": 2,
+                    "items": [
+                        {
+                            "_id": "themachine_12_Reward_patron_68x51",
+                            "_tpl": "6529243824cbe3c74a05e5c1",
+                            "upd": {
+                                "StackObjectsCount": 60
+                            }
+                        }
+                    ],
+                    "target": "themachine_12_Reward_patron_68x51",
+                    "type": "Item",
+                    "value": "60"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_11_Reward_2",
+                    "index": 3,
+                    "items": [
+                        {
+                            "_id": "themachine_12_gpu",
+                            "_tpl": "57347ca924597744596b4e71",
+                            "upd": {
+                                "StackObjectsCount": 2
+                            }
+                        }
+                    ],
+                    "target": "themachine_12_gpu",
+                    "type": "Item",
+                    "value": "2"
+                },
+                {
+                    "id": "themachine_12_Reward_3",
+                    "index": 4,
+                    "target": "themachine",
+                    "type": "TraderStanding",
+                    "value": "0.30"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "themachine_12 startedMessageText",
+        "successMessageText": "themachine_12 successMessageText",
+        "traderId": "themachine",
+        "type": "Elimination"
+    },
+    "themachine_13": {
+        "QuestName": "Makin' Groceries",
+        "_id": "themachine_13",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "themachine_13 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "HandoverItem",
+                    "countInRaid": false,
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_13 AFF_0",
+                    "location": "",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "573477e124597737dd42e191"
+                    ],
+                    "value": 15,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": ["Head"],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_13 AFF_0_Kills",
+                                "resetOnSessionEnd": false,
+                                "savageRole": ["bossKilla"],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": [],
+                                "weaponCaliber": ["59e6658b86f77411d949b250"],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_13 AFF_0_Location",
+                                "target": [
+                                    "any"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_13 AFF_0_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_13 AFF_1",
+                    "index": 1,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 3,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_13 AFS_0",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "themachine_12",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "themachine_13 declinePlayerMessage",
+        "description": "themachine_13 description",
+        "failMessageText": "themachine_13 failMessageText",
+        "image": "/files/quest/icon/themachine_13_thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "themachine_13 name",
+        "note": "themachine_13 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "themachine_13_Reward_1",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "8000"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_13_Reward_2",
+                    "index": 1,
+                    "items": [
+                        {
+                            "_id": "themachine_13_Reward_Roubles",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 42690
+                            }
+                        }
+                    ],
+                    "target": "themachine_13_Reward_Roubles",
+                    "type": "Item",
+                    "value": "42690"
+                },
+                {
+                    "id": "themachine_13_Reward_3",
+                    "index": 2,
+                    "target": "themachine",
+                    "type": "TraderStanding",
+                    "value": "0.50"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "themachine_13 startedMessageText",
+        "successMessageText": "themachine_13 successMessageText",
+        "traderId": "themachine",
+        "type": "PickUp"
+    },
+    "themachine_14": {
+        "QuestName": "Guard Duty",
+        "_id": "themachine_14",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "themachine_14 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_14 AFF_0_Kills",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [],
+                                "target": "any",
+                                "value": 1,
+                                "weapon": ["64637076203536ad5600c990","64ca3d3954fc657e230529cc"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_14 AFF_0_Location",
+                                "target": [
+                                    "any"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_14 AFF_0_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_14 AFF_0",
+                    "index": 0,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 50,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_14 AFS_0",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "themachine_12",
+                    "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_14 AFS_3",
+                    "index": 2,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "themachine_6",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "themachine_14 declinePlayerMessage",
+        "description": "themachine_14 description",
+        "failMessageText": "themachine_14 failMessageText",
+        "image": "/files/quest/icon/themachine_14_thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "themachine_14 name",
+        "note": "themachine_14 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "themachine_14_Reward_1",
+                    "index": 0,
+                    "type": "Skill",
+                    "target": "AimDrills", 
+                    "value": 50 
+                },
+                {
+                    "id": "themachine_14_Reward_2",
+                    "index": 1,
+                    "type": "Skill",
+                    "target": "RecoilControl", 
+                    "value": 50 
+                },
+                {
+                    "id": "themachine_14_Reward_3",
+                    "index": 2,
+                    "type": "Skill",
+                    "target": "Strength", 
+                    "value": 50 
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_14_Reward_4",
+                    "index": 3,
+                    "items": [
+                        {
+                            "_id": "themachine_14_Reward_thicc",
+                            "_tpl": "5c0a840b86f7742ffa4f2482",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "themachine_14_Reward_thicc",
+                    "type": "Item",
+                    "value": "1"
+                },
+                {
+                    "id": "themachine_14_Reward_5",
+                    "index": 4,
+                    "target": "themachine",
+                    "type": "TraderStanding",
+                    "value": "0.50"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "themachine_14 startedMessageText",
+        "successMessageText": "themachine_14 successMessageText",
+        "traderId": "themachine",
+        "type": "Elimination"
+    },
+    "themachine_15": {
+        "QuestName": "New Filming Location",
+        "_id": "themachine_15",
+        "acceptPlayerMessage": "themachine_15 acceptPlayerMessage",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "themachine_15 changeQuestMessageText",
+        "completePlayerMessage": "themachine_15 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_15 AFF_0",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "628e4e576d783146b124c64d"
+                    ],
+                    "value": 2,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_15 AFF_1",
+                    "index": 1,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "60361b5a9a15b10d96792291"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_15 AFS_0",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "themachine_14",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "themachine_15 declinePlayerMessage",
+        "description": "themachine_15 description",
+        "failMessageText": "themachine_15 failMessageText",
+        "image": "/files/quest/icon/themachine_15_thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "56f40101d2720b2a4d8b45d6",
+        "name": "themachine_15 name",
+        "note": "themachine_15 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "themachine_15 reward_0",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "20000"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_15 reward_3",
+                    "index": 3,
+                    "items": [
+                        {
+                            "_id": "themachine_15 reward_3_0",
+                            "_tpl": "5a154d5cfcdbcb001a3b00da",
+                            "upd": {
+                                "StackObjectsCount": 5
+                            }
+                        }
+                    ],
+                    "target": "themachine_15 reward_3_0",
+                    "type": "Item",
+                    "value": "5"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_15 reward_8",
+                    "index": 2,
+                    "items": [
+                        {
+                            "_id": "themachine_15 reward_8_0",
+                            "_tpl": "619cf0335771dd3c390269ae",
+                            "upd": {
+                                "StackObjectsCount": 3
+                            }
+                        }
+                    ],
+                    "target": "themachine_15 reward_8_0",
+                    "type": "Item",
+                    "value": "3"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_15 reward_7",
+                    "index": 4,
+                    "items": [
+                        {
+                            "_id": "themachine_15 reward_7_0",
+                            "_tpl": "5d235b4d86f7742e017bc88a",
+                            "upd": {
+                                "StackObjectsCount": 5
+                            }
+                        }
+                    ],
+                    "target": "themachine_15 reward_7_0",
+                    "type": "Item",
+                    "value": "5"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "themachine_15 startedMessageText",
+        "successMessageText": "themachine_15 successMessageText",
+        "traderId": "themachine",
+        "type": "PickUp"
+    },
+    "themachine_16": {
+        "QuestName": "Guard Duty",
+        "_id": "themachine_16",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "themachine_16 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_16 AFF_0_Kills",
+                                "resetOnSessionEnd": true,
+                                "savageRole": ["bossKnight"],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": ["5c0126f40db834002a125382"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_16 AFF_0_Location",
+                                "target": [
+                                    "any"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_16 AFF_0_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_16 AFF_0",
+                    "index": 0,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_16 AFF_1_Kills",
+                                "resetOnSessionEnd": true,
+                                "savageRole": ["followerBigPipe"],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": ["5c0126f40db834002a125382"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_16 AFF_1_Location",
+                                "target": [
+                                    "any"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_16 AFF_1_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_16 AFF_1",
+                    "index": 0,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_16 AFF_2_Kills",
+                                "resetOnSessionEnd": true,
+                                "savageRole": ["followerBirdEye"],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": ["5c0126f40db834002a125382"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_16 AFF_2_Location",
+                                "target": [
+                                    "any"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_16 AFF_2_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_16 AFF_2",
+                    "index": 2,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_16 AFS_0",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "themachine_13",
+                    "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_16 AFS_3",
+                    "index": 2,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "themachine_10",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "themachine_16 declinePlayerMessage",
+        "description": "themachine_16 description",
+        "failMessageText": "themachine_16 failMessageText",
+        "image": "/files/quest/icon/themachine_16_thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "themachine_16 name",
+        "note": "themachine_16 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "findInRaid": true,
+                    "id": "themachine_16_Reward_0",
+                    "index": 0,
+                    "items": [
+                        {
+                            "_id": "themachine_16_Reward_LCard_B",
+                            "_tpl": "5c1d0c5f86f7744bb2683cf0",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "themachine_16_Reward_LCard_B",
+                    "type": "Item",
+                    "value": "1"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_16_Reward_1",
+                    "index": 1,
+                    "items": [
+                        {
+                            "_id": "themachine_16_Reward_LCard_Y",
+                            "_tpl": "5c1d0d6d86f7744bb2683e1f",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "themachine_16_Reward_LCard_Y",
+                    "type": "Item",
+                    "value": "1"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_16_Reward_2",
+                    "index": 2,
+                    "items": [
+                        {
+                            "_id": "themachine_16_Reward_LCard_G",
+                            "_tpl": "5c1d0dc586f7744baf2e7b79",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "themachine_16_Reward_LCard_G",
+                    "type": "Item",
+                    "value": "1"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_16_Reward_3",
+                    "index": 3,
+                    "items": [
+                        {
+                            "_id": "themachine_16_Reward_LCard_R",
+                            "_tpl": "5c1d0efb86f7744baf2e7b7b",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "themachine_16_Reward_LCard_R",
+                    "type": "Item",
+                    "value": "1"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_16_Reward_4",
+                    "index": 4,
+                    "items": [
+                        {
+                            "_id": "themachine_16_Reward_LCard_Bl",
+                            "_tpl": "5c1d0f4986f7744bb01837fa",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "themachine_16_Reward_LCard_Bl",
+                    "type": "Item",
+                    "value": "1"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_16_Reward_5",
+                    "index": 5,
+                    "items": [
+                        {
+                            "_id": "themachine_16_Reward_LCard_V",
+                            "_tpl": "5c1e495a86f7743109743dfb",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "themachine_16_Reward_LCard_V",
+                    "type": "Item",
+                    "value": "1"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "themachine_16 startedMessageText",
+        "successMessageText": "themachine_16 successMessageText",
+        "traderId": "themachine",
+        "type": "Elimination"
+    }
+}
