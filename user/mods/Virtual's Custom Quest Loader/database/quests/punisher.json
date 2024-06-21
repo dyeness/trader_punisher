@@ -260,7 +260,26 @@
         "restartable": false,
         "rewards": {
             "Fail": [],
-            "Started": [],
+            "Started": [
+                {
+                    "findInRaid": false,
+                    "id": "Rgo_start_R",
+                    "index": 0,
+                    "items": [
+                    {
+                        "_id": "Rgo_start",
+                        "_tpl": "618a431df1eb8e24b8741deb",
+                        "upd": 
+                        {
+                        "StackObjectsCount": 5
+                        }
+                    }
+                ],
+            "target": "Rgo_start",
+            "type": "Item",
+            "value": "5"
+                }
+            ],
             "Success": [
                 {
                     "id": "themachine_3_Reward_0",
@@ -2611,7 +2630,7 @@
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
                     "id": "themachine_16 AFF_1",
-                    "index": 0,
+                    "index": 1,
                     "oneSessionOnly": false,
                     "parentId": "",
                     "type": "Elimination",
@@ -2828,6 +2847,179 @@
         "side": "Pmc",
         "startedMessageText": "themachine_16 startedMessageText",
         "successMessageText": "themachine_16 successMessageText",
+        "traderId": "themachine",
+        "type": "Elimination"
+    },
+    "themachine_17": {
+        "QuestName": "Вероотступничество | B",
+        "_id": "themachine_17",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "themachine_17 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_17 AFF_0_Kills",
+                                "resetOnSessionEnd": true,
+                                "savageRole": ["sectantWarrior","sectantPriest"],
+                                "target": "any",
+                                "value": 1,
+                                "weapon": ["56e0598dd2720bb5668b45a6"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_17 AFF_0_Location",
+                                "target": [
+                                    "Shoreline"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_14 AFF_0_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_17 AFF_0",
+                    "index": 0,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 4,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_17 AFS_0",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "themachine_6",
+                    "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_17 AFS_3",
+                    "index": 2,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "themachine_6",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "themachine_17 declinePlayerMessage",
+        "description": "themachine_17 description",
+        "failMessageText": "themachine_17 failMessageText",
+        "image": "/files/quest/icon/themachine_17_thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "5704e554d2720bac5b8b456e",
+        "name": "themachine_17 name",
+        "note": "themachine_17 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "themachine_17_Reward_1",
+                    "index": 0,
+                    "type": "Skill",
+                    "target": "Endurance", 
+                    "value": 50 
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_17 reward_7",
+                    "index": 1,
+                    "items": [
+                        {
+                            "_id": "themachine_17 reward_7_0",
+                            "_tpl": "5d235b4d86f7742e017bc88a",
+                            "upd": {
+                                "StackObjectsCount": 10
+                            }
+                        }
+                    ],
+                    "target": "themachine_17 reward_7_0",
+                    "type": "Item",
+                    "value": "10"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_17 reward_8",
+                    "index": 1,
+                    "items": [
+                        {
+                            "_id": "themachine_17 reward_8_1",
+                            "_tpl": "5bffe7930db834001b734a39",
+                            "upd": {
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "themachine_17 reward_8_1",
+                    "type": "Item",
+                    "value": "1"
+                },
+                {
+                    "id": "themachine_17_Reward_5",
+                    "index": 3,
+                    "target": "58330581ace78e27b8b10cee",
+                    "type": "TraderStanding",
+                    "value": "0.5"
+                },
+                {
+                    "id": "themachine_17_Reward_5",
+                    "index": 4,
+                    "target": "themachine",
+                    "type": "TraderStanding",
+                    "value": "1.0"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "themachine_17 startedMessageText",
+        "successMessageText": "themachine_17 successMessageText",
         "traderId": "themachine",
         "type": "Elimination"
     }
