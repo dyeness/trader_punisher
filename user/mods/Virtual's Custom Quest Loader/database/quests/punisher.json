@@ -1299,7 +1299,7 @@
         "declinePlayerMessage": "themachine_9 declinePlayerMessage",
         "description": "themachine_9 description",
         "failMessageText": "themachine_9 failMessageText",
-        "image": "/files/quest/icon/themachine_9_thumbnail.png",
+        "image": "/files/quest/icon/themachine_8_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
@@ -1547,7 +1547,7 @@
         "declinePlayerMessage": "themachine_10 declinePlayerMessage",
         "description": "themachine_10 description",
         "failMessageText": "themachine_10 failMessageText",
-        "image": "/files/quest/icon/themachine_10_thumbnail.png",
+        "image": "/files/quest/icon/themachine_8_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
@@ -1636,7 +1636,7 @@
         "type": "Elimination"
     },
     "themachine_11": {
-        "QuestName": "Dangerous Waters",
+        "QuestName": "Демонстрация силы 1 | D",
         "_id": "themachine_11",
         "acceptPlayerMessage": "themachine_11 acceptPlayerMessage",
         "canShowNotificationsInGame": true,
@@ -1826,6 +1826,18 @@
                                 "weaponModsInclusive": []
                             },
                             {
+                                "IncludeNotEquippedItems": false,
+                                "conditionType": "Equipment",
+                                "dynamicLocale": false,
+                                "equipmentExclusive": [],
+                                "equipmentInclusive": [
+                                [
+                                    "5aa2b9ede5b5b000137b758b"
+                                ]
+                                ],
+                                "id": "cowboy_set"
+                            },
+                            {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
                                 "id": "themachine_12 AFF_0_Location",
@@ -1870,7 +1882,7 @@
         "declinePlayerMessage": "themachine_12 declinePlayerMessage",
         "description": "themachine_12 description",
         "failMessageText": "themachine_12 failMessageText",
-        "image": "/files/quest/icon/themachine_12_thumbnail.png",
+        "image": "/files/quest/icon/themachine_11_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "55f2d3fd4bdc2d5f408b4567",
@@ -2166,7 +2178,7 @@
         "declinePlayerMessage": "themachine_13 declinePlayerMessage",
         "description": "themachine_13 description",
         "failMessageText": "themachine_13 failMessageText",
-        "image": "/files/quest/icon/themachine_13_thumbnail.png",
+        "image": "/files/quest/icon/themachine_11_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
@@ -3020,6 +3032,598 @@
         "side": "Pmc",
         "startedMessageText": "themachine_17 startedMessageText",
         "successMessageText": "themachine_17 successMessageText",
+        "traderId": "themachine",
+        "type": "Elimination"
+    },
+    "themachine_18": {
+        "QuestName": "Makin' Groceries",
+        "_id": "themachine_18",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "themachine_18 changeQuestMessageText",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": ["Head"],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_18 AFF_0_Kills",
+                                "resetOnSessionEnd": false,
+                                "savageRole": ["bossSanitar"],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": ["57838ad32459774a17445cd2"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "IncludeNotEquippedItems": false,
+                                "conditionType": "Equipment",
+                                "dynamicLocale": false,
+                                "equipmentExclusive": [],
+                                "equipmentInclusive": [
+                                [
+                                    "5e997f0b86f7741ac73993e2"
+                                ]
+                                ],
+                                "id": "Sanitar_0"
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_18 AFF_0_Location",
+                                "target": [
+                                    "any"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_18 AFF_0_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_18 AFF_0",
+                    "index": 1,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": ["Chest"],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_18 AFF_1_Kills",
+                                "resetOnSessionEnd": false,
+                                "savageRole": ["bossSanitar"],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": ["57838ad32459774a17445cd2"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "IncludeNotEquippedItems": false,
+                                "conditionType": "Equipment",
+                                "dynamicLocale": false,
+                                "equipmentExclusive": [],
+                                "equipmentInclusive": [
+                                [
+                                    "5e997f0b86f7741ac73993e2"
+                                ]
+                                ],
+                                "id": "Sanitar_1"
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_18 AFF_1_Location",
+                                "target": [
+                                    "any"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_18 AFF_1_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_18 AFF_1",
+                    "index": 2,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": ["Stomach"],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_18 AFF_2_Kills",
+                                "resetOnSessionEnd": false,
+                                "savageRole": ["bossSanitar"],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": ["57838ad32459774a17445cd2"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "IncludeNotEquippedItems": false,
+                                "conditionType": "Equipment",
+                                "dynamicLocale": false,
+                                "equipmentExclusive": [],
+                                "equipmentInclusive": [
+                                [
+                                    "5e997f0b86f7741ac73993e2"
+                                ]
+                                ],
+                                "id": "Sanitar_2"
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_18 AFF_2_Location",
+                                "target": [
+                                    "any"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_18 AFF_2_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_18 AFF_2",
+                    "index": 3,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": ["LeftArm"],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_18 AFF_3_Kills",
+                                "resetOnSessionEnd": false,
+                                "savageRole": ["bossSanitar"],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": ["57838ad32459774a17445cd2"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "IncludeNotEquippedItems": false,
+                                "conditionType": "Equipment",
+                                "dynamicLocale": false,
+                                "equipmentExclusive": [],
+                                "equipmentInclusive": [
+                                [
+                                    "5e997f0b86f7741ac73993e2"
+                                ]
+                                ],
+                                "id": "Sanitar_3"
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_18 AFF_3_Location",
+                                "target": [
+                                    "any"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_18 AFF_3_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_18 AFF_3",
+                    "index": 4,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": ["LeftLeg"],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_18 AFF_4_Kills",
+                                "resetOnSessionEnd": false,
+                                "savageRole": ["bossSanitar"],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": ["57838ad32459774a17445cd2"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "IncludeNotEquippedItems": false,
+                                "conditionType": "Equipment",
+                                "dynamicLocale": false,
+                                "equipmentExclusive": [],
+                                "equipmentInclusive": [
+                                [
+                                    "5e997f0b86f7741ac73993e2"
+                                ]
+                                ],
+                                "id": "4"
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_18 AFF_4_Location",
+                                "target": [
+                                    "any"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_18 AFF_4_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_18 AFF_4",
+                    "index": 5,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": ["RightArm"],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_18 AFF_5_Kills",
+                                "resetOnSessionEnd": false,
+                                "savageRole": ["bossSanitar"],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": ["57838ad32459774a17445cd2"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "IncludeNotEquippedItems": false,
+                                "conditionType": "Equipment",
+                                "dynamicLocale": false,
+                                "equipmentExclusive": [],
+                                "equipmentInclusive": [
+                                [
+                                    "5e997f0b86f7741ac73993e2"
+                                ]
+                                ],
+                                "id": "Sanitar_5"
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_18 AFF_5_Location",
+                                "target": [
+                                    "any"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_18 AFF_5_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_18 AFF_5",
+                    "index": 6,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": ["RightLeg"],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "themachine_18 AFF_6_Kills",
+                                "resetOnSessionEnd": false,
+                                "savageRole": ["bossSanitar"],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": ["57838ad32459774a17445cd2"],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "IncludeNotEquippedItems": false,
+                                "conditionType": "Equipment",
+                                "dynamicLocale": false,
+                                "equipmentExclusive": [],
+                                "equipmentInclusive": [
+                                [
+                                    "5e997f0b86f7741ac73993e2"
+                                ]
+                                ],
+                                "id": "Sanitar_6"
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "themachine_18 AFF_6_Location",
+                                "target": [
+                                    "any"
+                                ]
+                            }
+                        ],
+                        "id": "themachine_18 AFF_6_Counter"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_18 AFF_6",
+                    "index": 7,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "HandoverItem",
+                    "countInRaid": false,
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_18 AFF_7",
+                    "location": "",
+                    "index": 8,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 90,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "5efde6b4f5448336730dbd61"
+                    ],
+                    "value": 7,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "HandoverItem",
+                    "countInRaid": false,
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_18 AFF_8",
+                    "location": "",
+                    "index": 9,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 90,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "5eff09cd30a7dc22fd1ddfed"
+                    ],
+                    "value": 7,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_18 AFS_0",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "themachine_17",
+                    "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "themachine_18 AFS_1",
+                    "index": 1,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "themachine_15",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "themachine_18 declinePlayerMessage",
+        "description": "themachine_18 description",
+        "failMessageText": "themachine_18 failMessageText",
+        "image": "/files/quest/icon/themachine_11_thumbnail.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "themachine_18 name",
+        "note": "themachine_18 note",
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "id": "themachine_18_Reward_1",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "8000"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_18_Reward_2",
+                    "index": 1,
+                    "items": [
+                        {
+                            "_id": "themachine_18_Reward_Roubles",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 42690
+                            }
+                        }
+                    ],
+                    "target": "themachine_18_Reward_Roubles",
+                    "type": "Item",
+                    "value": "42690"
+                },
+                {
+                    "id": "themachine_18_Reward_3",
+                    "index": 2,
+                    "target": "themachine",
+                    "type": "TraderStanding",
+                    "value": "0.50"
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "themachine_18 startedMessageText",
+        "successMessageText": "themachine_18 successMessageText",
         "traderId": "themachine",
         "type": "Elimination"
     }
