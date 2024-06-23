@@ -3592,7 +3592,7 @@
                     "id": "themachine_18_Reward_1",
                     "index": 0,
                     "type": "Experience",
-                    "value": "8000"
+                    "value": "80000"
                 },
                 {
                     "findInRaid": true,
@@ -3601,22 +3601,56 @@
                     "items": [
                         {
                             "_id": "themachine_18_Reward_Roubles",
-                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "_tpl": "5d235b4d86f7742e017bc88a",
                             "upd": {
-                                "StackObjectsCount": 42690
+                                "StackObjectsCount": 20
                             }
                         }
                     ],
                     "target": "themachine_18_Reward_Roubles",
                     "type": "Item",
-                    "value": "42690"
+                    "value": "20"
                 },
                 {
                     "id": "themachine_18_Reward_3",
                     "index": 2,
                     "target": "themachine",
                     "type": "TraderStanding",
-                    "value": "0.50"
+                    "value": "1.0"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_18_Reward_2",
+                    "index": 3,
+                    "items": [
+                        {
+                            "_id": "themachine_18_Reward_ig",
+                            "_tpl": "657025ebc5d7d4cb4d078588",
+                            "upd": {
+                                "StackObjectsCount": 200
+                            }
+                        }
+                    ],
+                    "target": "themachine_18_Reward_ig",
+                    "type": "Item",
+                    "value": "200"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "themachine_18_Reward_2",
+                    "index": 4,
+                    "items": [
+                        {
+                            "_id": "themachine_18_gpu",
+                            "_tpl": "57347ca924597744596b4e71",
+                            "upd": {
+                                "StackObjectsCount": 3
+                            }
+                        }
+                    ],
+                    "target": "themachine_18_gpu",
+                    "type": "Item",
+                    "value": "3"
                 }
             ]
         },

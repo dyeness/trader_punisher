@@ -79,7 +79,7 @@
     "themachine_17 description": "Генг, шептунов на Берегу много разошлось, не думал преподать им урок? А я думал, правда, твоими руками, ха-ха. Бери один из моих любимых пистолетов и стреляй по мишеням, но учти, что сделать надо все за один раз, чтобы они ахуели.",
     "themachine_17 successMessageText": "Нахуй этих фанатиков! Держи заработанное!",
     "themachine_17 AFF_0": "Устранить сектантов (главарь тоже считается) выстрелом из ПБ",
-    "themachine_18 name": "Хирургическая точность",
+    "themachine_18 name": "Хирургическая точность | E",
     "themachine_18 description": "*",
     "themachine_18 successMessageText": "*",
     "themachine_18 AFF_0": "Head",
@@ -89,6 +89,6 @@
     "themachine_18 AFF_4": "LeftLeg",
     "themachine_18 AFF_5": "RightArm",
     "themachine_18 AFF_7": "blue card",
-    "themachine_18 AFF_8": "sanitar key"
-
+    "themachine_18 AFF_8": "sanitar key",
+    "themachine_19 name": "Устранить 10 ЧВК ночью на любой локацииИспользовать только ПБ с глушителем"
 }
