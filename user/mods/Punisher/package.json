@@ -3,16 +3,22 @@
     "version": "1.2.0",
     "main": "src/mod.js",
     "license": "MIT",
-    "author": "TeejayMerks",
-    "akiVersion": "3.9.x",
+    "author": "dyeness",
+    "sptVersion": "~3.9",
+    "loadAfter": [
+        "Virtual's Custom Quest Loader"
+    ],
+    "incompatibilities": [],
+    "contributors": [],
     "scripts": {
         "setup": "npm i",
-        "build": "node ./packageBuild.ts"
+        "build": "node ./build.mjs",
+        "buildinfo": "node ./build.mjs --verbose"
     },
     "devDependencies": {
-        "@types/node": "^16.11.62",
-        "@typescript-eslint/eslint-plugin": "5.38.1",
-        "@typescript-eslint/parser": "5.38.1",
+        "@types/node": "20.11",
+        "@typescript-eslint/eslint-plugin": "7.2",
+        "@typescript-eslint/parser": "7.2",
         "bestzip": "2.2.1",
         "eslint": "8.24.0",
         "fs-extra": "10.1.0",

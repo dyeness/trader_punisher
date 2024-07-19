@@ -34,7 +34,7 @@ class TheMachine implements IPreAkiLoadMod, IPostDBLoadMod {
 
     public preAkiLoad(container: DependencyContainer): void {
         this.logger = container.resolve<ILogger>("WinstonLogger");
-        this.logger.debug(`[${this.mod}] preAki Loading...`);
+        //this.logger.debug(`[${this.mod}] preAki Loading...`);
 
         const preAkiModLoader = container.resolve<PreAkiModLoader>("PreAkiModLoader");
         const imageRouter = container.resolve<ImageRouter>("ImageRouter");
@@ -47,11 +47,11 @@ class TheMachine implements IPreAkiLoadMod, IPostDBLoadMod {
         this.setupTraderUpdateTime(traderConfig);
         this.addTraderToFleaMarket();
 
-        this.logger.debug(`[${this.mod}] preAki Loaded`);
+       // this.logger.debug(`[${this.mod}] preAki Loaded`);
     }
 
     public postDBLoad(container: DependencyContainer): void {
-        this.logger.debug(`[${this.mod}] postDb Loading...`);
+        //this.logger.debug(`[${this.mod}] postDb Loading...`);
 
         const databaseServer = container.resolve<DatabaseServer>("DatabaseServer");
         const jsonUtil = container.resolve<JsonUtil>("JsonUtil");
@@ -61,7 +61,7 @@ class TheMachine implements IPreAkiLoadMod, IPostDBLoadMod {
         this.addTraderToDb(baseJson, tables, jsonUtil);
         this.addTraderToLocales(tables);
 
-        this.logger.debug(`[${this.mod}] postDb Loaded`);
+        //this.logger.debug(`[${this.mod}] postDb Loaded`);
         this.logger.logWithColor(`${pkg.name} [LOADED]: Punisher`, LogTextColor.BLUE, LogBackgroundColor.YELLOW);
     }
 
