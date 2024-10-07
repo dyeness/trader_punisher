@@ -55,7 +55,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
         const ragfairConfig = configServer.getConfig<IRagfairConfig>(ConfigTypes.RAGFAIR);
 
         //Custom Logger, Don't worry it's fake bullshit for flair
-        this.logger.info("[Punisher] CONNECTED");
+        this.logger.info("Punisher ACTIVE");
         
         //Meta crap i guess
         this.registerProfileImage(preSptModLoader, imageRouter);
@@ -159,69 +159,20 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
         const assortTable: ITraderAssort = {
             nextResupply: 0,
             items: [
-                {
-                    "_id": "PM",
-                    "_tpl": "5448bd6b4bdc2dfc2f8b4569", 
-                    "parentId": "hideout",
-                    "slotId": "hideout",
-                    "upd": {
-                        "UnlimitedCount": false,
-                        "StackObjectsCount": 99999
-                    }
-                },
-                {
-                    "_id": "LBT",
-                    "_tpl": "5e9db13186f7742f845ee9d3", 
-                    "parentId": "hideout",
-                    "slotId": "hideout",
-                    "upd": {
-                        "UnlimitedCount": false,
-                        "StackObjectsCount": 3
-                    }
-                },
-                {
-                    "_id": "Flir",
-                    "_tpl": "5d1b5e94d7ad1a2b865a96b0", 
-                    "parentId": "hideout",
-                    "slotId": "hideout",
-                    "upd": {
-                        "UnlimitedCount": false,
-                        "StackObjectsCount": 99999
-                    }
-                },
+                //? ===========================AMMO===========================
                 {
                     "_id": "RGO",
-                    "_tpl": "618a431df1eb8e24b8741deb", 
+                    "_tpl": "618a431df1eb8e24b8741deb",
                     "parentId": "hideout",
                     "slotId": "hideout",
                     "upd": {
                         "UnlimitedCount": false,
-                        "StackObjectsCount": 4
-                    }
-                },
-                {
-                    "_id": "6sh",
-                    "_tpl": "5df8a4d786f77412672a1e3b", 
-                    "parentId": "hideout",
-                    "slotId": "hideout",
-                    "upd": {
-                        "UnlimitedCount": false,
-                        "StackObjectsCount": 3
-                    }
-                },
-                {
-                    "_id": "Twhite",
-                    "_tpl": "5c94bbff86f7747ee735c08f", 
-                    "parentId": "hideout",
-                    "slotId": "hideout",
-                    "upd": {
-                        "UnlimitedCount": false,
-                        "StackObjectsCount": 1
+                        "StackObjectsCount": 15
                     }
                 },
                 {
                     "_id": "7n40",
-                    "_tpl": "64898602f09d032aa9399d56", 
+                    "_tpl": "61962b617c6c7b169525f168",
                     "parentId": "hideout",
                     "slotId": "hideout",
                     "upd": {
@@ -241,7 +192,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                 },
                 {
                     "_id": "Igla",
-                    "_tpl": "657025ebc5d7d4cb4d078588",
+                    "_tpl": "5c0d5e4486f77478390952fe",
                     "parentId": "hideout",
                     "slotId": "hideout",
                     "upd": {
@@ -251,7 +202,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                 },
                 {
                     "_id": "m61",
-                    "_tpl": "6570254fcfc010a0f5006a22",  
+                    "_tpl": "5a6086ea4f39f99cd479502f",
                     "parentId": "hideout",
                     "slotId": "hideout",
                     "upd": {
@@ -260,8 +211,181 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
+                    "_id": "MAI_AP", 
+                    "_tpl": "601aa3d2b2bcb34913271e6d",
+                    "parentId": "hideout",
+                    "slotId": "hideout",
+                    "upd": {
+                        "UnlimitedCount": true,
+                        "StackObjectsCount": 99999
+                    }
+                },
+                {
+                    "_id": "m993", 
+                    "_tpl": "5efb0c1bd79ff02a1f5e68d9",
+                    "parentId": "hideout",
+                    "slotId": "hideout",
+                    "upd": {
+                        "UnlimitedCount": false,
+                        "StackObjectsCount": 60
+                    }
+                },
+                {
+                    "_id": "bs", 
+                    "_tpl": "5e023d48186a883be655e551",
+                    "parentId": "hideout",
+                    "slotId": "hideout",
+                    "upd": {
+                        "UnlimitedCount": false,
+                        "StackObjectsCount": 240
+                    }
+                },
+                {
+                    "_id": "lm_ap", 
+                    "_tpl": "5fc382a9d724d907e2077dab",
+                    "parentId": "hideout",
+                    "slotId": "hideout",
+                    "upd": {
+                        "UnlimitedCount": false,
+                        "StackObjectsCount": 240
+                    }
+                },
+                //? ==========================ARMOR===========================
+                {
+                    "_id": "LBT",
+                    "_tpl": "5e9db13186f7742f845ee9d3",
+                    "parentId": "hideout",
+                    "slotId": "hideout",
+                    "upd": {
+                        "UnlimitedCount": false,
+                        "StackObjectsCount": 3
+                    }
+                },
+                {
+                    "_id": "6sh",
+                    "_tpl": "5df8a4d786f77412672a1e3b",
+                    "parentId": "hideout",
+                    "slotId": "hideout",
+                    "upd": {
+                        "UnlimitedCount": false,
+                        "StackObjectsCount": 3
+                    }
+                },
+                {
+                    "_id": "fast_black",
+                    "_tpl": "5a154d5cfcdbcb001a3b00da",
+                    "parentId": "hideout",
+                    "slotId": "hideout",
+                    "upd": {
+                        "UnlimitedCount": true,
+                        "StackObjectsCount": 3
+                    }
+                },
+                {
+                    "_id": "slick_black",
+                    "_tpl": "5e4abb5086f77406975c9342",
+                    "parentId": "hideout",
+                    "slotId": "hideout",
+                    "upd": {
+                        "UnlimitedCount": false,
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "slick_olive",
+                    "_tpl": "6038b4ca92ec1c3103795a0d",
+                    "parentId": "hideout",
+                    "slotId": "hideout",
+                    "upd": {
+                        "UnlimitedCount": false,
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "slick_tan",
+                    "_tpl": "6038b4b292ec1c3103795a0b",
+                    "parentId": "hideout",
+                    "slotId": "hideout",
+                    "upd": {
+                        "UnlimitedCount": false,
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "gac_5lvl",
+                    "_tpl": "656fae5f7c2d57afe200c0d7",
+                    "parentId": "hideout",
+                    "slotId": "hideout",
+                    "upd": {
+                        "UnlimitedCount": false,
+                        "StackObjectsCount": 4
+                    }
+                },
+                {
+                    "_id": "korundvm_5lvl",
+                    "_tpl": "5f5f41476bdad616ad46d631",
+                    "parentId": "hideout",
+                    "slotId": "hideout",
+                    "upd": {
+                        "UnlimitedCount": false,
+                        "StackObjectsCount": 4
+                    }
+                },
+                {
+                    "_id": "kiteco_6lvl",
+                    "_tpl": "656fafe3498d1b7e3e071da4",
+                    "parentId": "hideout",
+                    "slotId": "hideout",
+                    "upd": {
+                        "UnlimitedCount": false,
+                        "StackObjectsCount": 4
+                    }
+                },
+                //? ==========================WEAPON==========================
+                {
+                    "_id": "PM",
+                    "_tpl": "5448bd6b4bdc2dfc2f8b4569",
+                    "parentId": "hideout",
+                    "slotId": "hideout",
+                    "upd": {
+                        "UnlimitedCount": false,
+                        "StackObjectsCount": 99999
+                    }
+                },
+                {
+                    "_id": "Flir",
+                    "_tpl": "5d1b5e94d7ad1a2b865a96b0",
+                    "parentId": "hideout",
+                    "slotId": "hideout",
+                    "upd": {
+                        "UnlimitedCount": false,
+                        "StackObjectsCount": 99999
+                    }
+                },
+                //? ==========================OTHER===========================
+                {
+                    "_id": "Twhite_Kila",
+                    "_tpl": "5c94bbff86f7747ee735c08f",
+                    "parentId": "hideout",
+                    "slotId": "hideout",
+                    "upd": {
+                        "UnlimitedCount": false,
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
+                    "_id": "Tblack",
+                    "_tpl": "5c1d0f4986f7744bb01837fa",
+                    "parentId": "hideout",
+                    "slotId": "hideout",
+                    "upd": {
+                        "UnlimitedCount": false,
+                        "StackObjectsCount": 1
+                    }
+                },
+                {
                     "_id": "rsp(r)",
-                    "_tpl": "62178c4d4ecf221597654e3d",  
+                    "_tpl": "62178c4d4ecf221597654e3d",
                     "parentId": "hideout",
                     "slotId": "hideout",
                     "upd": {
@@ -271,88 +395,54 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                 },
                 {
                     "_id": "thicc_item",
-                    "_tpl": "5c0a840b86f7742ffa4f2482", 
+                    "_tpl": "5c0a840b86f7742ffa4f2482",
                     "parentId": "hideout",
                     "slotId": "hideout",
                     "upd": {
                         "UnlimitedCount": true,
-                        "StackObjectsCount": 1
+                        "StackObjectsCount": 2
                     }
                 },
                 {
-                    "_id": "fast_black",
-                    "_tpl": "5a154d5cfcdbcb001a3b00da", 
+                    "_id": "thicc_item_L",
+                    "_tpl": "5c0a840b86f7742ffa4f2482",
                     "parentId": "hideout",
                     "slotId": "hideout",
                     "upd": {
                         "UnlimitedCount": true,
-                        "StackObjectsCount": 3
+                        "StackObjectsCount": 1 
+                    }
+                },
+                {
+                    "_id": "lega",
+                    "_tpl": "6656560053eaaa7a23349c86",
+                    "parentId": "hideout",
+                    "slotId": "hideout",
+                    "upd": {
+                        "UnlimitedCount": true,
+                        "StackObjectsCount": 1000
                     }
                 }
-        
             ],
-            "barter_scheme": {
-                "PM": [
-                    [
-                        {
-                            "_tpl": "5d235b4d86f7742e017bc88a",
-                            "count": 1
-                        }
-                    ]
-                ],
-                "LBT": [
-                    [
-                        {
-                            "_tpl": "5d235b4d86f7742e017bc88a", 
-                            "count": 1
-                        }
-                    ]
-                ],
-                "Flir": [
-                    [
-                        {
-                            "_tpl": "5d235b4d86f7742e017bc88a", 
-                            "count": 30
-                        }
-                    ]
-                ],
-                "6sh": [
-                    [
-                        {
-                            "_tpl": "5d235b4d86f7742e017bc88a", 
-                            "count": 1
-                        },
-                        {
-                            "_tpl": "5f5e46b96bdad616ad46d613", 
-                            "count": 1
-                        }
-                    ]
-                ],
-                "Twhite": [
-                    [
-                        {
-                            "_tpl": "5d235b4d86f7742e017bc88a", 
-                            "count": 4
-                        }
-                    ]
-                ],
+            "barter_scheme": { //* BARTER ==========================================================================================================================
+                //? ===========================AMMO===========================
                 "7n40": [
                     [
                         {
-                            "_tpl": "5d235b4d86f7742e017bc88a",
-                            "count": 3
+                            "_tpl": "569668774bdc2da2298b4568",
+                            "count": 1
                         },
                         {
                             "_tpl": "56dff061d2720bb5668b4567",
-                            "count": 20
+                            "count": 1
                         }
                     ]
                 ],
                 "m433": [
                     [
                         {
-                            "_tpl": "5d235b4d86f7742e017bc88a",
-                            "count": 1
+                            "_tpl": "569668774bdc2da2298b4568",
+                            "count": 50
                         },
                         {
                             "_tpl": "60391b0fb847c71012789415",
@@ -363,40 +453,219 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                 "Igla": [
                     [
                         {
-                            "_tpl": "5d235b4d86f7742e017bc88a",
-                            "count": 15
+                            "_tpl": "569668774bdc2da2298b4568",
+                            "count": 3
                         },
                         {
                             "_tpl": "56dff061d2720bb5668b4567",
-                            "count": 120
+                            "count": 2
                         }
                     ]
                 ],
                 "m61": [
                     [
                         {
-                            "_tpl": "5d235b4d86f7742e017bc88a",
-                            "count": 5
+                            "_tpl": "569668774bdc2da2298b4568",
+                            "count": 3
                         },
                         {
                             "_tpl": "58dd3ad986f77403051cba8f",
-                            "count": 20
+                            "count": 1
                         }
                     ]
                 ],
                 "RGO": [
                     [
                         {
-                            "_tpl": "5d235b4d86f7742e017bc88a", 
+                            "_tpl": "5cc9c20cd7f00c001336c65d",
+                            "count": 1
+                        },
+                        {
+                            "_tpl": "5448be9a4bdc2dfd2f8b456a",
+                            "count": 3
+                        }
+                    ]
+                ],
+                "MAI_AP": [
+                    [
+                        {
+                            "_tpl": "569668774bdc2da2298b4568",
+                            "count": 2
+                        },
+                        {
+                            "_tpl": "64b7af434b75259c590fa893",
+                            "count": 2
+                        }
+                    ]
+                ],
+                "m993": [
+                    [
+                        {
+                            "_tpl": "569668774bdc2da2298b4568",
+                            "count": 1
+                        },
+                        {
+                            "_tpl": "5a6086ea4f39f99cd479502f",
                             "count": 1
                         }
+                    ]
+                ],
+                "bs": [
+                    [
+                        {
+                            "_tpl": "569668774bdc2da2298b4568",
+                            "count": 3
+                        },
+                        {
+                            "_tpl": "5a6086ea4f39f99cd479502f",
+                            "count": 3
+                        }
+                    ]
+                ],
+                "lm_ap": [
+                    [
+                        {
+                            "_tpl": "569668774bdc2da2298b4568",
+                            "count": 3
+                        },
+                        {
+                            "_tpl": "5fc382b6d6fa9c00c571bbc3",
+                            "count": 5
+                        }
+                    ]
+                ],
+                //? ==========================ARMOR===========================
+                "LBT": [
+                    [
+                        {
+                            "_tpl": "569668774bdc2da2298b4568",
+                            "count": 600
+                        }
+                    ]
+                ],
+                "6sh": [
+                    [
+                        {
+                            "_tpl": "569668774bdc2da2298b4568",
+                            "count": 500
+                        },
+                        {
+                            "_tpl": "5f5e46b96bdad616ad46d613",
+                            "count": 1
+                        }
+                    ]
+                ],
+                "fast_black": [
+                    [
+                        {
+                            "_tpl": "6656560053eaaa7a23349c86",
+                            "count": 1
+                        },
+                        {
+                            "_tpl": "5ac8d6885acfc400180ae7b0",
+                            "count": 1
+                        }
+                    ]
+                ],
+                "slick_black": [
+                    [
+                        {
+                            "_tpl": "6656560053eaaa7a23349c86",
+                            "count": 1
+                        },
+                        {
+                            "_tpl": "5c0e774286f77468413cc5b2",
+                            "count": 1
+                        }
+                    ]
+                ],
+                "slick_olive": [
+                    [
+                        {
+                            "_tpl": "6656560053eaaa7a23349c86",
+                            "count": 1
+                        }
+                    ]
+                ],
+                "slick_tan": [
+                    [
+                        {
+                            "_tpl": "6656560053eaaa7a23349c86",
+                            "count": 1
+                        }
+                    ]
+                ],
+                "gac_5lvl": [
+                    [
+                        {
+                            "_tpl": "569668774bdc2da2298b4568",
+                            "count": 600
+                        }
+                    ]
+                ],
+                "korundvm_5lvl": [
+                    [
+                        {
+                            "_tpl": "5f0c892565703e5c461894e9",
+                            "count": 10
+                        }
+                    ]
+                ],
+                "kiteco_6lvl": [
+                    [
+                        {
+                            "_tpl": "656fae5f7c2d57afe200c0d7",
+                            "count": 2
+                        }
+                    ]
+                ],
+                //? ==========================WEAPON==========================
+                "PM": [
+                    [
+                        {
+                            "_tpl": "5448be9a4bdc2dfd2f8b456a", // 5d235b4d86f7742e017bc88a - gp
+                            "count": 1
+                        }
+                    ]
+                ],
+                "Flir": [
+                    [
+                        {
+                            "_tpl": "6656560053eaaa7a23349c86",
+                            "count": 2
+                        }
+                    ]
+                ],
+                //? ==========================OTHER===========================
+                "Twhite_Kila": [
+                    [
+                        {
+                            "_tpl": "5c0e874186f7745dc7616606",
+                            "count": 2
+                        }
+                    ]
+                ],
+                "Tblack": [
+                    [
+                        {
+                            "_tpl": "5c0e874186f7745dc7616606",
+                            "count": 1
+                        },
+                        {
+                            "_tpl": "60a7ad2a2198820d95707a2e",
+                            "count": 1
+                        },
+                        {
+                            "_tpl": "6656560053eaaa7a23349c86", // LEGA
+                            "count": 1
+                        },
                     ]
                 ],
                 "rsp(r)": [
                     [
                         {
-                            "_tpl": "5d235b4d86f7742e017bc88a", 
-                            "count": 5
+                            "_tpl": "6656560053eaaa7a23349c86",
+                            "count": 1
                         }
                     ]
                 ],
@@ -408,32 +677,53 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "fast_black": [
+                "thicc_item_L": [
                     [
                         {
-                            "_tpl": "59faff1d86f7746c51718c9c",
-                            "count": 5
-                        },
+                            "_tpl": "6656560053eaaa7a23349c86", 
+                            "count": 20
+                        }
+                    ]
+                ],
+                "lega": [
+                    [
                         {
-                            "_tpl": "5ac8d6885acfc400180ae7b0",
-                            "count": 1
+                            "_tpl": "59faff1d86f7746c51718c9c", 
+                            "count": 2
                         }
                     ]
                 ]
             },
             "loyal_level_items": {
-                "PM": 1,
+                //* === LVL1 ===
+                "PM":1,
+                "RGO":1,
+                "6sh":1,
+                "Lega":1,
+                //* === LVL2 ===
+                "Flir":2,
+                "Twhite_Kila":2,
+                "Tblack":2,
+                "7n40":2,
+                "m433":2,
+                "Igla":2,
+                "slick_black":2,
+                "slick_olive":2,
+                "slick_tan":2,
+                //* === LVL3 ===
                 "LBT":3,
-                "RGO": 1,
-                "6sh": 1,
-                "Flir": 2,
-                "Twhite": 2,
-                "7n40": 2,
-                "m433": 2,
-                "m61": 3,
-                "Igla": 3,
+                "m61":3,
+                "MAI_AP":3,
+                "m993":3,
+                "bs":3,
+                "lm_ap":3,
                 "rsp(r)": 3,
-                "thicc_item":4,
+                "thicc_item":3,
+                "gac_5lvl":3,
+                "korundvm_5lvl":3,
+                //* === LVL4 ===
+                "kiteco_6lvl":4,
+                "thicc_item_L": 4,
                 "fast_black": 4
             }
         }

@@ -656,15 +656,15 @@
                     "items": [
                         {
                             "_id": "Punisher_5_Reward_item_container_lopouch",
-                            "_tpl": "5d235b4d86f7742e017bc88a",
+                            "_tpl": "6656560053eaaa7a23349c86",
                             "upd": {
-                                "StackObjectsCount": 5
+                                "StackObjectsCount": 1
                             }
                         }
                     ],
                     "target": "Punisher_5_Reward_item_container_lopouch",
                     "type": "Item",
-                    "value": "5"
+                    "value": "1"
                 }
             ]
         },
@@ -865,15 +865,15 @@
                     "items": [
                         {
                             "_id": "Punisher_6_Reward_item_container_items_gp",
-                            "_tpl": "5d235b4d86f7742e017bc88a",
+                            "_tpl": "6656560053eaaa7a23349c86",
                             "upd": {
-                                "StackObjectsCount": 15
+                                "StackObjectsCount": 5
                             }
                         }
                     ],
                     "target": "Punisher_6_Reward_item_container_items_gp",
                     "type": "Item",
-                    "value": "15"
+                    "value": "5"
                 },
                 {
                     "findInRaid": true,
@@ -1015,15 +1015,15 @@
                     "items": [
                         {
                             "_id": "Punisher_7_Reward_Roubles",
-                            "_tpl": "5d235b4d86f7742e017bc88a", 
+                            "_tpl": "6656560053eaaa7a23349c86", 
                             "upd": {
-                                "StackObjectsCount": 10
+                                "StackObjectsCount": 2
                             }
                         }
                     ],
                     "target": "Punisher_7_Reward_Roubles",
                     "type": "Item",
-                    "value": "10"
+                    "value": "2"
                 },
                 {
                     "findInRaid": true,
@@ -1571,15 +1571,15 @@
                     "items": [
                         {
                             "_id": "Punisher_10_Reward_Roubles",
-                            "_tpl": "5d235b4d86f7742e017bc88a",
+                            "_tpl": "6656560053eaaa7a23349c86",
                             "upd": {
-                                "StackObjectsCount": 15
+                                "StackObjectsCount": 5
                             }
                         }
                     ],
                     "target": "Punisher_10_Reward_Roubles",
                     "type": "Item",
-                    "value": "15"
+                    "value": "5"
                 },
                 {
                     "findInRaid": true,
@@ -2075,7 +2075,7 @@
         "type": "Elimination"
     },
     "Punisher_13": {
-        "QuestName": "Makin' Groceries",
+        "QuestName": "Демонстрация силы 3 | D",
         "_id": "Punisher_13",
         "canShowNotificationsInGame": true,
         "changeQuestMessageText": "Punisher_13 changeQuestMessageText",
@@ -2202,15 +2202,15 @@
                     "items": [
                         {
                             "_id": "Punisher_13_Reward_Roubles",
-                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "_tpl": "569668774bdc2da2298b4568",
                             "upd": {
-                                "StackObjectsCount": 42690
+                                "StackObjectsCount": 500
                             }
                         }
                     ],
                     "target": "Punisher_13_Reward_Roubles",
                     "type": "Item",
-                    "value": "42690"
+                    "value": "500"
                 },
                 {
                     "id": "Punisher_13_Reward_3",
@@ -2229,7 +2229,7 @@
         "type": "PickUp"
     },
     "Punisher_14": {
-        "QuestName": "Guard Duty",
+        "QuestName": "Что такое безумие? | E",
         "_id": "Punisher_14",
         "canShowNotificationsInGame": true,
         "changeQuestMessageText": "Punisher_14 changeQuestMessageText",
@@ -2392,7 +2392,7 @@
         "type": "Elimination"
     },
     "Punisher_15": {
-        "QuestName": "New Filming Location",
+        "QuestName": "Кепка второго класса и уши Spynker`а | E",
         "_id": "Punisher_15",
         "acceptPlayerMessage": "Punisher_15 acceptPlayerMessage",
         "canShowNotificationsInGame": true,
@@ -2517,15 +2517,15 @@
                     "items": [
                         {
                             "_id": "Punisher_15 reward_7_0",
-                            "_tpl": "5d235b4d86f7742e017bc88a",
+                            "_tpl": "6656560053eaaa7a23349c86",
                             "upd": {
-                                "StackObjectsCount": 5
+                                "StackObjectsCount": 1
                             }
                         }
                     ],
                     "target": "Punisher_15 reward_7_0",
                     "type": "Item",
-                    "value": "5"
+                    "value": "1"
                 }
             ]
         },
@@ -2985,15 +2985,15 @@
                     "items": [
                         {
                             "_id": "Punisher_17 reward_7_0",
-                            "_tpl": "5d235b4d86f7742e017bc88a",
+                            "_tpl": "6656560053eaaa7a23349c86",
                             "upd": {
-                                "StackObjectsCount": 10
+                                "StackObjectsCount": 5
                             }
                         }
                     ],
                     "target": "Punisher_17 reward_7_0",
                     "type": "Item",
-                    "value": "10"
+                    "value": "5"
                 },
                 {
                     "findInRaid": true,
@@ -3601,15 +3601,15 @@
                     "items": [
                         {
                             "_id": "Punisher_18_Reward_Roubles",
-                            "_tpl": "5d235b4d86f7742e017bc88a",
+                            "_tpl": "6656560053eaaa7a23349c86",
                             "upd": {
-                                "StackObjectsCount": 20
+                                "StackObjectsCount": 10
                             }
                         }
                     ],
                     "target": "Punisher_18_Reward_Roubles",
                     "type": "Item",
-                    "value": "20"
+                    "value": "10"
                 },
                 {
                     "id": "Punisher_18_Reward_3",
@@ -3781,15 +3781,15 @@
                     "items": [
                         {
                             "_id": "Punisher_19_Reward_Roubles",
-                            "_tpl": "5d235b4d86f7742e017bc88a",
+                            "_tpl": "6656560053eaaa7a23349c86",
                             "upd": {
-                                "StackObjectsCount": 10
+                                "StackObjectsCount": 3
                             }
                         }
                     ],
                     "target": "Punisher_19_Reward_Roubles",
                     "type": "Item",
-                    "value": "10"
+                    "value": "3"
                 },
                 {
                     "id": "Punisher_19_Reward_3",
@@ -3807,13 +3807,13 @@
                             "_id": "Punisher_19_Reward_ig",
                             "_tpl": "5c1d0f4986f7744bb01837fa",
                             "upd": {
-                                "StackObjectsCount": 1
+                                "StackObjectsCount": 2
                             }
                         }
                     ],
                     "target": "Punisher_19_Reward_ig",
                     "type": "Item",
-                    "value": "1"
+                    "value": "2"
                 },
                 {
                     "findInRaid": true,
