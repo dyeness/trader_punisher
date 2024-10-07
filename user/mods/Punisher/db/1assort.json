@@ -1,0 +1,280 @@
+{
+    "ItemPresets": [
+        {
+            "_id": "PM",
+            "_tpl": "5448bd6b4bdc2dfc2f8b4569", 
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 99999
+            }
+        },
+        {
+            "_id": "LBT",
+            "_tpl": "5e9db13186f7742f845ee9d3", 
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 3
+            }
+        },
+        {
+            "_id": "Flir",
+            "_tpl": "5d1b5e94d7ad1a2b865a96b0", 
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 99999
+            }
+        },
+        {
+            "_id": "RGO",
+            "_tpl": "618a431df1eb8e24b8741deb", 
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 4
+            }
+        },
+        {
+            "_id": "6sh",
+            "_tpl": "5df8a4d786f77412672a1e3b", 
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 3
+            }
+        },
+        {
+            "_id": "Twhite",
+            "_tpl": "5c94bbff86f7747ee735c08f", 
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 1
+            }
+        },
+        {
+            "_id": "7n40",
+            "_tpl": "64898602f09d032aa9399d56", 
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 99999
+            }
+        },
+        {
+            "_id": "m433",
+            "_tpl": "5f0c892565703e5c461894e9", 
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 10
+            }
+        },
+        {
+            "_id": "Igla",
+            "_tpl": "657025ebc5d7d4cb4d078588",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 99999
+            }
+        },
+        {
+            "_id": "m61",
+            "_tpl": "6570254fcfc010a0f5006a22",  
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 99999
+            }
+        },
+        {
+            "_id": "rsp(r)",
+            "_tpl": "62178c4d4ecf221597654e3d",  
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": false,
+                "StackObjectsCount": 3
+            }
+        },
+        {
+            "_id": "thicc_item",
+            "_tpl": "5c0a840b86f7742ffa4f2482", 
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 1
+            }
+        },
+        {
+            "_id": "fast_black",
+            "_tpl": "5a154d5cfcdbcb001a3b00da", 
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 3
+            }
+        }
+
+    ],
+    "barter_scheme": {
+        "PM": [
+            [
+                {
+                    "_tpl": "5d235b4d86f7742e017bc88a",
+                    "count": 1
+                }
+            ]
+        ],
+        "LBT": [
+            [
+                {
+                    "_tpl": "5d235b4d86f7742e017bc88a", 
+                    "count": 1
+                }
+            ]
+        ],
+        "Flir": [
+            [
+                {
+                    "_tpl": "5d235b4d86f7742e017bc88a", 
+                    "count": 30
+                }
+            ]
+        ],
+        "6sh": [
+            [
+                {
+                    "_tpl": "5d235b4d86f7742e017bc88a", 
+                    "count": 1
+                },
+                {
+                    "_tpl": "5f5e46b96bdad616ad46d613", 
+                    "count": 1
+                }
+            ]
+        ],
+        "Twhite": [
+            [
+                {
+                    "_tpl": "5d235b4d86f7742e017bc88a", 
+                    "count": 4
+                }
+            ]
+        ],
+        "7n40": [
+            [
+                {
+                    "_tpl": "5d235b4d86f7742e017bc88a",
+                    "count": 3
+                },
+                {
+                    "_tpl": "56dff061d2720bb5668b4567",
+                    "count": 20
+                }
+            ]
+        ],
+        "m433": [
+            [
+                {
+                    "_tpl": "5d235b4d86f7742e017bc88a",
+                    "count": 1
+                },
+                {
+                    "_tpl": "60391b0fb847c71012789415",
+                    "count": 1
+                }
+            ]
+        ],
+        "Igla": [
+            [
+                {
+                    "_tpl": "5d235b4d86f7742e017bc88a",
+                    "count": 15
+                },
+                {
+                    "_tpl": "56dff061d2720bb5668b4567",
+                    "count": 120
+                }
+            ]
+        ],
+        "m61": [
+            [
+                {
+                    "_tpl": "5d235b4d86f7742e017bc88a",
+                    "count": 5
+                },
+                {
+                    "_tpl": "58dd3ad986f77403051cba8f",
+                    "count": 20
+                }
+            ]
+        ],
+        "RGO": [
+            [
+                {
+                    "_tpl": "5d235b4d86f7742e017bc88a", 
+                    "count": 1
+                }
+            ]
+        ],
+        "rsp(r)": [
+            [
+                {
+                    "_tpl": "5d235b4d86f7742e017bc88a", 
+                    "count": 5
+                }
+            ]
+        ],
+        "thicc_item": [
+            [
+                {
+                    "_tpl": "59faff1d86f7746c51718c9c",
+                    "count": 40
+                }
+            ]
+        ],
+        "fast_black": [
+            [
+                {
+                    "_tpl": "59faff1d86f7746c51718c9c",
+                    "count": 5
+                },
+                {
+                    "_tpl": "5ac8d6885acfc400180ae7b0",
+                    "count": 1
+                }
+            ]
+        ]
+    },
+    "loyal_level_items": {
+        "PM": 1,
+        "LBT":3,
+        "RGO": 1,
+        "6sh": 1,
+        "Flir": 2,
+        "Twhite": 2,
+        "7n40": 2,
+        "m433": 2,
+        "m61": 3,
+        "Igla": 3,
+        "rsp(r)": 3,
+        "thicc_item":4,
+        "fast_black": 4
+    }
+}
