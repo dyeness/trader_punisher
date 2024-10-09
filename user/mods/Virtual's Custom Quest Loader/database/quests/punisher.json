@@ -285,7 +285,7 @@
                     "id": "Punisher_3_Reward_0",
                     "index": 0,
                     "type": "Experience",
-                    "value": "26666"
+                    "value": "66666"
                 },
                 {
                     "id": "Punisher_3_Reward_1",
@@ -456,7 +456,7 @@
                     "id": "Punisher_4 reward_0",
                     "index": 0,
                     "type": "Experience",
-                    "value": "50000"
+                    "value": "80000"
                 },
                 {
                     "id": "Punisher_4 reward_1",
@@ -589,7 +589,7 @@
                     "id": "Punisher_5_Reward_0",
                     "index": 0,
                     "type": "Experience",
-                    "value": "5000"
+                    "value": "25000"
                 },
                 {
                     "id": "Punisher_5_Reward_1",
@@ -1186,7 +1186,7 @@
                     "index": 2,
                     "type": "Skill",
                     "target": "Pistol", 
-                    "value": 30 
+                    "value": 300 
                 },
                 {
                     "findInRaid": true,
@@ -1328,7 +1328,7 @@
                     "index": 2,
                     "type": "Skill",
                     "target": "Shotgun", 
-                    "value": 30 
+                    "value": 300 
                 },
                 {
                     "findInRaid": true,
@@ -1603,21 +1603,21 @@
                     "index": 3,
                     "type": "Skill",
                     "target": "Sniper", 
-                    "value": 30 
+                    "value": 300 
                 },
                 {
                     "id": "Punisher_9_Reward_2",
                     "index": 4,
                     "type": "Skill",
                     "target": "StressResistance", 
-                    "value": 10 
+                    "value": 100 
                 },
                 {
                     "id": "Punisher_9_Reward_2",
                     "index": 5,
                     "type": "Skill",
                     "target": "RecoilControl", 
-                    "value": 20 
+                    "value": 200 
                 },
                 {
                     "id": "Punisher_10_Reward_5",
@@ -2193,7 +2193,7 @@
                     "id": "Punisher_13_Reward_1",
                     "index": 0,
                     "type": "Experience",
-                    "value": "8000"
+                    "value": "80000"
                 },
                 {
                     "findInRaid": true,
@@ -2342,21 +2342,21 @@
                     "index": 0,
                     "type": "Skill",
                     "target": "AimDrills", 
-                    "value": 50 
+                    "value": 1000 
                 },
                 {
                     "id": "Punisher_14_Reward_2",
                     "index": 1,
                     "type": "Skill",
                     "target": "RecoilControl", 
-                    "value": 50 
+                    "value": 1000  
                 },
                 {
                     "id": "Punisher_14_Reward_3",
                     "index": 2,
                     "type": "Skill",
                     "target": "Strength", 
-                    "value": 50 
+                    "value": 1000  
                 },
                 {
                     "findInRaid": true,
@@ -2976,7 +2976,7 @@
                     "index": 0,
                     "type": "Skill",
                     "target": "Endurance", 
-                    "value": 50 
+                    "value": 500 
                 },
                 {
                     "findInRaid": true,
@@ -3992,18 +3992,41 @@
             "Success": [
                 {
                     "findInRaid": true,
-                    "id": "punisher_2_Reward_1",
+                    "id": "punisher_20_Reward_1",
                     "index": 1,
                     "items": [
                         {
-                            "_id": "punisher_2_Reward_kappa",
+                            "_id": "punisher_20_Reward_kappa",
                             "_tpl": "5c093ca986f7740a1867ab12", 
                             "upd": {
                                 "StackObjectsCount": 1
                             }
                         }
                     ],
-                    "target": "punisher_2_Reward_kappa",
+                    "target": "punisher_20_Reward_kappa",
+                    "type": "Item",
+                    "value": "1"
+                },
+                {
+                    "id": "Punisher_20_Reward_2",
+                    "index": 0,
+                    "type": "Experience",
+                    "value": "200000"
+                },
+                {
+                    "findInRaid": true,
+                    "id": "punisher_20_Reward_3",
+                    "index": 1,
+                    "items": [
+                        {
+                            "_id": "punisher_20_Reward_lega",
+                            "_tpl": "6656560053eaaa7a23349c86", 
+                            "upd": {
+                                "StackObjectsCount": 50
+                            }
+                        }
+                    ],
+                    "target": "punisher_20_Reward_lega",
                     "type": "Item",
                     "value": "1"
                 }
