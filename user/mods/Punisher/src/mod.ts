@@ -591,6 +591,8 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                 {
                   "_id": "mdr_7",
                   "_tpl": "5dcbd56fdbd3d91b3e5468d5",
+                  "parentId": "hideout",
+                  "slotId": "hideout",
                   "upd": {
                     "UnlimitedCount": true,
                     "StackObjectsCount": 9999999,
@@ -671,8 +673,10 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                   "slotId": "mod_foregrip"
                 },
                 {
-                  "_id": "mdr_7",
+                  "_id": "mdr_7_l",
                   "_tpl": "5dcbd56fdbd3d91b3e5468d5",
+                  "parentId": "hideout",
+                  "slotId": "hideout",
                   "upd": {
                     "UnlimitedCount": true,
                     "StackObjectsCount": 9999999,
@@ -681,45 +685,45 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                 }
                 },
                 {
-                  "_id": "3971138adbad1a65f0e60187",
+                  "_id": "397118adbad1a65f0e60187",
                   "_tpl": "5dcbd6dddbd3d91b3e5468de",
-                  "parentId": "mdr_7",
+                  "parentId": "mdr_7_l",
                   "slotId": "mod_pistol_grip"
                 },
                 {
-                  "_id": "f887461f43722b9d019df4df",
+                  "_id": "f8846143722b9d019df4df",
                   "_tpl": "65293c7a17e14363030ad308",
-                  "parentId": "mdr_7",
+                  "parentId": "mdr_7_l",
                   "slotId": "mod_magazine"
                 },
                 {
-                  "_id": "9bcdefb749d70ef76257db90",
+                  "_id": "9cdefb749d70ef76257db90",
                   "_tpl": "5c48a14f2e2216152006edd7",
-                  "parentId": "mdr_7",
+                  "parentId": "mdr_7_l",
                   "slotId": "mod_handguard"
                 },
                 {
-                  "_id": "3ddf1c2494a18001dbfcf575",
+                  "_id": "3df1c2494a18001dbfcf575",
                   "_tpl": "5dcbe9431e1f4616d354987e",
-                  "parentId": "mdr_7",
+                  "parentId": "mdr_7_l",
                   "slotId": "mod_barrel"
                 },
                 {
-                  "_id": "b383779282fa3b89e6e2df2e",
+                  "_id": "383779282fa3b89e6e2df2e",
                   "_tpl": "60a23797a37c940de7062d02",
-                  "parentId": "mdr_7",
+                  "parentId": "mdr_7_l",
                   "slotId": "mod_scope",
                 },
                 {
-                  "_id": "5dff1da78a588a2a21c1c1a9",
+                  "_id": "dff1da78a588a2a21c1c1a9",
                   "_tpl": "5894a81786f77427140b8347",
-                  "parentId": "mdr_7",
+                  "parentId": "mdr_7_l",
                   "slotId": "mod_sight_rear",
                 },
                 {
-                  "_id": "dbcbc1bbdb7767a9f9465e05",
+                  "_id": "bcbc1bbdb7767a9f9465e05",
                   "_tpl": "5e023e53d4353e3302577c4c",
-                  "parentId": "mdr_7",
+                  "parentId": "mdr_7_l",
                   "slotId": "patron_in_weapon"
                 },
                 {
@@ -755,6 +759,8 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                 {
                   "_id": "kid_colt",
                   "_tpl": "5447a9cd4bdc2dbd208b4567",
+                  "parentId": "hideout",
+                  "slotId": "hideout",
                   "upd": {
                     "UnlimitedCount": true,
                     "StackObjectsCount": 9999999,
@@ -1468,7 +1474,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     "slotId": "hideout",
                     "upd": {
                         "UnlimitedCount": true,
-                         "StackObjectsCount": 9,
+                        "StackObjectsCount": 9,
                         "BuyRestrictionMax": 1,
                         "BuyRestrictionCurrent": 0
                     }
@@ -2015,57 +2021,57 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                 ]
             },
             "loyal_level_items": {
-                //* === LVL1 ===
-                "PM":1,
-                "RGO":1,
-                "6sh":1,
-                "lega":1,
-                "MP5_600EU":1,
-                "Red_WPO":1,
-                "item_case":1,
-                "korundvm_5lvl_l":1,
-                "gac_5lvl_l":1,
-                "mdr_7":1,
-                //* === LVL2 ===
-                "AK_Zhukov":2,
-                "PA_AKM":2,
-                "Mark_G28":2,
-                "GayZZer_HK":2,
-                "Twhite_Kila":2,
-                "Tblack":2,
-                "7n40":2,
-                "m433":2,
-                "Igla":2,
-                "slick_black":2,
-                "slick_olive":2,
-                "slick_tan":2,
-                "LBT":2,
-                "gac_5lvl":2,
-                "korundvm_5lvl":2,
-                "RB_VO":2,
-                "RB_BK":2,
-                "314_ob":2,
-                "RB_PKPM":2,
-                "kid_colt":2,
-                "mdr_7_l":2,
-                //* === LVL3 ===
-                "m61":3,
-                "MAI_AP":3,
-                "m993":3,
-                "bs":3,
-                "lm_ap":3,
-                "rsp(r)": 3,
-                "thicc_item_L": 3,
-                "kiteco_6lvl":3,
-                "kiteco_6lvl_l":3,
-                "Flir":3,
-                "w_thicc":3,
-                "red_zr":3,
-                "THOR":3,
-                //* === LVL4 ===
-                "fast_black": 4,
-                "thicc_item":4
-            }
+              //* === LVL1 ===
+              "PM":1,
+              "RGO":1,
+              "6sh":1,
+              "lega":1,
+              "MP5_600EU":1,
+              "Red_WPO":1,
+              "item_case":1,
+              "korundvm_5lvl_l":1,
+              "gac_5lvl_l":1,
+              "mdr_7_l":1,
+              //* === LVL2 ===
+              "AK_Zhukov":2,
+              "PA_AKM":2,
+              "Mark_G28":2,
+              "GayZZer_HK":2,
+              "Twhite_Kila":2,
+              "Tblack":2,
+              "7n40":2,
+              "m433":2,
+              "Igla":2,
+              "slick_black":2,
+              "slick_olive":2,
+              "slick_tan":2,
+              "LBT":2,
+              "gac_5lvl":2,
+              "korundvm_5lvl":2,
+              "RB_VO":2,
+              "RB_BK":2,
+              "314_ob":2,
+              "RB_PKPM":2,
+              "kid_colt":2,
+              "mdr_7":2,
+              //* === LVL3 ===
+              "m61":3,
+              "MAI_AP":3,
+              "m993":3,
+              "bs":3,
+              "lm_ap":3,
+              "rsp(r)": 3,
+              "thicc_item_L": 3,
+              "kiteco_6lvl":3,
+              "kiteco_6lvl_l":3,
+              "Flir":3,
+              "w_thicc":3,
+              "red_zr":3,
+              "THOR":3,
+              //* === LVL4 ===
+              "fast_black": 4,
+              "thicc_item":4
+          }
         }
         return assortTable;
     }
