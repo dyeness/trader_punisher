@@ -400,6 +400,16 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
+                  "_id": "gac_5lvl_l",
+                  "_tpl": "656fae5f7c2d57afe200c0d7",
+                  "parentId": "hideout",
+                  "slotId": "hideout",
+                  "upd": {
+                      "UnlimitedCount": true,
+                      "StackObjectsCount": 999
+                  }
+              },
+                {
                     "_id": "korundvm_5lvl",
                     "_tpl": "5f5f41476bdad616ad46d631",
                     "parentId": "hideout",
@@ -410,15 +420,127 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
+                  "_id": "korundvm_5lvl_l",
+                  "_tpl": "5f5f41476bdad616ad46d631",
+                  "parentId": "hideout",
+                  "slotId": "hideout",
+                  "upd": {
+                      "UnlimitedCount": true,
+                      "StackObjectsCount": 999
+                  }
+              },
+                {
                     "_id": "kiteco_6lvl",
                     "_tpl": "656fafe3498d1b7e3e071da4",
                     "parentId": "hideout",
                     "slotId": "hideout",
                     "upd": {
                         "UnlimitedCount": false,
-                        "StackObjectsCount": 4
+                        "StackObjectsCount": 2
                     }
                 },
+                {
+                  "_id": "kiteco_6lvl_l",
+                  "_tpl": "656fafe3498d1b7e3e071da4",
+                  "parentId": "hideout",
+                  "slotId": "hideout",
+                  "upd": {
+                      "UnlimitedCount": true,
+                      "StackObjectsCount": 999
+                  }
+              },
+                {
+                  "_id": "red_zr",
+                  "_tpl": "6530e8587cbfc1e309011e37",
+                  "parentId": "hideout",
+                  "slotId": "hideout",
+                  "upd": {
+                      "UnlimitedCount": false,
+                      "StackObjectsCount": 1
+                  }
+              },
+              {
+                "_id": "THOR",
+                "_tpl": "60a283193cb70855c43a381d",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                  "UnlimitedCount": false,
+                  "StackObjectsCount": 2
+              }
+              },
+              {
+                "_id": "576ea8e46600d80c70ba7db",
+                "_tpl": "6575d561b15fef3dd4051670",
+                "parentId": "THOR",
+                "slotId": "Soft_armor_front"
+              },
+              {
+                "_id": "576ea8e46600d80c70ba7dc",
+                "_tpl": "6575d56b16c2762fba005818",
+                "parentId": "THOR",
+                "slotId": "Soft_armor_back"
+              },
+              {
+                "_id": "576ea8e46600d80c70ba7dd",
+                "_tpl": "6575d57a16c2762fba00581c",
+                "parentId": "THOR",
+                "slotId": "Soft_armor_left"
+              },
+              {
+                "_id": "576ea8e46600d80c70ba7de",
+                "_tpl": "6575d589b15fef3dd4051674",
+                "parentId": "THOR",
+                "slotId": "soft_armor_right"
+              },
+              {
+                "_id": "576ea8e46600d80c70ba7df",
+                "_tpl": "6575d598b15fef3dd4051678",
+                "parentId": "THOR",
+                "slotId": "Collar"
+              },
+              {
+                "_id": "576ea8e46600d80c70ba7e0",
+                "_tpl": "6575d5b316c2762fba005824",
+                "parentId": "THOR",
+                "slotId": "Shoulder_l"
+              },
+              {
+                "_id": "576ea8e46600d80c70ba7e1",
+                "_tpl": "6575d5bd16c2762fba005828",
+                "parentId": "THOR",
+                "slotId": "Shoulder_r"
+              },
+              {
+                "_id": "576ea8e46600d80c70ba7e2",
+                "_tpl": "6575d5a616c2762fba005820",
+                "parentId": "THOR",
+                "slotId": "Groin"
+              },
+              {
+                "_id": "576ea8e46600d80c70ba7e3",
+                "_tpl": "656fa61e94b480b8a500c0e8",
+                "parentId": "THOR",
+                "slotId": "Front_plate"
+              },
+              {
+                "_id": "576ea8e46600d80c70ba7e4",
+                "_tpl": "656fa61e94b480b8a500c0e8",
+                "parentId": "THOR",
+                "slotId": "Back_plate"
+              },
+              {
+                "_id": "576ea8e46600d80c70ba7e5",
+                "_tpl": "64afdb577bb3bfe8fe03fd1d",
+                "parentId": "THOR",
+                "slotId": "Left_side_plate"
+              },
+              {
+                "_id": "576ea8e46600d80c70ba7e6",
+                "_tpl": "64afdb577bb3bfe8fe03fd1d",
+                "parentId": "THOR",
+                "slotId": "Right_side_plate"
+              },
                 //? ==========================WEAPON==========================
                 {
                     "_id": "PM",
@@ -431,6 +553,30 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
+                  "_id": "PM1",
+                  "_tpl": "5448c12b4bdc2d02308b456f",
+                  "parentId": "PM",
+                  "slotId": "mod_magazine"
+                },
+                {
+                  "_id": "PM2",
+                  "_tpl": "6374a822e629013b9c0645c8",
+                  "parentId": "PM",
+                  "slotId": "mod_reciever"
+                },
+                {
+                  "_id": "PM3",
+                  "_tpl": "63c6adcfb4ba094317063742",
+                  "parentId": "666aa319e8e00edadd0d1da7",
+                  "slotId": "mod_sight_rear"
+                },
+                {
+                  "_id": "PM4",
+                  "_tpl": "6374a7e7417239a7bf00f042",
+                  "parentId": "PM",
+                  "slotId": "mod_pistolgrip"
+                },
+                {
                     "_id": "Flir",
                     "_tpl": "5d1b5e94d7ad1a2b865a96b0",
                     "parentId": "hideout",
@@ -441,6 +587,276 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         "BuyRestrictionMax": 1,
                         "BuyRestrictionCurrent": 0
                     }
+                },
+                {
+                  "_id": "mdr_7",
+                  "_tpl": "5dcbd56fdbd3d91b3e5468d5",
+                  "upd": {
+                    "UnlimitedCount": true,
+                    "StackObjectsCount": 9999999,
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0
+                }
+                },
+                {
+                  "_id": "3971138adbad1a65f0e60187",
+                  "_tpl": "5dcbd6dddbd3d91b3e5468de",
+                  "parentId": "mdr_7",
+                  "slotId": "mod_pistol_grip"
+                },
+                {
+                  "_id": "f887461f43722b9d019df4df",
+                  "_tpl": "65293c7a17e14363030ad308",
+                  "parentId": "mdr_7",
+                  "slotId": "mod_magazine"
+                },
+                {
+                  "_id": "9bcdefb749d70ef76257db90",
+                  "_tpl": "5c48a14f2e2216152006edd7",
+                  "parentId": "mdr_7",
+                  "slotId": "mod_handguard"
+                },
+                {
+                  "_id": "3ddf1c2494a18001dbfcf575",
+                  "_tpl": "5dcbe9431e1f4616d354987e",
+                  "parentId": "mdr_7",
+                  "slotId": "mod_barrel"
+                },
+                {
+                  "_id": "b383779282fa3b89e6e2df2e",
+                  "_tpl": "60a23797a37c940de7062d02",
+                  "parentId": "mdr_7",
+                  "slotId": "mod_scope",
+                },
+                {
+                  "_id": "5dff1da78a588a2a21c1c1a9",
+                  "_tpl": "5894a81786f77427140b8347",
+                  "parentId": "mdr_7",
+                  "slotId": "mod_sight_rear",
+                },
+                {
+                  "_id": "dbcbc1bbdb7767a9f9465e05",
+                  "_tpl": "5e023e53d4353e3302577c4c",
+                  "parentId": "mdr_7",
+                  "slotId": "patron_in_weapon"
+                },
+                {
+                  "_id": "94cb4ce09f029d26e3e8bad9",
+                  "_tpl": "5b7be4895acfc400170e2dd5",
+                  "parentId": "9bcdefb749d70ef76257db90",
+                  "slotId": "mod_mount_000"
+                },
+                {
+                  "_id": "732b782af6675c1ceb26d6ef",
+                  "_tpl": "6269545d0e57f218e4548ca2",
+                  "parentId": "9bcdefb749d70ef76257db90",
+                  "slotId": "mod_mount_002"
+                },
+                {
+                  "_id": "070493fdb23774cdcacf5a37",
+                  "_tpl": "5c18b90d2e2216152142466b",
+                  "parentId": "9bcdefb749d70ef76257db90",
+                  "slotId": "mod_sight_front",
+                },
+                {
+                  "_id": "9b152f1681fe874a441e505b",
+                  "_tpl": "607ffb988900dc2d9a55b6e4",
+                  "parentId": "3ddf1c2494a18001dbfcf575",
+                  "slotId": "mod_muzzle"
+                },
+                {
+                  "_id": "dbf8c4175e33d0d0e44f9411",
+                  "_tpl": "64807a29e5ffe165600abc97",
+                  "parentId": "94cb4ce09f029d26e3e8bad9",
+                  "slotId": "mod_foregrip"
+                },
+                {
+                  "_id": "mdr_7",
+                  "_tpl": "5dcbd56fdbd3d91b3e5468d5",
+                  "upd": {
+                    "UnlimitedCount": true,
+                    "StackObjectsCount": 9999999,
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0
+                }
+                },
+                {
+                  "_id": "3971138adbad1a65f0e60187",
+                  "_tpl": "5dcbd6dddbd3d91b3e5468de",
+                  "parentId": "mdr_7",
+                  "slotId": "mod_pistol_grip"
+                },
+                {
+                  "_id": "f887461f43722b9d019df4df",
+                  "_tpl": "65293c7a17e14363030ad308",
+                  "parentId": "mdr_7",
+                  "slotId": "mod_magazine"
+                },
+                {
+                  "_id": "9bcdefb749d70ef76257db90",
+                  "_tpl": "5c48a14f2e2216152006edd7",
+                  "parentId": "mdr_7",
+                  "slotId": "mod_handguard"
+                },
+                {
+                  "_id": "3ddf1c2494a18001dbfcf575",
+                  "_tpl": "5dcbe9431e1f4616d354987e",
+                  "parentId": "mdr_7",
+                  "slotId": "mod_barrel"
+                },
+                {
+                  "_id": "b383779282fa3b89e6e2df2e",
+                  "_tpl": "60a23797a37c940de7062d02",
+                  "parentId": "mdr_7",
+                  "slotId": "mod_scope",
+                },
+                {
+                  "_id": "5dff1da78a588a2a21c1c1a9",
+                  "_tpl": "5894a81786f77427140b8347",
+                  "parentId": "mdr_7",
+                  "slotId": "mod_sight_rear",
+                },
+                {
+                  "_id": "dbcbc1bbdb7767a9f9465e05",
+                  "_tpl": "5e023e53d4353e3302577c4c",
+                  "parentId": "mdr_7",
+                  "slotId": "patron_in_weapon"
+                },
+                {
+                  "_id": "94cb4ce09f029d26e3e8bad9",
+                  "_tpl": "5b7be4895acfc400170e2dd5",
+                  "parentId": "9bcdefb749d70ef76257db90",
+                  "slotId": "mod_mount_000"
+                },
+                {
+                  "_id": "732b782af6675c1ceb26d6ef",
+                  "_tpl": "6269545d0e57f218e4548ca2",
+                  "parentId": "9bcdefb749d70ef76257db90",
+                  "slotId": "mod_mount_002"
+                },
+                {
+                  "_id": "070493fdb23774cdcacf5a37",
+                  "_tpl": "5c18b90d2e2216152142466b",
+                  "parentId": "9bcdefb749d70ef76257db90",
+                  "slotId": "mod_sight_front",
+                },
+                {
+                  "_id": "9b152f1681fe874a441e505b",
+                  "_tpl": "607ffb988900dc2d9a55b6e4",
+                  "parentId": "3ddf1c2494a18001dbfcf575",
+                  "slotId": "mod_muzzle"
+                },
+                {
+                  "_id": "dbf8c4175e33d0d0e44f9411",
+                  "_tpl": "64807a29e5ffe165600abc97",
+                  "parentId": "94cb4ce09f029d26e3e8bad9",
+                  "slotId": "mod_foregrip"
+                },
+                {
+                  "_id": "kid_colt",
+                  "_tpl": "5447a9cd4bdc2dbd208b4567",
+                  "upd": {
+                    "UnlimitedCount": true,
+                    "StackObjectsCount": 9999999,
+                    "BuyRestrictionMax": 2,
+                    "BuyRestrictionCurrent": 0
+                }
+                },
+                {
+                  "_id": "b217e53bc4dc5b4e69e86537",
+                  "_tpl": "59db3a1d86f77429e05b4e92",
+                  "parentId": "kid_colt",
+                  "slotId": "mod_pistol_grip"
+                },
+                {
+                  "_id": "9c6d37308822a605345fae48",
+                  "_tpl": "5aaa5dfee5b5b000140293d3",
+                  "parentId": "kid_colt",
+                  "slotId": "mod_magazine"
+                },
+                {
+                  "_id": "16933222072e39ece7482491",
+                  "_tpl": "59bfe68886f7746004266202",
+                  "parentId": "kid_colt",
+                  "slotId": "mod_reciever"
+                },
+                {
+                  "_id": "e03cdd2c89f91d84ebbee22c",
+                  "_tpl": "5649be884bdc2d79388b4577",
+                  "parentId": "kid_colt",
+                  "slotId": "mod_stock"
+                },
+                {
+                  "_id": "dea167d5638b4ac5f68fa7b2",
+                  "_tpl": "5b2240bf5acfc40dc528af69",
+                  "parentId": "kid_colt",
+                  "slotId": "mod_charge"
+                },
+                {
+                  "_id": "135ce2ca95a48efb135b03a2",
+                  "_tpl": "55d3632e4bdc2d972f8b4569",
+                  "parentId": "16933222072e39ece7482491",
+                  "slotId": "mod_barrel"
+                },
+                {
+                  "_id": "bdd67d29a5d2890f52aece00",
+                  "_tpl": "595cfa8b86f77427437e845b",
+                  "parentId": "16933222072e39ece7482491",
+                  "slotId": "mod_handguard"
+                },
+                {
+                  "_id": "99c6ada725dcb09335cc6947",
+                  "_tpl": "5bc09a18d4351e003562b68e",
+                  "parentId": "16933222072e39ece7482491",
+                  "slotId": "mod_sight_rear",
+                },
+                {
+                  "_id": "7c59d17f56d34c406082e108",
+                  "_tpl": "5d44069ca4b9361ebd26fc37",
+                  "parentId": "e03cdd2c89f91d84ebbee22c",
+                  "slotId": "mod_stock_000"
+                },
+                {
+                  "_id": "a2aaaf4d3ed34a6a680ec395",
+                  "_tpl": "5cf6937cd7f00c056c53fb39",
+                  "parentId": "135ce2ca95a48efb135b03a2",
+                  "slotId": "mod_muzzle"
+                },
+                {
+                  "_id": "c182324aa61417007526fb40",
+                  "_tpl": "63d3ce281fe77d0f2801859e",
+                  "parentId": "135ce2ca95a48efb135b03a2",
+                  "slotId": "mod_gas_block"
+                },
+                {
+                  "_id": "a1633f2045287fdd87524a5a",
+                  "_tpl": "59e0bed186f774156f04ce84",
+                  "parentId": "bdd67d29a5d2890f52aece00",
+                  "slotId": "mod_mount_000"
+                },
+                {
+                  "_id": "ac8e304439c2d6ecda780f01",
+                  "_tpl": "59e0be5d86f7742d48765bd2",
+                  "parentId": "bdd67d29a5d2890f52aece00",
+                  "slotId": "mod_mount_002"
+                },
+                {
+                  "_id": "a2b85d66f4e2b751f5eed79a",
+                  "_tpl": "59e0bdb186f774156f04ce82",
+                  "parentId": "bdd67d29a5d2890f52aece00",
+                  "slotId": "mod_mount_004"
+                },
+                {
+                  "_id": "89ea077e39325e5e816bc42a",
+                  "_tpl": "5c17804b2e2216152006c02f",
+                  "parentId": "bdd67d29a5d2890f52aece00",
+                  "slotId": "mod_sight_front",
+                },
+                {
+                  "_id": "0f7249e978094892b46e805d",
+                  "_tpl": "5b057b4f5acfc4771e1bd3e9",
+                  "parentId": "a1633f2045287fdd87524a5a",
+                  "slotId": "mod_foregrip"
                 },
                 {
                     "_id": "PA_AKM",
@@ -1107,6 +1523,56 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         "StackObjectsCount": 1 
                     }
                 },
+                { //* 6 leg
+                  "_id": "RB_VO", //30000/5=6
+                  "_tpl": "5d80c62a86f7744036212b3f",
+                  "parentId": "hideout",
+                  "slotId": "hideout",
+                  "upd": {
+                      "UnlimitedCount": true,
+                      "StackObjectsCount": 1 
+                  }
+              },
+              { //* 9 leg
+                "_id": "RB_BK",
+                "_tpl": "5d80c60f86f77440373c4ece",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "UnlimitedCount": true,
+                    "StackObjectsCount": 1 
+                }
+              },
+              { //* 4 leg
+                "_id": "RB_PKPM",
+                "_tpl": "5ede7a8229445733cb4c18e2",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "UnlimitedCount": true,
+                    "StackObjectsCount": 1
+                }
+              },
+              { //* 5 leg
+                "_id": "314_ob",
+                "_tpl": "5780cf7f2459777de4559322",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "UnlimitedCount": true,
+                    "StackObjectsCount": 1 
+                }
+              },
+              { //* 4 leg
+                "_id": "item_case",
+                "_tpl": "59fb042886f7746c5005a7b2",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "UnlimitedCount": true,
+                    "StackObjectsCount": 1 
+                }
+              },
                 {
                     "_id": "lega",
                     "_tpl": "6656560053eaaa7a23349c86",
@@ -1136,7 +1602,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568",
-                            "count": 50
+                            "count": 200
                         },
                         {
                             "_tpl": "60391b0fb847c71012789415",
@@ -1148,7 +1614,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568",
-                            "count": 3
+                            "count": 5
                         },
                         {
                             "_tpl": "56dff061d2720bb5668b4567",
@@ -1160,7 +1626,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568",
-                            "count": 3
+                            "count": 5
                         },
                         {
                             "_tpl": "58dd3ad986f77403051cba8f",
@@ -1172,7 +1638,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     [
                         {
                             "_tpl": "5cc9c20cd7f00c001336c65d",
-                            "count": 1
+                            "count": 3
                         },
                         {
                             "_tpl": "5448be9a4bdc2dfd2f8b456a",
@@ -1184,7 +1650,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568",
-                            "count": 2
+                            "count": 5
                         },
                         {
                             "_tpl": "64b7af434b75259c590fa893",
@@ -1196,7 +1662,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568",
-                            "count": 1
+                            "count": 5
                         },
                         {
                             "_tpl": "5a6086ea4f39f99cd479502f",
@@ -1208,7 +1674,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568",
-                            "count": 3
+                            "count": 5
                         },
                         {
                             "_tpl": "5a6086ea4f39f99cd479502f",
@@ -1220,7 +1686,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568",
-                            "count": 3
+                            "count": 5
                         },
                         {
                             "_tpl": "5fc382b6d6fa9c00c571bbc3",
@@ -1293,18 +1759,34 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568",
-                            "count": 1500
+                            "count": 1850
                         }
                     ]
                 ],
+                "gac_5lvl_l": [
+                  [
+                      {
+                          "_tpl": "6656560053eaaa7a23349c86",
+                          "count": 1
+                      }
+                  ]
+              ],
                 "korundvm_5lvl": [
                     [
                         {
                             "_tpl": "5f0c892565703e5c461894e9",
-                            "count": 10
+                            "count": 20
                         }
                     ]
                 ],
+                "korundvm_5lvl_l": [
+                  [
+                      {
+                          "_tpl": "6656560053eaaa7a23349c86",
+                          "count": 1
+                      }
+                  ]
+              ],
                 "kiteco_6lvl": [
                     [
                         {
@@ -1313,6 +1795,30 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
+                "kiteco_6lvl_l": [
+                  [
+                      {
+                          "_tpl": "6656560053eaaa7a23349c86",
+                          "count": 1
+                      }
+                  ]
+              ],
+              "THOR": [
+                [
+                    {
+                        "_tpl": "6656560053eaaa7a23349c86",
+                        "count": 4
+                    }
+                ]
+            ],
+                "red_zr": [
+                  [
+                      {
+                          "_tpl": "6656560053eaaa7a23349c86",
+                          "count": 4
+                      }
+                  ]
+              ],
                 //? ==========================WEAPON==========================
                 "PM": [
                     [
@@ -1338,11 +1844,35 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         },
                     ]
                 ],
+                "mdr_7_l": [
+                  [
+                      {
+                          "_tpl": "6656560053eaaa7a23349c86", 
+                          "count": 1
+                      },
+                  ]
+              ],
+                "mdr_7": [
+                  [
+                      {
+                          "_tpl": "569668774bdc2da2298b4568", 
+                          "count": 2000
+                      },
+                  ]
+              ],
+                "kid_colt": [
+                  [
+                      {
+                          "_tpl": "569668774bdc2da2298b4568", 
+                          "count": 2000
+                      },
+                  ]
+              ],
                 "AK_Zhukov": [
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568", 
-                            "count": 1450
+                            "count": 1900
                         },
                     ]
                 ],
@@ -1350,7 +1880,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568", 
-                            "count": 2200
+                            "count": 2900
                         },
                     ]
                 ],
@@ -1358,7 +1888,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568", 
-                            "count": 2750
+                            "count": 2600
                         },
                     ]
                 ],
@@ -1366,7 +1896,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568", 
-                            "count": 2550
+                            "count": 2400
                         },
                     ]
                 ],
@@ -1374,7 +1904,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568", 
-                            "count": 550
+                            "count": 950
                         },
                     ]
                 ],
@@ -1399,7 +1929,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         },
                         {
                             "_tpl": "6656560053eaaa7a23349c86", // LEGA
-                            "count": 1
+                            "count": 3
                         },
                     ]
                 ],
@@ -1435,6 +1965,46 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
+                "RB_VO": [
+                    [
+                        {
+                            "_tpl": "6656560053eaaa7a23349c86", 
+                            "count": 6
+                        }
+                    ]
+                ],
+                "RB_BK": [
+                  [
+                      {
+                          "_tpl": "6656560053eaaa7a23349c86", 
+                          "count": 9
+                      }
+                  ]
+              ],
+              "RB_PKPM": [
+                  [
+                      {
+                          "_tpl": "6656560053eaaa7a23349c86", 
+                          "count": 4
+                      }
+                  ]
+              ],
+              "314_ob": [
+                [
+                    {
+                        "_tpl": "6656560053eaaa7a23349c86", 
+                        "count": 5
+                    }
+                ]
+            ],
+            "item_case": [
+              [
+                  {
+                      "_tpl": "6656560053eaaa7a23349c86", 
+                      "count": 4
+                  }
+              ]
+          ],
                 "lega": [
                     [
                         {
@@ -1452,6 +2022,10 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                 "lega":1,
                 "MP5_600EU":1,
                 "Red_WPO":1,
+                "item_case":1,
+                "korundvm_5lvl_l":1,
+                "gac_5lvl_l":1,
+                "mdr_7":1,
                 //* === LVL2 ===
                 "AK_Zhukov":2,
                 "PA_AKM":2,
@@ -1468,6 +2042,12 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                 "LBT":2,
                 "gac_5lvl":2,
                 "korundvm_5lvl":2,
+                "RB_VO":2,
+                "RB_BK":2,
+                "314_ob":2,
+                "RB_PKPM":2,
+                "kid_colt":2,
+                "mdr_7_l":2,
                 //* === LVL3 ===
                 "m61":3,
                 "MAI_AP":3,
@@ -1477,8 +2057,11 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                 "rsp(r)": 3,
                 "thicc_item_L": 3,
                 "kiteco_6lvl":3,
+                "kiteco_6lvl_l":3,
                 "Flir":3,
                 "w_thicc":3,
+                "red_zr":3,
+                "THOR":3,
                 //* === LVL4 ===
                 "fast_black": 4,
                 "thicc_item":4
@@ -1487,316 +2070,6 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
         return assortTable;
     }
 
-         //Custom Presets -- Add Presets in /db/presets.json
-        /*//Build the Presets in-game, then export them to the presets.json, then format accordingly.
-        const PunisherGunPreset = WeaponPreset.ItemPresets["TM_cc7d623412685ff3cdcf3684"]._items;
-        this.addCollectionToAssort(jsonUtil, assortTable, PunisherGunPreset, false, 2, 4, Money.EUROS, 800); //LL4
-        const worgenGunPreset = WeaponPreset.ItemPresets["TM_4122ee65dba464cc331fc561"]._items;
-        this.addCollectionToAssort(jsonUtil, assortTable, worgenGunPreset, false, 1, 4, Money.EUROS, 3000); //LL4
-        const volkGunPreset = WeaponPreset.ItemPresets["TM_9ec2a50629b619a9369a39b8"]._items;
-        this.addCollectionToAssort(jsonUtil, assortTable, volkGunPreset, false, 3, 2, Money.EUROS, 750); //LL2
-        const falGunPreset = WeaponPreset.ItemPresets["TM_d45232f69adf456ce15ea7c5"]._items;
-        this.addCollectionToAssort(jsonUtil, assortTable, falGunPreset, false, 1, 4, Money.EUROS, 1100); //LL4
-        const P226RGunPreset = WeaponPreset.ItemPresets["TM_48024b9027ee65a48187256a"]._items;
-        this.addCollectionToAssort(jsonUtil, assortTable, P226RGunPreset, false, 2, 2, Money.EUROS, 220); //LL2
-
-        //Mags
-        const STANAG_ID = "55d4887d4bdc2d962f8b4570";
-        this.addSingleItemToAssort(assortTable, STANAG_ID, false, 30, 1, Money.EUROS, 9);
-        const FALMAG_ID = "5b7d37845acfc400170e2f87";
-        this.addSingleItemToAssort(assortTable, FALMAG_ID, false, 10, 3, Money.EUROS, 42); //LL3
-        const G36MAG_ID = "62307b7b10d2321fa8741921";
-        this.addSingleItemToAssort(assortTable, G36MAG_ID, false, 30, 1, Money.EUROS, 24);
-        const MAG20_ID = "5448c1d04bdc2dff2f8b4569";
-        this.addSingleItemToAssort(assortTable, MAG20_ID, false, 5, 1, Money.EUROS, 18);
-        const MPXMAG_ID = "5894a05586f774094708ef75";
-        this.addSingleItemToAssort(assortTable, MPXMAG_ID, false, 5, 1, Money.EUROS, 16);
-        const P226M_ID = "56d59948d2720bb7418b4582";
-        this.addSingleItemToAssort(assortTable, P226M_ID, false, 25, 1, Money.EUROS, 14);
-        const G28MAG_ID = "617131a4568c120fdd29482d";
-        this.addSingleItemToAssort(assortTable, G28MAG_ID, false, 4, 4, Money.EUROS, 100); //LL4
-        const PMAG_ID = "55802d5f4bdc2dac148b458e";
-        this.addSingleItemToAssort(assortTable, PMAG_ID, false, 10, 2, Money.EUROS, 25); //LL2
-        const P90MAG_ID = "5cc70093e4a949033c734312";
-        this.addSingleItemToAssort(assortTable, P90MAG_ID, false, 3, 2, Money.EUROS, 75); //LL2
-        const HK_STANAG_ID = "5c05413a0db834001c390617";
-        this.addSingleItemToAssort(assortTable, HK_STANAG_ID, false, 20, 1, Money.EUROS, 14);
-        const AK101MAG_ID = "5ac66c5d5acfc4001718d314";
-        this.addSingleItemToAssort(assortTable, AK101MAG_ID, false, 20, 2, Money.EUROS, 16); //LL2
-
-
-        //Parts
-        const ACOG_ID = "59db7e1086f77448be30ddf3";
-        this.addSingleItemToAssort(assortTable, ACOG_ID, false, 1, 1, Money.EUROS, 200);
-        const SIL1_ID = "5a9fbb84a2750c00137fa685";
-        this.addSingleItemToAssort(assortTable, SIL1_ID, false, 2, 1, Money.EUROS, 360);
-        const PRISM_ID = "5c1cdd512e22161b267d91ae";
-        this.addSingleItemToAssort(assortTable, PRISM_ID, false, 2, 1, Money.EUROS, 150);
-        const PRISM2_ID = "5d2dc3e548f035404a1a4798";
-        this.addSingleItemToAssort(assortTable, PRISM2_ID, false, 2, 2, Money.EUROS, 200); //LL2
-        const EOTECH_ID = "5c07dd120db834001c39092d";
-        this.addSingleItemToAssort(assortTable, EOTECH_ID, false, 2, 1, Money.EUROS, 300);
-        const KIBA_ID = "5c1cdd302e221602b3137250";
-        this.addSingleItemToAssort(assortTable, KIBA_ID, false, 5, 1, Money.EUROS, 10);
-        const G36VENT_ID = "62386b7153757417e93a4e9f";
-        this.addSingleItemToAssort(assortTable, G36VENT_ID, false, 3, 1, Money.EUROS, 40);
-        const G36BARREL_ID = "622b3858034a3e17ad0b81f5";
-        this.addSingleItemToAssort(assortTable, G36BARREL_ID, false, 2, 1, Money.EUROS, 125);
-        const G36SMOUNT_ID = "622b3c081b89c677a33bcda6";
-        this.addSingleItemToAssort(assortTable, G36SMOUNT_ID, false, 1, 1, Money.EUROS, 32);
-        const G36SMOUNT2_ID = "622b3d5cf9cfc87d675d2de9";
-        this.addSingleItemToAssort(assortTable, G36SMOUNT2_ID, false, 2, 1, Money.EUROS, 22);
-        const G36BIPOD_ID = "622b397c9a3d4327e41843b6";
-        this.addSingleItemToAssort(assortTable, G36BIPOD_ID, false, 2, 1, Money.EUROS, 30);
-        const G36FRONT_ID = "623166e08c43374ca1567195";
-        this.addSingleItemToAssort(assortTable, G36FRONT_ID, false, 5, 1, Money.EUROS, 15);
-        const G36REAR_ID = "6231670f0b8aa5472d060095";
-        this.addSingleItemToAssort(assortTable, G36REAR_ID, false, 5, 1, Money.EUROS, 15);
-        const SA58BEL = "5b7d671b5acfc43d82528ddd";
-        this.addSingleItemToAssort(assortTable, SA58BEL, false, 1, 3, Money.EUROS, 24); //LL3
-        const SA58STOCK = "5b7d63cf5acfc4001876c8df";
-        this.addSingleItemToAssort(assortTable, SA58STOCK, false, 2, 3, Money.EUROS, 120); //LL3
-        const SA58BARREL = "5b7be1265acfc400161d0798";
-        this.addSingleItemToAssort(assortTable, SA58BARREL, false, 1, 3, Money.EUROS, 225); //LL3
-        const SA58BRAKE = "5b7d68af5acfc400170e30c3";
-        this.addSingleItemToAssort(assortTable, SA58BRAKE, false, 3, 3, Money.EUROS, 15); //LL3
-        const M3STOCK = "625eb0faa6e3a82193267ad9";
-        this.addSingleItemToAssort(assortTable, M3STOCK, false, 2, 2, Money.EUROS, 45); //LL2
-        const M3TUBE = "6259bdcabd28e4721447a2aa";
-        this.addSingleItemToAssort(assortTable, M3TUBE, false, 1, 2, Money.EUROS, 15); //LL2
-        const HKE1_ID = "5c87a07c2e2216001219d4a2";
-        this.addSingleItemToAssort(assortTable, HKE1_ID, false, 2, 1, Money.EUROS, 105);
-        const HKGRIFF_ID = "619386379fb0c665d5490dbe";
-        this.addSingleItemToAssort(assortTable, HKGRIFF_ID, false, 4, 1, Money.EUROS, 30);
-        const SIL2MZZL556_ID = "5c7e5f112e221600106f4ede";
-        this.addSingleItemToAssort(assortTable, SIL2MZZL556_ID, false, 4, 1, Money.EUROS, 88);
-        const SIL2_ID = "5a34fe59c4a282000b1521a2";
-        this.addSingleItemToAssort(assortTable, SIL2_ID, false, 2, 1, Money.EUROS, 508);
-        const HK416A5_FLIPRAIL_ID = "5bb20df1d4351e00347787d5";
-        this.addSingleItemToAssort(assortTable, HK416A5_FLIPRAIL_ID, false, 1, 2, Money.EUROS, 74); //LL2
-        const HK416A5_LONGRAIL_ID = "5bb20dfcd4351e00334c9e24";
-        this.addSingleItemToAssort(assortTable, HK416A5_LONGRAIL_ID, false, 1, 2, Money.EUROS, 107); //LL2
-        const HK416A5_11BARREL_ID = "5bb20d92d4351e00853263eb";
-        this.addSingleItemToAssort(assortTable, HK416A5_11BARREL_ID, false, 1, 2, Money.EUROS, 178); //LL2
-        const HK416A5_20Barrel_ID = "5bb20dadd4351e00367faeff";
-        this.addSingleItemToAssort(assortTable, HK416A5_20Barrel_ID, false, 1, 2, Money.EUROS, 345); //LL2
-        const G36WELL_ID = "622f039199f4ea1a4d6c9a17";
-        this.addSingleItemToAssort(assortTable, G36WELL_ID, false, 5, 1, Money.EUROS, 17);
-
-        //Ammo
-        const M80_ID = "58dd3ad986f77403051cba8f";
-        this.addSingleItemToAssort(assortTable, M80_ID, false, 30, 2, Money.EUROS, 6); //LL2
-        const FMJSIG_ID = "6529302b8c26af6326029fb7";
-        this.addSingleItemToAssort(assortTable, FMJSIG_ID, true, 999999, 2, Money.EUROS, 5); //LL2
-        const LPS_ID = "5887431f2459777e1612938f";
-        this.addSingleItemToAssort(assortTable, LPS_ID, false, 30, 2, Money.EUROS, 6); //LL2
-        const M855A1_ID = "54527ac44bdc2d36668b4567";
-        this.addSingleItemToAssort(assortTable, M855A1_ID, false, 90, 3, Money.EUROS, 10); //LL3
-        const MAG338_ID = "5fc275cf85fd526b824a571a";
-        this.addSingleItemToAssort(assortTable, MAG338_ID, false, 20, 4, Money.EUROS, 30); //LL4
-        const M993_ID = "5efb0c1bd79ff02a1f5e68d9";
-        this.addSingleItemToAssort(assortTable, M993_ID, false, 20, 4, Money.EUROS, 25); //LL4
-        const SX_ID = "5ba2678ad4351e44f824b344";
-        this.addSingleItemToAssort(assortTable, SX_ID, false, 90, 2, Money.EUROS, 4); //LL2
-        const AP63_ID = "5c925fa22e221601da359b7b";
-        this.addSingleItemToAssort(assortTable, AP63_ID, false, 120, 2, Money.EUROS, 4); //LL2
-        const M67_ID = "58d3db5386f77426186285a0";
-        this.addSingleItemToAssort(assortTable, M67_ID, false, 3, 1, Money.EUROS, 50);
-        const M855_ID = "54527a984bdc2d4e668b4567";
-        this.addSingleItemToAssort(assortTable, M855_ID, true, 999999, 2, Money.EUROS, 2); //LL2
-        const FMJ556_ID = "59e6920f86f77411d82aa167";
-        this.addSingleItemToAssort(assortTable, FMJ556_ID, true, 999999, 1, Money.EUROS, 1);
-        const AP20_ID = "5d6e68a8a4b9360b6c0d54e2";
-        this.addSingleItemToAssort(assortTable, AP20_ID, false, 20, 3, Money.EUROS, 30); //LL3
-        const SH65M_ID = "5d6e67fba4b9361bc73bc779";
-        this.addSingleItemToAssort(assortTable, SH65M_ID, true, 999999, 1, Money.EUROS, 1);
-        const APERS_ID = "5ede475339ee016e8c534742";
-        this.addSingleItemToAssort(assortTable, APERS_ID, false, 10, 2, Money.EUROS, 20); //LL2
-        const M441_ID = "5ede47405b097655935d7d16";
-        this.addSingleItemToAssort(assortTable, M441_ID, false, 3, 3, Money.EUROS, 200); //LL3
-        const M18_ID = "617aa4dd8166f034d57de9c5";
-        this.addSingleItemToAssort(assortTable, M18_ID, false, 8, 1, Money.EUROS, 20);
-        const SS19_ID = "5cc80f8fe4a949033b0224a2";
-        this.addSingleItemToAssort(assortTable, SS19_ID, true, 999999, 1, Money.EUROS, 2);
-        const L191_ID = "5cc80f53e4a949000e1ea4f8";
-        this.addSingleItemToAssort(assortTable, L191_ID, false, 100, 2, Money.EUROS, 10); //LL2
-        const MATCH45_ID = "5e81f423763d9f754677bf2e";
-        this.addSingleItemToAssort(assortTable, MATCH45_ID, true, 999999, 1, Money.EUROS, 1);
-        const FMJ9MM_ID = "64b7bbb74b75259c590fa897";
-        this.addSingleItemToAssort(assortTable, FMJ9MM_ID, true, 999999, 1, Money.EUROS, 3);
-        const VMAX_ID = "6196364158ef8c428c287d9f";
-        this.addSingleItemToAssort(assortTable, VMAX_ID, true, 999999, 1, Money.EUROS, 1);
-        const BKOM62_ID = "619636be6db0f2477964e710";
-        this.addSingleItemToAssort(assortTable, BKOM62_ID, false, 90, 2, Money.EUROS, 3); //LL2
-        const M995_ID = "59e690b686f7746c9f75e848";
-        this.addSingleItemToAssort(assortTable, M995_ID, false, 30, 4, Money.EUROS, 30); //LL4
-
-        
-        //Gear
-        const AFG_ID = "59e770b986f7742cbd762754";
-        this.addSingleItemToAssort(assortTable, AFG_ID, false, 5, 1, Money.EUROS, 23);
-        const VIS_ID = "5a16b672fcdbcb001912fa83";
-        this.addSingleItemToAssort(assortTable, VIS_ID, false, 5, 2, Money.EUROS, 80); //LL2
-        const RESP_ID = "59e7715586f7742ee5789605";
-        this.addSingleItemToAssort(assortTable, RESP_ID, false, 5, 1, Money.EUROS, 100);
-        const BLKRK_ID = "5648a69d4bdc2ded0b8b457b";
-        this.addSingleItemToAssort(assortTable, BLKRK_ID, false, 2, 1, Money.EUROS, 500);
-        const COM2_ID = "5645bcc04bdc2d363b8b4572";
-        this.addSingleItemToAssort(assortTable, COM2_ID, false, 1, 1, Money.EUROS, 300);
-        const T20_ID = "618bb76513f5097c8d5aa2d5";
-        this.addSingleItemToAssort(assortTable, T20_ID, false, 1, 2, Money.EUROS, 300); //LL2
-        const TRANS_ID = "56e33680d2720be2748b4576";
-        this.addSingleItemToAssort(assortTable, TRANS_ID, false, 5, 1, Money.EUROS, 15);
-        const HALFMASK_ID = "572b7fa524597762b747ce82";
-        this.addSingleItemToAssort(assortTable, HALFMASK_ID, false, 10, 1, Money.EUROS, 20);
-        const OAK_ID = "5c1a1cc52e221602b3136e3d";
-        this.addSingleItemToAssort(assortTable, OAK_ID, false, 10, 1, Money.EUROS, 35);
-        const THERMAL_ID  = "5c110624d174af029e69734c";
-        this.addSingleItemToAssort(assortTable, THERMAL_ID, false, 1, 4, Money.EUROS, 9500); //LL4
-        const BLACKCOM_ID  = "5b44c8ea86f7742d1627baf1";
-        this.addSingleItemToAssort(assortTable, BLACKCOM_ID, false, 2, 1, Money.EUROS, 175);
-        const SLING_ID  = "5ab8f04f86f774585f4237d8";
-        this.addSingleItemToAssort(assortTable, SLING_ID, false, 10, 1, Money.EUROS, 10);
-        const CROSS_ID  = "5d5fca1ea4b93635fd598c07";
-        this.addSingleItemToAssort(assortTable, CROSS_ID, false, 10, 1, Money.EUROS, 20);
-        const MOMEX_ID  = "5b432f3d5acfc4704b4a1dfb";
-        this.addSingleItemToAssort(assortTable, MOMEX_ID, false, 10, 1, Money.EUROS, 20);
-
-        //Plates
-        const SAPI_ID  = "655746010177119f4a097ff7";
-        this.addSingleItemToAssort(assortTable, SAPI_ID, false, 2, 4, Money.EUROS, 1000); //LL4
-        const MONO_ID  = "656fad8c498d1b7e3e071da0";
-        this.addSingleItemToAssort(assortTable, MONO_ID, false, 4, 3, Money.EUROS, 500); //LL3
-
-        //Misc
-        const GPU_ID = "57347ca924597744596b4e71";
-        this.addSingleItemToAssort(assortTable, GPU_ID, false, 1, 3, Money.EUROS, 1500); //LL3
-        const WIRE_ID = "5c06779c86f77426e00dd782";
-        this.addSingleItemToAssort(assortTable, WIRE_ID, false, 16, 1, Money.EUROS, 75);
-        const LUBE_ID = "5bc9b355d4351e6d1509862a";
-        this.addSingleItemToAssort(assortTable, LUBE_ID, false, 16, 1, Money.EUROS, 200);
-        const FUEL_ID = "5d1b36a186f7742523398433";
-        this.addSingleItemToAssort(assortTable, FUEL_ID, false, 2, 2, Money.EUROS, 350); //LL2
-        const OFZ_ID = "5d0379a886f77420407aa271";
-        this.addSingleItemToAssort(assortTable, OFZ_ID, false, 8, 2, Money.EUROS, 500); //LL2
-        const GAS_ID = "590c595c86f7747884343ad7";
-        this.addSingleItemToAssort(assortTable, GAS_ID, false, 4, 1, Money.EUROS, 230);
-        const TOOL_ID = "590c2e1186f77425357b6124";
-        this.addSingleItemToAssort(assortTable, TOOL_ID, false, 2, 1, Money.EUROS, 299);
-        const KITE_ID = "590c5a7286f7747884343aea";
-        this.addSingleItemToAssort(assortTable, KITE_ID, false, 2, 1, Money.EUROS, 90);
-        const HAWK_ID = "5d6fc87386f77449db3db94e";
-        this.addSingleItemToAssort(assortTable, HAWK_ID, false, 2, 3, Money.EUROS, 220); //LL3
-        const EAGLE_ID = "5d6fc78386f77449d825f9dc";
-        this.addSingleItemToAssort(assortTable, EAGLE_ID, false, 2, 2, Money.EUROS, 190); //LL2
-        const ZIPPO_ID = "56742c2e4bdc2d95058b456d";
-        this.addSingleItemToAssort(assortTable, ZIPPO_ID, false, 3, 1, Money.EUROS, 25);
-        const PMEDS_ID = "5d1b3a5d86f774252167ba22";
-        this.addSingleItemToAssort(assortTable, PMEDS_ID, false, 30, 1, Money.EUROS, 25);
-        const MEDT_ID = "619cc01e0a7c3a1a2731940c";
-        this.addSingleItemToAssort(assortTable, MEDT_ID, false, 10, 1, Money.EUROS, 40);
-        const MILTUBE_ID = "619cbf476b8a1b37a54eebf8";
-        this.addSingleItemToAssort(assortTable, MILTUBE_ID, false, 5, 2, Money.EUROS, 150); //LL2
-        const RATP_ID = "60b0f561c4449e4cb624c1d7";
-        this.addSingleItemToAssort(assortTable, RATP_ID, false, 3, 1, Money.EUROS, 270);
-        const GBAT_ID = "5e2aedd986f7746d404f3aa4";
-        this.addSingleItemToAssort(assortTable, GBAT_ID, false, 4, 1, Money.EUROS, 500);
-        const ACDC_ID = "6389c85357baa773a825b356";
-        this.addSingleItemToAssort(assortTable, ACDC_ID, false, 1, 4, Money.EUROS, 20000); //LL4
-        const MILCAB_ID = "5d0375ff86f774186372f685";
-        this.addSingleItemToAssort(assortTable, MILCAB_ID, false, 2, 3, Money.EUROS, 300); //LL3
-        const PCB_ID = "590a3b0486f7743954552bdb";
-        this.addSingleItemToAssort(assortTable, PCB_ID, false, 3, 1, Money.EUROS, 200);
-        const MDYKES_ID = "5d40419286f774318526545f";
-        this.addSingleItemToAssort(assortTable, MDYKES_ID, false, 1, 1, Money.EUROS, 175);
-        const TP200_ID = "60391b0fb847c71012789415";
-        this.addSingleItemToAssort(assortTable, TP200_ID, false, 1, 2, Money.EUROS, 250); //LL2
-        const THERMITE_ID = "60391a8b3364dc22b04d0ce5";
-        this.addSingleItemToAssort(assortTable, THERMITE_ID, false, 2, 4, Money.EUROS, 500); //LL4
-        const LABS_ID = "5c94bbff86f7747ee735c08f";
-        this.addSingleItemToAssort(assortTable, LABS_ID, false, 1, 4, Money.EUROS, 2500); //LL4
-
-
-        //Medical
-        const SURV_ID = "5d02797c86f774203f38e30a";
-        this.addSingleItemToAssort(assortTable, SURV_ID, false, 1, 3, Money.EUROS, 750); //LL3
-        const IFAK_ID = "590c678286f77426c9660122";
-        this.addSingleItemToAssort(assortTable, IFAK_ID, false, 3, 1, Money.EUROS, 175);
-        const CMS_ID = "5d02778e86f774203e7dedbe";
-        this.addSingleItemToAssort(assortTable, CMS_ID, false, 3, 1, Money.EUROS, 250);
-        const CALOK_ID = "5e8488fa988a8701445df1e4";
-        this.addSingleItemToAssort(assortTable, CALOK_ID, false, 6, 2, Money.EUROS, 100); //LL2
-
-        //Cases
-        const AMM_ID = "5aafbde786f774389d0cbc0f";
-        this.addSingleItemToAssort(assortTable, AMM_ID, false, 1, 2, Money.EUROS, 2100); //LL2
-        const GREN_ID = "5e2af55f86f7746d4159f07c";
-        this.addSingleItemToAssort(assortTable, GREN_ID, false, 1, 1, Money.EUROS, 1500);
-        const MON_ID = "59fb016586f7746d0d4b423a";
-        this.addSingleItemToAssort(assortTable, MON_ID, false, 1, 1, Money.EUROS, 2800);
-        const DOC_ID = "590c60fc86f77412b13fddcf";
-        this.addSingleItemToAssort(assortTable, DOC_ID, false, 1, 2, Money.EUROS, 1250); //LL2
-        const GINGY_ID = "62a09d3bcf4a99369e262447";
-        this.addSingleItemToAssort(assortTable, GINGY_ID, false, 1, 1, Money.EUROS, 50);
-
-        //Food
-        const COLA_ID = "57514643245977207f2c2d09";
-        this.addSingleItemToAssort(assortTable, COLA_ID, false, 30, 1, Money.EUROS, 25);
-        const DAN_ID = "5d403f9186f7743cac3f229b";
-        this.addSingleItemToAssort(assortTable, DAN_ID, false, 15, 1, Money.EUROS, 200);
-        const MRE_ID = "590c5f0d86f77413997acfab";
-        this.addSingleItemToAssort(assortTable, MRE_ID, false, 15, 2, Money.EUROS, 100); //LL2
-        const CRACK_ID = "5448ff904bdc2d6f028b456e";
-        this.addSingleItemToAssort(assortTable, CRACK_ID, false, 30, 1, Money.EUROS, 25);
-        const WATER_ID = "5448fee04bdc2dbc018b4567";
-        this.addSingleItemToAssort(assortTable, WATER_ID, false, 15, 2, Money.EUROS, 100); //LL2
-
-        //Conversion
-        const USD_ID = "5696686a4bdc2da3298b456a";
-        this.addSingleItemToAssort(assortTable, USD_ID, true, 25000000, 1, Money.EUROS, 1);
-        const EURO_ID = "569668774bdc2da2298b4568";
-        this.addSingleItemToAssort(assortTable, EURO_ID, true, 25000000, 1, Money.DOLLARS, 1);
-        
-        //Guns
-        // Get the G36 preset and add to the traders assort (Could make your own Items[] array, doesnt have to be presets)
-        const g36GunPreset = tables.globals.ItemPresets["6297738b9f1b474e440c45b5"]._items;
-        this.addCollectionToAssort(jsonUtil, assortTable, g36GunPreset, false, 2, 1, Money.EUROS, 484);
-
-        const g36cGunPreset = tables.globals.ItemPresets["629774055c32d414f8797477"]._items;
-        this.addCollectionToAssort(jsonUtil, assortTable, g36cGunPreset, false, 2, 1, Money.EUROS, 520);
-
-        const sa58bGunPreset = tables.globals.ItemPresets["5b439b5686f77428bd137424"]._items;
-        this.addCollectionToAssort(jsonUtil, assortTable, sa58bGunPreset, false, 2, 3, Money.EUROS, 999); //LL3
-
-        const hk416GunPreset = tables.globals.ItemPresets["5c0d1e9386f77440120288b7"]._items;
-        this.addCollectionToAssort(jsonUtil, assortTable, hk416GunPreset, false, 2, 2, Money.EUROS, 720); //LL2
-
-        const augGunPreset = tables.globals.ItemPresets["6398636bb483a550805be5e5"]._items;
-        this.addCollectionToAssort(jsonUtil, assortTable, augGunPreset, false, 2, 2, Money.EUROS, 490); //LL2
-
-        const p226GunPreset = tables.globals.ItemPresets["584149242459775a7726350a"]._items;
-        this.addCollectionToAssort(jsonUtil, assortTable, p226GunPreset, false, 5, 1, Money.EUROS, 80);
-
-        const m4specGunPreset = tables.globals.ItemPresets["5ebbfe23ba87a5065a00a563"]._items;
-        this.addCollectionToAssort(jsonUtil, assortTable, m4specGunPreset, false, 1, 3, Money.EUROS, 2250); //LL3
-
-        const mpxGunPreset = tables.globals.ItemPresets["58dffca786f774083a256ab1"]._items;
-        this.addCollectionToAssort(jsonUtil, assortTable, mpxGunPreset, false, 1, 1, Money.EUROS, 345);
-
-        const g28GunPreset = tables.globals.ItemPresets["6193e590069d61205d490dd8"]._items;
-        this.addCollectionToAssort(jsonUtil, assortTable, g28GunPreset, false, 1, 4, Money.EUROS, 2800); //LL4
-        
-        const m3GunPreset = tables.globals.ItemPresets["62975de85c32d414f8797433"]._items;
-        this.addCollectionToAssort(jsonUtil, assortTable, m3GunPreset, false, 1, 2, Money.EUROS, 290); //LL2
-
-        const p90GunPreset = tables.globals.ItemPresets["5d2340e986f77461496241bc"]._items;
-        this.addCollectionToAssort(jsonUtil, assortTable, p90GunPreset, false, 1, 2, Money.EUROS, 2000); //LL2
-
-        const MCXGunPreset = tables.globals.ItemPresets["657eb3773271d8578610fe28"]._items;
-        this.addCollectionToAssort(jsonUtil, assortTable, MCXGunPreset, false, 1, 2, Money.EUROS, 2500); //LL2
-
-        return assortTable;
-    }*/
 
     /**
      * Add item to assortTable + barter scheme + loyalty level objects
