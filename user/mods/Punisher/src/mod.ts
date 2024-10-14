@@ -421,7 +421,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                 },
                 {
                   "_id": "korundvm_5lvl_l",
-                  "_tpl": "5f5f41476bdad616ad46d631",
+                  "_tpl": "656f664200d62bcd2e024077",
                   "parentId": "hideout",
                   "slotId": "hideout",
                   "upd": {
@@ -542,6 +542,18 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                 "slotId": "Right_side_plate"
               },
                 //? ==========================WEAPON==========================
+                {
+                  "_id": "Reapir",
+                  "_tpl": "5a1eaa87fcdbcb001865f75e",
+                  "parentId": "hideout",
+                  "slotId": "hideout",
+                  "upd": {
+                      "UnlimitedCount": true,
+                       "StackObjectsCount": 9999999,
+                       "BuyRestrictionMax": 1,
+                       "BuyRestrictionCurrent": 0
+                  }
+              },
                 {
                     "_id": "PM",
                     "_tpl": "5448bd6b4bdc2dfc2f8b4569",
@@ -1575,7 +1587,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                 "parentId": "hideout",
                 "slotId": "hideout",
                 "upd": {
-                    "UnlimitedCount": true,
+                    "UnlimitedCount": false,
                     "StackObjectsCount": 1 
                 }
               },
@@ -1842,6 +1854,14 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
+                "Reapir": [
+                  [
+                      {
+                          "_tpl": "6656560053eaaa7a23349c86",
+                          "count": 3
+                      }
+                  ]
+              ],
                 "MP5_600EU": [
                     [
                         {
@@ -2020,7 +2040,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     ]
                 ]
             },
-            "loyal_level_items": {
+            "loyal_level_items": { //! Добавить TXdml = g28/1L 
               //* === LVL1 ===
               "PM":1,
               "RGO":1,
@@ -2065,11 +2085,12 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
               "kiteco_6lvl":3,
               "kiteco_6lvl_l":3,
               "Flir":3,
+              "Reapir":3,
               "w_thicc":3,
               "red_zr":3,
               "THOR":3,
+              "fast_black": 3,
               //* === LVL4 ===
-              "fast_black": 4,
               "thicc_item":4
           }
         }
