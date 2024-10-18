@@ -55,7 +55,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
         const ragfairConfig = configServer.getConfig<IRagfairConfig>(ConfigTypes.RAGFAIR);
 
         //Custom Logger, Don't worry it's fake bullshit for flair
-        this.logger.info("Punisher ACTIVE");
+        this.logger.info("Punisher: ACTIVATED");
         
         //Meta crap i guess
         this.registerProfileImage(preSptModLoader, imageRouter);
@@ -66,7 +66,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
         // Add trader to trader enum
         Traders[baseJson._id] = baseJson._id;
         // Add trader to flea market
-        ragfairConfig.traders[baseJson._id] = false;
+        ragfairConfig.traders[baseJson._id] = false; //! Добавить
 
     }
 
