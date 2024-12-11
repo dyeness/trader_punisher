@@ -791,7 +791,7 @@
                     "oneSessionOnly": false,
                     "parentId": "",
                     "type": "Elimination",
-                    "value": 10,
+                    "value": 5,
                     "visibilityConditions": []
                 }
             ],
@@ -1314,7 +1314,7 @@
                     "id": "Punisher_9_Reward_0",
                     "index": 0,
                     "type": "Experience",
-                    "value": "50420"
+                    "value": "90420"
                 },
                 {
                     "id": "Punisher_9_Reward_1",
@@ -1339,13 +1339,13 @@
                             "_id": "Punisher_9_LEDX_0",
                             "_tpl": "5c0530ee86f774697952d952",
                             "upd": {
-                                "StackObjectsCount": 1
+                                "StackObjectsCount": 3
                             }
                         }
                     ],
                     "target": "Punisher_9_LEDX_0",
                     "type": "Item",
-                    "value": "1"
+                    "value": "3"
                 }
             ]
         },
@@ -1562,7 +1562,7 @@
                     "id": "Punisher_10_Reward_1",
                     "index": 0,
                     "type": "Experience",
-                    "value": "60000"
+                    "value": "150000"
                 },
                 {
                     "findInRaid": true,
@@ -1573,13 +1573,13 @@
                             "_id": "Punisher_10_Reward_Roubles",
                             "_tpl": "6656560053eaaa7a23349c86",
                             "upd": {
-                                "StackObjectsCount": 5
+                                "StackObjectsCount": 7
                             }
                         }
                     ],
                     "target": "Punisher_10_Reward_Roubles",
                     "type": "Item",
-                    "value": "5"
+                    "value": "7"
                 },
                 {
                     "findInRaid": true,
@@ -1590,41 +1590,41 @@
                             "_id": "Punisher_10_Reward_tetriz",
                             "_tpl": "5c052e6986f7746b207bc3c9",
                             "upd": {
-                                "StackObjectsCount": 1
+                                "StackObjectsCount": 4
                             }
                         }
                     ],
                     "target": "Punisher_10_Reward_tetriz",
                     "type": "Item",
-                    "value": "1"
+                    "value": "4"
                 },
                 {
                     "id": "Punisher_9_Reward_2",
                     "index": 3,
                     "type": "Skill",
                     "target": "Sniper", 
-                    "value": 300 
+                    "value": 500 
                 },
                 {
                     "id": "Punisher_9_Reward_2",
                     "index": 4,
                     "type": "Skill",
                     "target": "StressResistance", 
-                    "value": 100 
+                    "value": 500 
                 },
                 {
                     "id": "Punisher_9_Reward_2",
                     "index": 5,
                     "type": "Skill",
                     "target": "RecoilControl", 
-                    "value": 200 
+                    "value": 500 
                 },
                 {
                     "id": "Punisher_10_Reward_5",
                     "index": 6,
                     "target": "Punisher",
                     "type": "TraderStanding",
-                    "value": "0.50"
+                    "value": "1.00"
                 }
             ]
         },
@@ -1690,11 +1690,11 @@
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
                     "id": "Punisher_11 AFF_0",
-                    "index": 1,
+                    "index": 0,
                     "oneSessionOnly": false,
                     "parentId": "",
                     "type": "Elimination",
-                    "value": 8,
+                    "value": 5,
                     "visibilityConditions": []
                 }
             ],
@@ -1735,7 +1735,7 @@
                     "id": "Punisher_11_Reward_1",
                     "index": 0,
                     "type": "Experience",
-                    "value": "35000"
+                    "value": "50000"
                 },
                 {
                     "findInRaid": true,
@@ -1746,20 +1746,20 @@
                             "_id": "Punisher_11_gpu",
                             "_tpl": "57347ca924597744596b4e71",
                             "upd": {
-                                "StackObjectsCount": 1
+                                "StackObjectsCount": 3
                             }
                         }
                     ],
                     "target": "Punisher_11_gpu",
                     "type": "Item",
-                    "value": "1"
+                    "value": "3"
                 },
                 {
                     "id": "Punisher_11_Reward_3",
                     "index": 2,
                     "target": "Punisher",
                     "type": "TraderStanding",
-                    "value": "0.20"
+                    "value": "0.30"
                 },
                 {
                     "findInRaid": true,
@@ -1770,7 +1770,7 @@
                             "_id": "Punisher_11_kit",
                             "_tpl": "5910968f86f77425cf569c32",
                             "upd": {
-                                "StackObjectsCount": 1
+                                "StackObjectsCount": 5
                             }
                         }
                     ],
@@ -2050,13 +2050,13 @@
                             "_id": "Punisher_12_gpu",
                             "_tpl": "57347ca924597744596b4e71",
                             "upd": {
-                                "StackObjectsCount": 2
+                                "StackObjectsCount": 5
                             }
                         }
                     ],
                     "target": "Punisher_12_gpu",
                     "type": "Item",
-                    "value": "2"
+                    "value": "5"
                 },
                 {
                     "id": "Punisher_12_Reward_3",
@@ -2204,13 +2204,13 @@
                             "_id": "Punisher_13_Reward_Roubles",
                             "_tpl": "569668774bdc2da2298b4568",
                             "upd": {
-                                "StackObjectsCount": 500
+                                "StackObjectsCount": 1111
                             }
                         }
                     ],
                     "target": "Punisher_13_Reward_Roubles",
                     "type": "Item",
-                    "value": "500"
+                    "value": "1111"
                 },
                 {
                     "id": "Punisher_13_Reward_3",
@@ -2285,7 +2285,7 @@
                     "oneSessionOnly": false,
                     "parentId": "",
                     "type": "Elimination",
-                    "value": 50,
+                    "value": 100,
                     "visibilityConditions": []
                 }
             ],
@@ -2342,21 +2342,21 @@
                     "index": 0,
                     "type": "Skill",
                     "target": "AimDrills", 
-                    "value": 1000 
+                    "value":2000 
                 },
                 {
                     "id": "Punisher_14_Reward_2",
                     "index": 1,
                     "type": "Skill",
                     "target": "RecoilControl", 
-                    "value": 1000  
+                    "value": 2000 
                 },
                 {
                     "id": "Punisher_14_Reward_3",
                     "index": 2,
                     "type": "Skill",
                     "target": "Strength", 
-                    "value": 1000  
+                    "value": 2000  
                 },
                 {
                     "findInRaid": true,
@@ -2367,20 +2367,20 @@
                             "_id": "Punisher_14_Reward_thicc",
                             "_tpl": "5c0a840b86f7742ffa4f2482",
                             "upd": {
-                                "StackObjectsCount": 1
+                                "StackObjectsCount": 2
                             }
                         }
                     ],
                     "target": "Punisher_14_Reward_thicc",
                     "type": "Item",
-                    "value": "1"
+                    "value": "2"
                 },
                 {
                     "id": "Punisher_14_Reward_5",
                     "index": 4,
                     "target": "Punisher",
                     "type": "TraderStanding",
-                    "value": "0.50"
+                    "value": "1.00"
                 }
             ]
         },
@@ -2976,7 +2976,7 @@
                     "index": 0,
                     "type": "Skill",
                     "target": "Endurance", 
-                    "value": 500 
+                    "value": 1000 
                 },
                 {
                     "findInRaid": true,
@@ -3592,7 +3592,7 @@
                     "id": "Punisher_18_Reward_1",
                     "index": 0,
                     "type": "Experience",
-                    "value": "80000"
+                    "value": "200000"
                 },
                 {
                     "findInRaid": true,
@@ -3627,13 +3627,13 @@
                             "_id": "Punisher_18_Reward_ig",
                             "_tpl": "657025ebc5d7d4cb4d078588",
                             "upd": {
-                                "StackObjectsCount": 200
+                                "StackObjectsCount": 600
                             }
                         }
                     ],
                     "target": "Punisher_18_Reward_ig",
                     "type": "Item",
-                    "value": "200"
+                    "value": "600"
                 },
                 {
                     "findInRaid": true,
@@ -3644,13 +3644,13 @@
                             "_id": "Punisher_18_gpu",
                             "_tpl": "57347ca924597744596b4e71",
                             "upd": {
-                                "StackObjectsCount": 3
+                                "StackObjectsCount": 5
                             }
                         }
                     ],
                     "target": "Punisher_18_gpu",
                     "type": "Item",
-                    "value": "3"
+                    "value": "5"
                 }
             ]
         },
@@ -3842,7 +3842,7 @@
         "type": "Elimination"
     },
     "Punisher_20": {
-        "QuestName": "Отголоски из армы",
+        "QuestName": "Карточный коллекционер | E",
         "_id": "Punisher_20",
         "canShowNotificationsInGame": true,
         "changeQuestMessageText": "Punisher_20 changeQuestMessageText",
