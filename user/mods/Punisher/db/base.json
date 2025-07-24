@@ -1,5 +1,5 @@
 {
-    "_id": "Punisher",
+    "_id": "67b0e495292db8850f2b2b67",
     "working": true,
     "availableInRaid": false,
     "items_buy": {
@@ -12,7 +12,7 @@
     "surname": "Неизвестно",
     "nickname": "Каратель",
     "location": "Берег",
-    "avatar": "/files/trader/avatar/punisher.jpg",
+    "avatar": "/files/trader/avatar/67b0e495292db8850f2b2b67.jpg",
     "balance_rub": 50000000,
     "balance_dol": 0,
     "balance_eur": 0,
@@ -44,7 +44,7 @@
         "minLevel": 15,
         "minSalesSum": 0,
         "minStanding": 0,
-        "buy_price_coef": 35,
+        "buy_price_coef": 30,
         "repair_price_coef": 300,
         "insurance_price_coef": 10,
         "exchange_price_coef": 0,

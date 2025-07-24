@@ -86,7 +86,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
 
         // Add new trader to the trader dictionary in DatabaseServer
         this.addTraderToDb(baseJson, tables, jsonUtil);
-        this.addTraderToLocales(tables, baseJson.name, "Punisher", baseJson.nickname, baseJson.location, "До конфликта работал наемным киллером, выполняя самые конченные заказы. Тарков стал местом, где можно спрятаться и продолжить свою спокойную жизнь. На сегодняшний день имеет подземное убежище на берегу. Из-за изобилия денежных ресурсов стал выдавать задачи, требующие особые навыки и выдержку. Не очень любит скупщика.");
+        this.addTraderToLocales(tables, baseJson.name, "Каратель", baseJson.nickname, baseJson.location, "До конфликта работал наемным киллером, выполняя самые конченные заказы. Тарков стал местом, где можно спрятаться и продолжить свою спокойную жизнь. На сегодняшний день имеет подземное убежище на берегу. Из-за изобилия денежных ресурсов стал выдавать задачи, требующие особые навыки и выдержку. Не очень любит скупщика.");
 
         this.logger.debug(`[${this.mod}] postDb Loaded`);
 
@@ -103,7 +103,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
         const imageFilepath = `./${preSptModLoader.getModPath(this.mod)}res`;
 
         // Register a route to point to the profile picture
-        imageRouter.addRoute(baseJson.avatar.replace(".jpg", ""), `${imageFilepath}/Punisher.jpg`);
+        imageRouter.addRoute(baseJson.avatar.replace(".jpg", ""), `${imageFilepath}/67b0e495292db8850f2b2b67.jpg`);
     }
 
     /**
@@ -161,7 +161,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
             items: [
                 //? ===========================AMMO===========================
                 {
-                    "_id": "RGO",
+                    "_id": "67b0eb8beaed4c93b7e20619",
                     "_tpl": "618a431df1eb8e24b8741deb",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -171,7 +171,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                    "_id": "7n40",
+                    "_id": "67b0ec79de78ad5768e43f94",
                     "_tpl": "61962b617c6c7b169525f168",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -181,7 +181,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                    "_id": "m433",
+                    "_id": "67b0d7cf33f19aafa59b67ef",
                     "_tpl": "5f0c892565703e5c461894e9", 
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -191,7 +191,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                    "_id": "Igla",
+                    "_id": "67b0d7e37f33f30f091e3c4c",
                     "_tpl": "5c0d5e4486f77478390952fe",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -201,7 +201,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                    "_id": "m61",
+                    "_id": "67b0d7ed486dd1971322bda7",
                     "_tpl": "5a6086ea4f39f99cd479502f",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -211,7 +211,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                    "_id": "MAI_AP", 
+                    "_id": "67b0d8028a5b012868fbdd32", 
                     "_tpl": "601aa3d2b2bcb34913271e6d",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -221,7 +221,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                    "_id": "m993", 
+                    "_id": "67b0d80f23d34bc138ca6331", 
                     "_tpl": "5efb0c1bd79ff02a1f5e68d9",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -231,7 +231,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                    "_id": "bs", 
+                    "_id": "67b0d81b9b788721b0921fb2", 
                     "_tpl": "5e023d48186a883be655e551",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -241,7 +241,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                    "_id": "lm_ap", 
+                    "_id": "67b0d82535fef9417accd915", 
                     "_tpl": "5fc382a9d724d907e2077dab",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -252,7 +252,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                 },
                 //? ==========================ARMOR===========================
                 {
-                    "_id": "LBT",
+                    "_id": "67b0d83590986e6f1487c02d",
                     "_tpl": "5e9db13186f7742f845ee9d3",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -262,7 +262,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                    "_id": "6sh",
+                    "_id": "67b0d87638187b38b06e795c",
                     "_tpl": "5df8a4d786f77412672a1e3b",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -272,7 +272,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                    "_id": "fast_black",
+                    "_id": "67b0d884e79303fdd740f2a5",
                     "_tpl": "5a154d5cfcdbcb001a3b00da",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -282,25 +282,25 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                  "_id": "f1",
+                  "_id": "67b0ecd8eb71e7f869895bb1",
                   "_tpl": "657f8ec5f4c82973640b234c",
-                  "parentId": "fast_black",
+                  "parentId": "67b0d884e79303fdd740f2a5",
                   "slotId": "Helmet_top"
                 },
                 {
-                  "_id": "f2",
+                  "_id": "67b0ecda174bec2cf194308f",
                   "_tpl": "657f8f10f4c82973640b2350",
-                  "parentId": "fast_black",
+                  "parentId": "67b0d884e79303fdd740f2a5",
                   "slotId": "Helmet_back"
                 },
                 {
-                  "_id": "f3",
+                  "_id": "67b0ecdc7e37261ef989ba37",
                   "_tpl": "5a16b7e1fcdbcb00165aa6c9",
-                  "parentId": "fast_black",
+                  "parentId": "67b0d884e79303fdd740f2a5",
                   "slotId": "mod_equipment_000"
                 },
                 { // *Plates
-                    "_id": "slick_black",
+                    "_id": "67b0d8f56f25d7662a9f1465",
                     "_tpl": "5e4abb5086f77406975c9342", // 6575e71760703324250610c3 , 6575e72660703324250610c7
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -312,31 +312,31 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                    "_id": "slick_black_Fa",
+                    "_id": "67b0ed4bb28ddae85e3d6644",
                     "_tpl": "6575e71760703324250610c3",
-                    "parentId": "slick_black",
+                    "parentId": "67b0d8f56f25d7662a9f1465",
                     "slotId": "Soft_armor_front"
                   },
                   {
-                    "_id": "slick_black_Ba",
+                    "_id": "67b0ed4914ec853aa4dd1017",
                     "_tpl": "6575e72660703324250610c7",
-                    "parentId": "slick_black",
+                    "parentId": "67b0d8f56f25d7662a9f1465",
                     "slotId": "Soft_armor_back"
                   },
                   {
-                    "_id": "slick_black_F",
+                    "_id": "67b0ed460d10f8a0620bd404",
                     "_tpl": "656fafe3498d1b7e3e071da4",
-                    "parentId": "slick_black",
+                    "parentId": "67b0d8f56f25d7662a9f1465",
                     "slotId": "Front_plate"
                   },
                   {
-                    "_id": "slick_black_B",
+                    "_id": "67b0ed44b3d1fda43b31b014",
                     "_tpl": "656fafe3498d1b7e3e071da4",
-                    "parentId": "slick_black",
+                    "parentId": "67b0d8f56f25d7662a9f1465",
                     "slotId": "Back_plate"
                   },
                 { // *Plates
-                    "_id": "slick_olive",
+                    "_id": "67b0d9e835826a6cc64565b6",
                     "_tpl": "6038b4ca92ec1c3103795a0d",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -348,31 +348,31 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                    "_id": "slick_olive_Fa",
+                    "_id": "67b0ed3bd31255d62794688b",
                     "_tpl": "6575e71760703324250610c3",
-                    "parentId": "slick_olive",
+                    "parentId": "67b0d9e835826a6cc64565b6",
                     "slotId": "Soft_armor_front"
                   },
                   {
-                    "_id": "slick_olive_Ba",
+                    "_id": "67b0ed3cb4055abf865a90ef",
                     "_tpl": "6575e72660703324250610c7",
-                    "parentId": "slick_olive",
+                    "parentId": "67b0d9e835826a6cc64565b6",
                     "slotId": "Soft_armor_back"
                   },
                   {
-                    "_id": "slick_olive_F",
+                    "_id": "67b0ed3effc223e63c4e3d3f",
                     "_tpl": "656fafe3498d1b7e3e071da4",
-                    "parentId": "slick_olive",
+                    "parentId": "67b0d9e835826a6cc64565b6",
                     "slotId": "Front_plate"
                   },
                   {
-                    "_id": "slick_olive_B",
+                    "_id": "67b0ed3fb06ae816508299c4",
                     "_tpl": "656fb0bd7c2d57afe200c0dc",
-                    "parentId": "slick_olive",
+                    "parentId": "67b0d9e835826a6cc64565b6",
                     "slotId": "Back_plate"
                   },
                 { // *Plates
-                    "_id": "slick_tan",
+                    "_id": "67b0ed271450ee8575f127e7",
                     "_tpl": "6038b4b292ec1c3103795a0b",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -384,31 +384,31 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                    "_id": "slick_tan_Fa",
+                    "_id": "67b0ed2db2d4d1f222d3ab2c",
                     "_tpl": "6575e71760703324250610c3",
-                    "parentId": "slick_tan",
+                    "parentId": "67b0ed271450ee8575f127e7",
                     "slotId": "Soft_armor_front"
                   },
                   {
-                    "_id": "slick_tan_Ba",
+                    "_id": "67b0ed307714168d5d3a9afd",
                     "_tpl": "6575e72660703324250610c7",
-                    "parentId": "slick_tan",
+                    "parentId": "67b0ed271450ee8575f127e7",
                     "slotId": "Soft_armor_back"
                   },
                   {
-                    "_id": "slick_tan_F",
+                    "_id": "67b0ed32851fc3f9bb86ed8c",
                     "_tpl": "656fafe3498d1b7e3e071da4",
-                    "parentId": "slick_tan",
+                    "parentId": "67b0ed271450ee8575f127e7",
                     "slotId": "Front_plate"
                   },
                   {
-                    "_id": "slick_tan_B",
+                    "_id": "67b0ed360ac189638af912ab",
                     "_tpl": "656fb0bd7c2d57afe200c0dc",
-                    "parentId": "slick_tan",
+                    "parentId": "67b0ed271450ee8575f127e7",
                     "slotId": "Back_plate"
                   },
                 {
-                    "_id": "gac_5lvl",
+                    "_id": "67b0da7ce97e58bca8ddea17",
                     "_tpl": "656fae5f7c2d57afe200c0d7",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -418,7 +418,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                  "_id": "gac_5lvl_l",
+                  "_id": "67b0da75176bb93564d7e950",
                   "_tpl": "656fae5f7c2d57afe200c0d7",
                   "parentId": "hideout",
                   "slotId": "hideout",
@@ -428,7 +428,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                   }
               },
                 {
-                    "_id": "korundvm_5lvl",
+                    "_id": "67b0dacf10c694a7644b324c",
                     "_tpl": "656f664200d62bcd2e024077",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -438,7 +438,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                  "_id": "korundvm_5lvl_l",
+                  "_id": "67b0dac153279840c1d5e083",
                   "_tpl": "656f664200d62bcd2e024077",
                   "parentId": "hideout",
                   "slotId": "hideout",
@@ -448,7 +448,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                   }
               },
                 {
-                    "_id": "kiteco_6lvl",
+                    "_id": "67b0daf50670f3ebc62aeafe",
                     "_tpl": "656fafe3498d1b7e3e071da4",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -458,7 +458,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                  "_id": "kiteco_6lvl_l",
+                  "_id": "67b0daec550c9e0887169b1b",
                   "_tpl": "656fafe3498d1b7e3e071da4",
                   "parentId": "hideout",
                   "slotId": "hideout",
@@ -468,7 +468,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                   }
               },
                 {
-                  "_id": "red_zr",
+                  "_id": "67b0dafd81f2a8576e876f53",
                   "_tpl": "6530e8587cbfc1e309011e37",
                   "parentId": "hideout",
                   "slotId": "hideout",
@@ -478,7 +478,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                   }
               },
               {
-                "_id": "THOR",
+                "_id": "67b0db0a86bebaf2c931b8b6",
                 "_tpl": "60a283193cb70855c43a381d",
                 "parentId": "hideout",
                 "slotId": "hideout",
@@ -488,80 +488,80 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
               }
               },
               {
-                "_id": "576ea8e46600d80c70ba7db",
+                "_id": "67b0db2a35276fdb9b98284d",
                 "_tpl": "6575d561b15fef3dd4051670",
-                "parentId": "THOR",
+                "parentId": "67b0db0a86bebaf2c931b8b6",
                 "slotId": "Soft_armor_front"
               },
               {
-                "_id": "576ea8e46600d80c70ba7dc",
+                "_id": "67b0db2dfad093d22fdd268c",
                 "_tpl": "6575d56b16c2762fba005818",
-                "parentId": "THOR",
+                "parentId": "67b0db0a86bebaf2c931b8b6",
                 "slotId": "Soft_armor_back"
               },
               {
-                "_id": "576ea8e46600d80c70ba7dd",
+                "_id": "67b0db301068c4ac20204b14",
                 "_tpl": "6575d57a16c2762fba00581c",
-                "parentId": "THOR",
+                "parentId": "67b0db0a86bebaf2c931b8b6",
                 "slotId": "Soft_armor_left"
               },
               {
-                "_id": "576ea8e46600d80c70ba7de",
+                "_id": "67b0db32e26d135fafbb69ef",
                 "_tpl": "6575d589b15fef3dd4051674",
-                "parentId": "THOR",
+                "parentId": "67b0db0a86bebaf2c931b8b6",
                 "slotId": "soft_armor_right"
               },
               {
-                "_id": "576ea8e46600d80c70ba7df",
+                "_id": "67b0db349e04116a5402224c",
                 "_tpl": "6575d598b15fef3dd4051678",
-                "parentId": "THOR",
+                "parentId": "67b0db0a86bebaf2c931b8b6",
                 "slotId": "Collar"
               },
               {
-                "_id": "576ea8e46600d80c70ba7e0",
+                "_id": "67b0db37f6937adb22e6d944",
                 "_tpl": "6575d5b316c2762fba005824",
-                "parentId": "THOR",
+                "parentId": "67b0db0a86bebaf2c931b8b6",
                 "slotId": "Shoulder_l"
               },
               {
-                "_id": "576ea8e46600d80c70ba7e1",
+                "_id": "67b0db3a46e0476da27d1b3a",
                 "_tpl": "6575d5bd16c2762fba005828",
-                "parentId": "THOR",
+                "parentId": "67b0db0a86bebaf2c931b8b6",
                 "slotId": "Shoulder_r"
               },
               {
-                "_id": "576ea8e46600d80c70ba7e2",
+                "_id": "67b0db46f9110d8afa69c350",
                 "_tpl": "6575d5a616c2762fba005820",
-                "parentId": "THOR",
+                "parentId": "67b0db0a86bebaf2c931b8b6",
                 "slotId": "Groin"
               },
               {
-                "_id": "576ea8e46600d80c70ba7e3",
+                "_id": "67b0db4e11e1e4d99f19543a",
                 "_tpl": "656fa61e94b480b8a500c0e8",
-                "parentId": "THOR",
+                "parentId": "67b0db0a86bebaf2c931b8b6",
                 "slotId": "Front_plate"
               },
               {
-                "_id": "576ea8e46600d80c70ba7e4",
+                "_id": "67b0db4fe7cd2fc81b22bceb",
                 "_tpl": "656fa61e94b480b8a500c0e8",
-                "parentId": "THOR",
+                "parentId": "67b0db0a86bebaf2c931b8b6",
                 "slotId": "Back_plate"
               },
               {
-                "_id": "576ea8e46600d80c70ba7e5",
+                "_id": "67b0db51208ec59622724712",
                 "_tpl": "64afdb577bb3bfe8fe03fd1d",
-                "parentId": "THOR",
+                "parentId": "67b0db0a86bebaf2c931b8b6",
                 "slotId": "Left_side_plate"
               },
               {
-                "_id": "576ea8e46600d80c70ba7e6",
+                "_id": "67b0db5c566a55749edb6a69",
                 "_tpl": "64afdb577bb3bfe8fe03fd1d",
-                "parentId": "THOR",
+                "parentId": "67b0db0a86bebaf2c931b8b6",
                 "slotId": "Right_side_plate"
               },
                 //? ==========================WEAPON==========================
                 {
-                  "_id": "Reapir",
+                  "_id": "67b0db6587f6ecae45aae058",
                   "_tpl": "5a1eaa87fcdbcb001865f75e",
                   "parentId": "hideout",
                   "slotId": "hideout",
@@ -573,7 +573,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                   }
               },
                 {
-                    "_id": "PM",
+                    "_id": "67b0dfffe0c24b45fc9b57b4",
                     "_tpl": "5448bd6b4bdc2dfc2f8b4569",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -583,31 +583,31 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                  "_id": "PM1",
+                  "_id": "67b0db8064e797b67475d021",
                   "_tpl": "5448c12b4bdc2d02308b456f",
-                  "parentId": "PM",
+                  "parentId": "67b0dfffe0c24b45fc9b57b4",
                   "slotId": "mod_magazine"
                 },
                 {
-                  "_id": "PM2",
+                  "_id": "67b0db8064e797b67475d022",
                   "_tpl": "6374a822e629013b9c0645c8",
-                  "parentId": "PM",
+                  "parentId": "67b0dfffe0c24b45fc9b57b4",
                   "slotId": "mod_reciever"
                 },
                 {
-                  "_id": "PM3",
+                  "_id": "67b0db8064e797b67475d022",
                   "_tpl": "63c6adcfb4ba094317063742",
                   "parentId": "666aa319e8e00edadd0d1da7",
                   "slotId": "mod_sight_rear"
                 },
                 {
-                  "_id": "PM4",
+                  "_id": "67b0db8064e797b67475d022",
                   "_tpl": "6374a7e7417239a7bf00f042",
-                  "parentId": "PM",
+                  "parentId": "67b0dfffe0c24b45fc9b57b4",
                   "slotId": "mod_pistolgrip"
                 },
                 {
-                    "_id": "Flir",
+                    "_id": "67b0dd05ad813bbfb5dd6f65",
                     "_tpl": "5d1b5e94d7ad1a2b865a96b0",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -619,7 +619,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                  "_id": "mdr_7",
+                  "_id": "67b0df40d45d3afd91ace149",
                   "_tpl": "5dcbd56fdbd3d91b3e5468d5",
                   "parentId": "hideout",
                   "slotId": "hideout",
@@ -633,43 +633,43 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                 {
                   "_id": "3971138adbad1a65f0e60187",
                   "_tpl": "5dcbd6dddbd3d91b3e5468de",
-                  "parentId": "mdr_7",
+                  "parentId": "67b0df40d45d3afd91ace149",
                   "slotId": "mod_pistol_grip"
                 },
                 {
                   "_id": "f887461f43722b9d019df4df",
                   "_tpl": "65293c7a17e14363030ad308",
-                  "parentId": "mdr_7",
+                  "parentId": "67b0df40d45d3afd91ace149",
                   "slotId": "mod_magazine"
                 },
                 {
                   "_id": "9bcdefb749d70ef76257db90",
                   "_tpl": "5c48a14f2e2216152006edd7",
-                  "parentId": "mdr_7",
+                  "parentId": "67b0df40d45d3afd91ace149",
                   "slotId": "mod_handguard"
                 },
                 {
                   "_id": "3ddf1c2494a18001dbfcf575",
                   "_tpl": "5dcbe9431e1f4616d354987e",
-                  "parentId": "mdr_7",
+                  "parentId": "67b0df40d45d3afd91ace149",
                   "slotId": "mod_barrel"
                 },
                 {
                   "_id": "b383779282fa3b89e6e2df2e",
                   "_tpl": "60a23797a37c940de7062d02",
-                  "parentId": "mdr_7",
+                  "parentId": "67b0df40d45d3afd91ace149",
                   "slotId": "mod_scope",
                 },
                 {
                   "_id": "5dff1da78a588a2a21c1c1a9",
                   "_tpl": "5894a81786f77427140b8347",
-                  "parentId": "mdr_7",
+                  "parentId": "67b0df40d45d3afd91ace149",
                   "slotId": "mod_sight_rear",
                 },
                 {
                   "_id": "dbcbc1bbdb7767a9f9465e05",
                   "_tpl": "5e023e53d4353e3302577c4c",
-                  "parentId": "mdr_7",
+                  "parentId": "67b0df40d45d3afd91ace149",
                   "slotId": "patron_in_weapon"
                 },
                 {
@@ -703,7 +703,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                   "slotId": "mod_foregrip"
                 },
                 {
-                  "_id": "mdr_7_l",
+                  "_id": "67b0de085b59fdd97f601f26",
                   "_tpl": "5dcbd56fdbd3d91b3e5468d5",
                   "parentId": "hideout",
                   "slotId": "hideout",
@@ -715,79 +715,79 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                 }
                 },
                 {
-                  "_id": "397118adbad1a65f0e60187",
+                  "_id": "67b0de75f858fa08e6b9a875",
                   "_tpl": "5dcbd6dddbd3d91b3e5468de",
-                  "parentId": "mdr_7_l",
+                  "parentId": "67b0de085b59fdd97f601f26",
                   "slotId": "mod_pistol_grip"
                 },
                 {
-                  "_id": "f8846143722b9d019df4df",
+                  "_id": "67b0de783a8d19e0e5c1eb3a",
                   "_tpl": "65293c7a17e14363030ad308",
-                  "parentId": "mdr_7_l",
+                  "parentId": "67b0de085b59fdd97f601f26",
                   "slotId": "mod_magazine"
                 },
                 {
-                  "_id": "9cdefb749d70ef76257db90", //! Хуета ебаная
+                  "_id": "67b0de085b59fdd97f601f28", //! Хуета ебаная
                   "_tpl": "5c48a14f2e2216152006edd7",
-                  "parentId": "mdr_7_l",
+                  "parentId": "67b0de085b59fdd97f601f26",
                   "slotId": "mod_handguard"
                 },
                 {
-                  "_id": "3df1c2494a18001dbfcf575", //! Хуета ебаная 2
+                  "_id": "67b0de085b59fdd97f601f55", //! Хуета ебаная 2
                   "_tpl": "5dcbe9431e1f4616d354987e",
-                  "parentId": "mdr_7_l",
+                  "parentId": "67b0de085b59fdd97f601f26",
                   "slotId": "mod_barrel"
                 },
                 {
-                  "_id": "383779282fa3b89e2df2e",
+                  "_id": "67b0de949ed701dc672fe9e8",
                   "_tpl": "60a23797a37c940de7062d02",
-                  "parentId": "mdr_7_l",
+                  "parentId": "67b0de085b59fdd97f601f26",
                   "slotId": "mod_scope",
                 },
                 {
-                  "_id": "dff1da78a588a2a21c1a9",
+                  "_id": "67b0de957a148179055c794e",
                   "_tpl": "5894a81786f77427140b8347",
-                  "parentId": "mdr_7_l",
+                  "parentId": "67b0de085b59fdd97f601f26",
                   "slotId": "mod_sight_rear",
                 },
                 {
-                  "_id": "bcbc1bbdb7767a9465e05",
+                  "_id": "67b0de9743c923592a95c622",
                   "_tpl": "5e023e53d4353e3302577c4c",
-                  "parentId": "mdr_7_l",
+                  "parentId": "67b0de085b59fdd97f601f26",
                   "slotId": "patron_in_weapon"
                 },
                 {
-                  "_id": "94cb4ce09f029d26e3e8bd9",
+                  "_id": "67b0de085b59fdd97f601f58",
                   "_tpl": "5b7be4895acfc400170e2dd5",
-                  "parentId": "9cdefb749d70ef76257db90",
+                  "parentId": "67b0de085b59fdd97f601f28",
                   "slotId": "mod_mount_000"
                 },
                 {
-                  "_id": "732b782af6675c1cebd6ef",
+                  "_id": "67b0dea37778d4638c92e9ad",
                   "_tpl": "6269545d0e57f218e4548ca2",
-                  "parentId": "9cdefb749d70ef76257db90",
+                  "parentId": "67b0de085b59fdd97f601f28",
                   "slotId": "mod_mount_002"
                 },
                 {
-                  "_id": "070493fdb237cdcacf5a37",
+                  "_id": "67b0dea51663445217ca85bb",
                   "_tpl": "5c18b90d2e2216152142466b",
-                  "parentId": "9cdefb749d70ef76257db90",
+                  "parentId": "67b0de085b59fdd97f601f28",
                   "slotId": "mod_sight_front",
                 },
                 {
-                  "_id": "9b152f1681fe87441e505b",
+                  "_id": "67b0dea776218bd46eaeab70",
                   "_tpl": "607ffb988900dc2d9a55b6e4",
-                  "parentId": "3df1c2494a18001dbfcf575",
+                  "parentId": "67b0de085b59fdd97f601f55",
                   "slotId": "mod_muzzle"
                 },
                 {
-                  "_id": "dbf8c41750d0e44f941",
+                  "_id": "67b0dea9a7b3fbea387406e0",
                   "_tpl": "64807a29e5ffe165600abc97",
-                  "parentId": "94cb4ce09f029d26e3e8bd9",
+                  "parentId": "67b0de085b59fdd97f601f58",
                   "slotId": "mod_foregrip"
                 },
                 {
-                  "_id": "kid_colt",
+                  "_id": "67b0dee890f073b776db5854",
                   "_tpl": "5447a9cd4bdc2dbd208b4567",
                   "parentId": "hideout",
                   "slotId": "hideout",
@@ -799,103 +799,103 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                 }
                 },
                 {
-                  "_id": "k12344412112",
+                  "_id": "67b0def0814097037c44c581",
                   "_tpl": "59db3a1d86f77429e05b4e92",
-                  "parentId": "kid_colt",
+                  "parentId": "67b0dee890f073b776db5854",
                   "slotId": "mod_pistol_grip"
                 },
                 {
-                  "_id": "k1234441211",
+                  "_id": "67b0def2287d6da74d88bad6",
                   "_tpl": "5aaa5dfee5b5b000140293d3",
-                  "parentId": "kid_colt",
+                  "parentId": "67b0dee890f073b776db5854",
                   "slotId": "mod_magazine"
                 },
                 {
-                  "_id": "k12344412",
+                  "_id": "67b0def9e6f4251638785d53",
                   "_tpl": "59bfe68886f7746004266202",
-                  "parentId": "kid_colt",
+                  "parentId": "67b0dee890f073b776db5854",
                   "slotId": "mod_reciever"
                 },
                 {
-                  "_id": "k1234441",
+                  "_id": "67b0def9e6f4251638785d55",
                   "_tpl": "5649be884bdc2d79388b4577",
-                  "parentId": "kid_colt",
+                  "parentId": "67b0dee890f073b776db5854",
                   "slotId": "mod_stock"
                 },
                 {
-                  "_id": "k123444121",
+                  "_id": "67b0ed86f0895fc53509b7ac",
                   "_tpl": "5b2240bf5acfc40dc528af69",
-                  "parentId": "kid_colt",
+                  "parentId": "67b0dee890f073b776db5854",
                   "slotId": "mod_charge"
                 },
                 {
-                  "_id": "k123444",
+                  "_id": "67b0def9e6f4251638785d56",
                   "_tpl": "55d3632e4bdc2d972f8b4569",
-                  "parentId": "k12344412",
+                  "parentId": "67b0def9e6f4251638785d53",
                   "slotId": "mod_barrel"
                 },
                 {
-                  "_id": "k12344",
+                  "_id": "67b0def9e6f4251638785d57",
                   "_tpl": "595cfa8b86f77427437e845b",
-                  "parentId": "k12344412",
+                  "parentId": "67b0def9e6f4251638785d53",
                   "slotId": "mod_handguard"
                 },
                 {
                   "_id": "99c6ada725dcb09335cc6947",
                   "_tpl": "5bc09a18d4351e003562b68e",
-                  "parentId": "k12344412",
+                  "parentId": "67b0def9e6f4251638785d53",
                   "slotId": "mod_sight_rear",
                 },
                 {
                   "_id": "7c59d17f56d34c406082e108",
                   "_tpl": "5d44069ca4b9361ebd26fc37",
-                  "parentId": "k1234441",
+                  "parentId": "67b0def9e6f4251638785d55",
                   "slotId": "mod_stock_000"
                 },
                 {
                   "_id": "a2aaaf4d3ed34a6a680ec395",
                   "_tpl": "5cf6937cd7f00c056c53fb39",
-                  "parentId": "k123444",
+                  "parentId": "67b0def9e6f4251638785d56",
                   "slotId": "mod_muzzle"
                 },
                 {
                   "_id": "c182324aa61417007526fb40",
                   "_tpl": "63d3ce281fe77d0f2801859e",
-                  "parentId": "k123444",
+                  "parentId": "67b0def9e6f4251638785d56",
                   "slotId": "mod_gas_block"
                 },
                 {
-                  "_id": "k1234",
+                  "_id": "67b0def9e6f4251638785d58",
                   "_tpl": "59e0bed186f774156f04ce84",
-                  "parentId": "k12344",
+                  "parentId": "67b0def9e6f4251638785d57",
                   "slotId": "mod_mount_000"
                 },
                 {
                   "_id": "ac8e304439c2d6ecda780f01",
                   "_tpl": "59e0be5d86f7742d48765bd2",
-                  "parentId": "k12344",
+                  "parentId": "67b0def9e6f4251638785d57",
                   "slotId": "mod_mount_002"
                 },
                 {
                   "_id": "a2b85d66f4e2b751f5eed79a",
                   "_tpl": "59e0bdb186f774156f04ce82",
-                  "parentId": "k12344",
+                  "parentId": "67b0def9e6f4251638785d57",
                   "slotId": "mod_mount_004"
                 },
                 {
                   "_id": "89ea077e39325e5e816bc42a",
                   "_tpl": "5c17804b2e2216152006c02f",
-                  "parentId": "k12344",
+                  "parentId": "67b0def9e6f4251638785d57",
                   "slotId": "mod_sight_front",
                 },
                 {
                   "_id": "0f7249e978094892b46e805d",
                   "_tpl": "5b057b4f5acfc4771e1bd3e9",
-                  "parentId": "k1234",
+                  "parentId": "67b0def9e6f4251638785d58",
                   "slotId": "mod_foregrip"
                 },
                 {
-                    "_id": "PA_AKM",
+                    "_id": "67b0df202628cc933dd4c346",
                     "_tpl": "59d6088586f774275f37482f",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -909,49 +909,49 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                   {
                     "_id": "811de0617b2c07fcacd7ff33",
                     "_tpl": "5cf656f2d7f00c06585fb6eb",
-                    "parentId": "PA_AKM",
+                    "parentId": "67b0df202628cc933dd4c346",
                     "slotId": "mod_gas_block"
                   },
                   {
                     "_id": "f3d7bd87d6ebabbb53380749",
                     "_tpl": "64942bfc6ee699f6890dff95",
-                    "parentId": "PA_AKM",
+                    "parentId": "67b0df202628cc933dd4c346",
                     "slotId": "mod_muzzle"
                   },
                   {
                     "_id": "e879faf9244c842298bf803f",
                     "_tpl": "6087e663132d4d12c81fd96b",
-                    "parentId": "PA_AKM",
+                    "parentId": "67b0df202628cc933dd4c346",
                     "slotId": "mod_pistol_grip"
                   },
                   {
                     "_id": "c843a0243b60f0e2c124db0c",
                     "_tpl": "5d2c76ed48f03532f2136169",
-                    "parentId": "PA_AKM",
+                    "parentId": "67b0df202628cc933dd4c346",
                     "slotId": "mod_reciever"
                   },
                   {
                     "_id": "66e7f6646bf879a165082a6a",
                     "_tpl": "6087e2a5232e5a31c233d552",
-                    "parentId": "PA_AKM",
+                    "parentId": "67b0df202628cc933dd4c346",
                     "slotId": "mod_stock"
                   },
                   {
                     "_id": "833fc60819d321e760c881b0",
                     "_tpl": "59d6272486f77466146386ff",
-                    "parentId": "PA_AKM",
+                    "parentId": "67b0df202628cc933dd4c346",
                     "slotId": "mod_magazine"
                   },
                   {
                     "_id": "032112e60ee4eb2b74061774",
                     "_tpl": "6130ca3fd92c473c77020dbd",
-                    "parentId": "PA_AKM",
+                    "parentId": "67b0df202628cc933dd4c346",
                     "slotId": "mod_charge"
                   },
                   {
                     "_id": "3ad25247aaf6d993d943360e",
                     "_tpl": "59e0d99486f7744a32234762",
-                    "parentId": "PA_AKM",
+                    "parentId": "67b0df202628cc933dd4c346",
                     "slotId": "patron_in_weapon"
                   },
                   {
@@ -1010,7 +1010,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     "slotId": "mod_foregrip"
                   },
                   {
-                    "_id": "tx15_dml", //* 2000 EU
+                    "_id": "67b0dda771374899493c318f", //* 2000 EU
                     "_tpl": "5d43021ca4b9362eab4b5e25",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -1024,37 +1024,37 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                   {
                     "_id": "2f2065b1999d6ac0473c888e",
                     "_tpl": "6113cc78d3a39d50044c065a",
-                    "parentId": "tx15_dml",
+                    "parentId": "67b0dda771374899493c318f",
                     "slotId": "mod_pistol_grip"
                   },
                   {
                     "_id": "b951ed3424ed3830a35483cb",
                     "_tpl": "61840d85568c120fdd2962a5",
-                    "parentId": "tx15_dml",
+                    "parentId": "67b0dda771374899493c318f",
                     "slotId": "mod_magazine"
                   },
                   {
                     "_id": "6f2656827aa03674f5f4c2b4",
                     "_tpl": "5d4405aaa4b9361e6a4e6bd3",
-                    "parentId": "tx15_dml",
+                    "parentId": "67b0dda771374899493c318f",
                     "slotId": "mod_reciever"
                   },
                   {
                     "_id": "8e95a444f5b7486226560110",
                     "_tpl": "5649be884bdc2d79388b4577",
-                    "parentId": "tx15_dml",
+                    "parentId": "67b0dda771374899493c318f",
                     "slotId": "mod_stock"
                   },
                   {
                     "_id": "ac370f3a77f909a9466a1055",
                     "_tpl": "5d44334ba4b9362b346d1948",
-                    "parentId": "tx15_dml",
+                    "parentId": "67b0dda771374899493c318f",
                     "slotId": "mod_charge"
                   },
                   {
                     "_id": "1c4cd9b0557cc65c5363602f",
                     "_tpl": "54527a984bdc2d4e668b4567",
-                    "parentId": "tx15_dml",
+                    "parentId": "67b0dda771374899493c318f",
                     "slotId": "patron_in_weapon"
                   },
                   {
@@ -1328,7 +1328,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     "slotId": "mod_foregrip"
                   },
                   {
-                    "_id": "PKM_W", //* 1 Lega
+                    "_id": "67b0ddce0a1f5011b5747b79", //* 1 Lega
                     "_tpl": "64ca3d3954fc657e230529cc",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -1342,37 +1342,37 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                   {
                     "_id": "67d159386e997c97f4ee63a3",
                     "_tpl": "59e62cc886f77440d40b52a1",
-                    "parentId": "PKM_W",
+                    "parentId": "67b0ddce0a1f5011b5747b79",
                     "slotId": "mod_pistolgrip"
                   },
                   {
                     "_id": "47fcdf2ab5cb33296ef73467",
                     "_tpl": "646372518610c40fc20204e8",
-                    "parentId": "PKM_W",
+                    "parentId": "67b0ddce0a1f5011b5747b79",
                     "slotId": "mod_magazine"
                   },
                   {
                     "_id": "5fa269eb5fa53c8b030f0742",
                     "_tpl": "6492d7847363b8a52206bc52",
-                    "parentId": "PKM_W",
+                    "parentId": "67b0ddce0a1f5011b5747b79",
                     "slotId": "mod_stock"
                   },
                   {
                     "_id": "40616b532dc14c37e16afa62",
                     "_tpl": "64639a9aab86f8fd4300146c",
-                    "parentId": "PKM_W",
+                    "parentId": "67b0ddce0a1f5011b5747b79",
                     "slotId": "mod_barrel"
                   },
                   {
                     "_id": "c855c49b9d2651c3833b2ef7",
                     "_tpl": "6491c6f6ef312a876705191b",
-                    "parentId": "PKM_W",
+                    "parentId": "67b0ddce0a1f5011b5747b79",
                     "slotId": "mod_handguard"
                   },
                   {
                     "_id": "b49279af3d7fb0abd6b1aed1",
                     "_tpl": "6492fb8253acae0af00a29b6",
-                    "parentId": "PKM_W",
+                    "parentId": "67b0ddce0a1f5011b5747b79",
                     "slotId": "mod_sight_rear",
                   },
                   {
@@ -1412,7 +1412,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     "slotId": "mod_scope",
                   },
                   {
-                    "_id": "R870S", //* 1 LEGA
+                    "_id": "67b0dfa828a82ee9cc57e550", //* 1 LEGA
                     "_tpl": "5a7828548dc32e5a9c28b516",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -1426,31 +1426,31 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                   {
                     "_id": "2bdc925be5c4ce51a0d802fb",
                     "_tpl": "5a787f7ac5856700177af660",
-                    "parentId": "R870S",
+                    "parentId": "67b0dfa828a82ee9cc57e550",
                     "slotId": "mod_barrel",
                   },
                   {
                     "_id": "2a912d6f2fc2f99d3d368861",
                     "_tpl": "5a788068c5856700137e4c8f",
-                    "parentId": "R870S",
+                    "parentId": "67b0dfa828a82ee9cc57e550",
                     "slotId": "mod_handguard"
                   },
                   {
                     "_id": "b1dfa44594c86d3a2263fa01",
                     "_tpl": "5a78832ec5856700155a6ca3",
-                    "parentId": "R870S",
+                    "parentId": "67b0dfa828a82ee9cc57e550",
                     "slotId": "mod_magazine"
                   },
                   {
                     "_id": "d7e3f58a22db8111136fae66",
                     "_tpl": "5ae35b315acfc4001714e8b0",
-                    "parentId": "R870S",
+                    "parentId": "67b0dfa828a82ee9cc57e550",
                     "slotId": "mod_stock"
                   },
                   {
                     "_id": "77de5bb6ada4b7d1792d2f4c",
                     "_tpl": "5a7893c1c585673f2b5c374d",
-                    "parentId": "R870S",
+                    "parentId": "67b0dfa828a82ee9cc57e550",
                     "slotId": "mod_mount"
                   },
                   {
@@ -1532,7 +1532,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     "slotId": "mod_tactical",
                   },
                 {
-                    "_id": "GayZZer_HK",
+                    "_id": "67b0df7abb5114bf3891d1a0",
                     "_tpl": "5bb2475ed4351e00853264e3",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -1546,37 +1546,37 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                   {
                     "_id": "34e18d150609607b60777317",
                     "_tpl": "59db3a1d86f77429e05b4e92",
-                    "parentId": "GayZZer_HK",
+                    "parentId": "67b0df7abb5114bf3891d1a0",
                     "slotId": "mod_pistol_grip"
                   },
                   {
                     "_id": "8f63314d39445aaf32ad26e6",
                     "_tpl": "5c05413a0db834001c390617",
-                    "parentId": "GayZZer_HK",
+                    "parentId": "67b0df7abb5114bf3891d1a0",
                     "slotId": "mod_magazine"
                   },
                   {
                     "_id": "550d0ef7da310f08bcff3d5a",
                     "_tpl": "5bb20d53d4351e4502010a69",
-                    "parentId": "GayZZer_HK",
+                    "parentId": "67b0df7abb5114bf3891d1a0",
                     "slotId": "mod_reciever"
                   },
                   {
                     "_id": "d4c37979ef006adde9d8e1af",
                     "_tpl": "5bb20e58d4351e00320205d7",
-                    "parentId": "GayZZer_HK",
+                    "parentId": "67b0df7abb5114bf3891d1a0",
                     "slotId": "mod_stock"
                   },
                   {
                     "_id": "691a38dc451cedefaf68f1fd",
                     "_tpl": "651bf5617b3b552ef6712cb7",
-                    "parentId": "GayZZer_HK",
+                    "parentId": "67b0df7abb5114bf3891d1a0",
                     "slotId": "mod_charge"
                   },
                   {
                     "_id": "046dd58368011ebfe114be49",
                     "_tpl": "54527a984bdc2d4e668b4567",
-                    "parentId": "GayZZer_HK",
+                    "parentId": "67b0df7abb5114bf3891d1a0",
                     "slotId": "patron_in_weapon"
                   },
                   {
@@ -1647,7 +1647,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     "slotId": "mod_foregrip"
                   },
                   {
-                    "_id": "Red_WPO",
+                    "_id": "67b0dfc47ad2e84630374ea3",
                     "_tpl": "59e6152586f77473dc057aa1",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -1661,55 +1661,55 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                   {
                     "_id": "cf4a872f91b11e653b0f0dfe",
                     "_tpl": "59e649f986f77411d949b246",
-                    "parentId": "Red_WPO",
+                    "parentId": "67b0dfc47ad2e84630374ea3",
                     "slotId": "mod_gas_block"
                   },
                   {
                     "_id": "bafbc576f7ae3050ef78456c",
                     "_tpl": "5c878ebb2e2216001219d48a",
-                    "parentId": "Red_WPO",
+                    "parentId": "67b0dfc47ad2e84630374ea3",
                     "slotId": "mod_muzzle"
                   },
                   {
                     "_id": "dccc1f2a008382ad3c5c1269",
                     "_tpl": "6087e663132d4d12c81fd96b",
-                    "parentId": "Red_WPO",
+                    "parentId": "67b0dfc47ad2e84630374ea3",
                     "slotId": "mod_pistol_grip"
                   },
                   {
                     "_id": "c064de6a9575309d3d367cfb",
                     "_tpl": "59e6449086f7746c9f75e822",
-                    "parentId": "Red_WPO",
+                    "parentId": "67b0dfc47ad2e84630374ea3",
                     "slotId": "mod_reciever"
                   },
                   {
                     "_id": "701ca1bdf8f67b9be571b784",
                     "_tpl": "5649d9a14bdc2d79388b4580",
-                    "parentId": "Red_WPO",
+                    "parentId": "67b0dfc47ad2e84630374ea3",
                     "slotId": "mod_sight_rear",
                   },
                   {
                     "_id": "3170c24e89c9deb0d02b564d",
                     "_tpl": "5e217ba4c1434648c13568cd",
-                    "parentId": "Red_WPO",
+                    "parentId": "67b0dfc47ad2e84630374ea3",
                     "slotId": "mod_stock"
                   },
                   {
                     "_id": "64a37904b4749154318ea303",
                     "_tpl": "59d625f086f774661516605d",
-                    "parentId": "Red_WPO",
+                    "parentId": "67b0dfc47ad2e84630374ea3",
                     "slotId": "mod_magazine"
                   },
                   {
                     "_id": "70620e5dbb09f2b877dd9213",
                     "_tpl": "6130ca3fd92c473c77020dbd",
-                    "parentId": "Red_WPO",
+                    "parentId": "67b0dfc47ad2e84630374ea3",
                     "slotId": "mod_charge"
                   },
                   {
                     "_id": "6ce12f28bc16254bff8c9201",
                     "_tpl": "64b7af734b75259c590fa895",
-                    "parentId": "Red_WPO",
+                    "parentId": "67b0dfc47ad2e84630374ea3",
                     "slotId": "patron_in_weapon"
                   },
                   {
@@ -1749,7 +1749,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     "slotId": "mod_tactical",
                   },
                 {
-                    "_id": "Mark_G28",
+                    "_id": "67b0df8727be1d9c1bdea6bc",
                     "_tpl": "6176aca650224f204c1da3fb",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -1763,31 +1763,31 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                   {
                     "_id": "2fb9ba40c7ed4a9a68d32f34",
                     "_tpl": "5d025cc1d7ad1a53845279ef",
-                    "parentId": "Mark_G28",
+                    "parentId": "67b0df8727be1d9c1bdea6bc",
                     "slotId": "mod_pistol_grip"
                   },
                   {
                     "_id": "81f4c2cf5af23a0e78113f36",
                     "_tpl": "617131a4568c120fdd29482d",
-                    "parentId": "Mark_G28",
+                    "parentId": "67b0df8727be1d9c1bdea6bc",
                     "slotId": "mod_magazine"
                   },
                   {
                     "_id": "4806b6b2a9412c28031969a6",
                     "_tpl": "617153016c780c1e710c9a2f",
-                    "parentId": "Mark_G28",
+                    "parentId": "67b0df8727be1d9c1bdea6bc",
                     "slotId": "mod_stock"
                   },
                   {
                     "_id": "9a5124209191b9c421502385",
                     "_tpl": "61713a8fd92c473c770214a4",
-                    "parentId": "Mark_G28",
+                    "parentId": "67b0df8727be1d9c1bdea6bc",
                     "slotId": "mod_reciever"
                   },
                   {
                     "_id": "267960a2016f1717a336abe8",
                     "_tpl": "61702d8a67085e45ef140b24",
-                    "parentId": "Mark_G28",
+                    "parentId": "67b0df8727be1d9c1bdea6bc",
                     "slotId": "mod_charge"
                   },
                   {
@@ -1875,7 +1875,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     "slotId": "mod_muzzle_001"
                   },
                 {
-                    "_id": "AK_Zhukov",
+                    "_id": "67b0df963268dd03be003a3c",
                     "_tpl": "5a0ec13bfcdbcb00165aa685",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -1889,43 +1889,43 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                   {
                     "_id": "61987ada611e2ea871427324",
                     "_tpl": "59d64ec286f774171d1e0a42",
-                    "parentId": "AK_Zhukov",
+                    "parentId": "67b0df963268dd03be003a3c",
                     "slotId": "mod_gas_block"
                   },
                   {
                     "_id": "daf22c574b2652486fdcca53",
                     "_tpl": "64942bfc6ee699f6890dff95",
-                    "parentId": "AK_Zhukov",
+                    "parentId": "67b0df963268dd03be003a3c",
                     "slotId": "mod_muzzle"
                   },
                   {
                     "_id": "807e7aa9885df18e1e913a54",
                     "_tpl": "5f6341043ada5942720e2dc5",
-                    "parentId": "AK_Zhukov",
+                    "parentId": "67b0df963268dd03be003a3c",
                     "slotId": "mod_pistol_grip"
                   },
                   {
                     "_id": "adf5657e151af526bd391369",
                     "_tpl": "5d2c772c48f0355d95672c25",
-                    "parentId": "AK_Zhukov",
+                    "parentId": "67b0df963268dd03be003a3c",
                     "slotId": "mod_reciever"
                   },
                   {
                     "_id": "449d1f9901dbf16291e6910b",
                     "_tpl": "6087e2a5232e5a31c233d552",
-                    "parentId": "AK_Zhukov",
+                    "parentId": "67b0df963268dd03be003a3c",
                     "slotId": "mod_stock"
                   },
                   {
                     "_id": "0eecd592b0f0bee44b7b3873",
                     "_tpl": "59d6272486f77466146386ff",
-                    "parentId": "AK_Zhukov",
+                    "parentId": "67b0df963268dd03be003a3c",
                     "slotId": "mod_magazine"
                   },
                   {
                     "_id": "5404c51ee64af446070af6b3",
                     "_tpl": "6130ca3fd92c473c77020dbd",
-                    "parentId": "AK_Zhukov",
+                    "parentId": "67b0df963268dd03be003a3c",
                     "slotId": "mod_charge"
                   },
                   {
@@ -1953,7 +1953,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     "slotId": "mod_foregrip"
                   },
                 {
-                    "_id": "MP5_600EU",
+                    "_id": "67b0dbe8296b6432b4e00d73",
                     "_tpl": "5926bb2186f7744b1c6c6e60",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -1967,19 +1967,19 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                   {
                     "_id": "3fa4225104b43ab48b9e41c0",
                     "_tpl": "5a351711c4a282000b1521a4",
-                    "parentId": "MP5_600EU",
+                    "parentId": "67b0dbe8296b6432b4e00d73",
                     "slotId": "mod_magazine"
                   },
                   {
                     "_id": "a79ea618f142e62d7c0e6e7e",
                     "_tpl": "5926f2e086f7745aae644231",
-                    "parentId": "MP5_600EU",
+                    "parentId": "67b0dbe8296b6432b4e00d73",
                     "slotId": "mod_reciever"
                   },
                   {
                     "_id": "c3d15bf36f7be7cf473416f9",
                     "_tpl": "5926c32286f774616e42de99",
-                    "parentId": "MP5_600EU",
+                    "parentId": "67b0dbe8296b6432b4e00d73",
                     "slotId": "mod_charge",
                   },
                   {
@@ -2020,7 +2020,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                   },
                 //? ==========================OTHER===========================
                 {
-                    "_id": "Twhite_Kila",
+                    "_id": "67b0dbf271dc9ed8b7d71d49",
                     "_tpl": "5c94bbff86f7747ee735c08f",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -2032,7 +2032,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                    "_id": "Tblack",
+                    "_id": "67b0dc09e41e35479a2950be",
                     "_tpl": "5c1d0f4986f7744bb01837fa",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -2042,7 +2042,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                    "_id": "rsp(r)",
+                    "_id": "67b0dd8de622d9e99ac09769",
                     "_tpl": "62178c4d4ecf221597654e3d",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -2052,7 +2052,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                    "_id": "thicc_item",
+                    "_id": "67b0e00b4e239fa303d05876",
                     "_tpl": "5c0a840b86f7742ffa4f2482",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -2062,7 +2062,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                    "_id": "thicc_item_L",
+                    "_id": "67b0dcf01d6aadb4fc136d1c",
                     "_tpl": "5c0a840b86f7742ffa4f2482",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -2072,7 +2072,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 {
-                    "_id": "w_thicc",
+                    "_id": "67b0dcfa83c59c8870603329",
                     "_tpl": "5b6d9ce188a4501afc1b2b25",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -2082,7 +2082,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 },
                 { //* 6 leg
-                  "_id": "RB_VO", //30000/5=6
+                  "_id": "67b0df40d45d3afd91ace557", //30000/5=6
                   "_tpl": "5d80c62a86f7744036212b3f",
                   "parentId": "hideout",
                   "slotId": "hideout",
@@ -2092,7 +2092,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                   }
               },
               { //* 9 leg
-                "_id": "RB_BK",
+                "_id": "67b0df40d45d3afd91ace556",
                 "_tpl": "5d80c60f86f77440373c4ece",
                 "parentId": "hideout",
                 "slotId": "hideout",
@@ -2102,7 +2102,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                 }
               },
               { //* 4 leg
-                "_id": "RB_PKPM",
+                "_id": "67b0dba82117a873013ad1e9",
                 "_tpl": "5ede7a8229445733cb4c18e2",
                 "parentId": "hideout",
                 "slotId": "hideout",
@@ -2112,7 +2112,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                 }
               },
               { //* 5 leg
-                "_id": "314_ob",
+                "_id": "67b0df40d45d3afd91ace555",
                 "_tpl": "5780cf7f2459777de4559322",
                 "parentId": "hideout",
                 "slotId": "hideout",
@@ -2122,7 +2122,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                 }
               },
               { //* 4 leg
-                "_id": "item_case",
+                "_id": "67b0dfb400aefff2fd851011",
                 "_tpl": "59fb042886f7746c5005a7b2",
                 "parentId": "hideout",
                 "slotId": "hideout",
@@ -2132,7 +2132,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                 }
               },
                 {
-                    "_id": "lega",
+                    "_id": "67b0dfe3f1b61d565763e7be",
                     "_tpl": "6656560053eaaa7a23349c86",
                     "parentId": "hideout",
                     "slotId": "hideout",
@@ -2144,7 +2144,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
             ],
             "barter_scheme": { //* BARTER ==========================================================================================================================
                 //? ===========================AMMO===========================
-                "7n40": [
+                "67b0ec79de78ad5768e43f94": [
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568", 
@@ -2156,7 +2156,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "m433": [
+                "67b0d7cf33f19aafa59b67ef": [
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568",
@@ -2168,7 +2168,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "Igla": [
+                "67b0d7e37f33f30f091e3c4c": [
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568",
@@ -2180,7 +2180,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "m61": [
+                "67b0d7ed486dd1971322bda7": [
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568",
@@ -2192,7 +2192,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "RGO": [
+                "67b0eb8beaed4c93b7e20619": [
                     [
                         {
                             "_tpl": "5cc9c20cd7f00c001336c65d",
@@ -2204,7 +2204,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "MAI_AP": [
+                "67b0d8028a5b012868fbdd32": [
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568",
@@ -2216,7 +2216,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "m993": [
+                "67b0d80f23d34bc138ca6331": [
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568",
@@ -2228,7 +2228,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "bs": [
+                "67b0d81b9b788721b0921fb2": [
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568",
@@ -2240,7 +2240,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "lm_ap": [
+                "67b0d82535fef9417accd915": [
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568",
@@ -2253,7 +2253,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     ]
                 ],
                 //? ==========================ARMOR===========================
-                "LBT": [
+                "67b0d83590986e6f1487c02d": [
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568",
@@ -2261,7 +2261,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "6sh": [
+                "67b0d87638187b38b06e795c": [
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568",
@@ -2273,7 +2273,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "fast_black": [
+                "67b0d884e79303fdd740f2a5": [
                     [
                         {
                             "_tpl": "6656560053eaaa7a23349c86",
@@ -2285,7 +2285,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "slick_black": [
+                "67b0d8f56f25d7662a9f1465": [
                     [
                         {
                             "_tpl": "6656560053eaaa7a23349c86",
@@ -2297,7 +2297,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "slick_olive": [
+                "67b0d9e835826a6cc64565b6": [
                     [
                         {
                             "_tpl": "6656560053eaaa7a23349c86",
@@ -2305,7 +2305,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "slick_tan": [
+                "67b0ed271450ee8575f127e7": [
                     [
                         {
                             "_tpl": "6656560053eaaa7a23349c86",
@@ -2313,7 +2313,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "gac_5lvl": [
+                "67b0da7ce97e58bca8ddea17": [
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568",
@@ -2321,7 +2321,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "gac_5lvl_l": [
+                "67b0da75176bb93564d7e950": [
                   [
                       {
                           "_tpl": "6656560053eaaa7a23349c86",
@@ -2329,7 +2329,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                       }
                   ]
               ],
-                "korundvm_5lvl": [
+                "67b0dacf10c694a7644b324c": [
                     [
                         {
                             "_tpl": "5f0c892565703e5c461894e9",
@@ -2337,7 +2337,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "korundvm_5lvl_l": [
+                "67b0dac153279840c1d5e083": [
                   [
                       {
                           "_tpl": "6656560053eaaa7a23349c86",
@@ -2345,7 +2345,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                       }
                   ]
               ],
-                "kiteco_6lvl": [
+                "67b0daf50670f3ebc62aeafe": [
                     [
                         {
                             "_tpl": "656fae5f7c2d57afe200c0d7",
@@ -2353,7 +2353,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "kiteco_6lvl_l": [
+                "67b0daec550c9e0887169b1b": [
                   [
                       {
                           "_tpl": "6656560053eaaa7a23349c86",
@@ -2361,7 +2361,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                       }
                   ]
               ],
-              "THOR": [
+              "67b0db0a86bebaf2c931b8b6": [
                 [
                     {
                         "_tpl": "6656560053eaaa7a23349c86",
@@ -2369,7 +2369,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 ]
             ],
-                "red_zr": [
+                "67b0dafd81f2a8576e876f53": [
                   [
                       {
                           "_tpl": "6656560053eaaa7a23349c86",
@@ -2378,7 +2378,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                   ]
               ],
                 //? ==========================WEAPON==========================
-                "PM": [
+                "67b0dfffe0c24b45fc9b57b4": [
                     [
                         {
                             "_tpl": "5448be9a4bdc2dfd2f8b456a", // 5d235b4d86f7742e017bc88a - gp
@@ -2386,7 +2386,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "Flir": [
+                "67b0dd05ad813bbfb5dd6f65": [
                     [
                         {
                             "_tpl": "6656560053eaaa7a23349c86",
@@ -2394,7 +2394,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "Reapir": [
+                "67b0db6587f6ecae45aae058": [
                   [
                       {
                           "_tpl": "6656560053eaaa7a23349c86",
@@ -2402,7 +2402,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                       }
                   ]
               ],
-                "MP5_600EU": [
+                "67b0dbe8296b6432b4e00d73": [
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568", 
@@ -2410,7 +2410,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         },
                     ]
                 ],
-                "mdr_7_l": [
+                "67b0de085b59fdd97f601f26": [
                   [
                       {
                           "_tpl": "6656560053eaaa7a23349c86", 
@@ -2418,7 +2418,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                       },
                   ]
               ],
-                "mdr_7": [
+                "67b0df40d45d3afd91ace149": [
                   [
                       {
                           "_tpl": "569668774bdc2da2298b4568", 
@@ -2426,7 +2426,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                       },
                   ]
               ],
-                "kid_colt": [
+                "67b0dee890f073b776db5854": [
                   [
                       {
                           "_tpl": "569668774bdc2da2298b4568", 
@@ -2434,7 +2434,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                       },
                   ]
               ],
-                "AK_Zhukov": [
+                "67b0df963268dd03be003a3c": [
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568", 
@@ -2442,7 +2442,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         },
                     ]
                 ],
-                "Mark_G28": [
+                "67b0df8727be1d9c1bdea6bc": [
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568", 
@@ -2450,7 +2450,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         },
                     ]
                 ],
-                "GayZZer_HK": [
+                "67b0df7abb5114bf3891d1a0": [
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568", 
@@ -2458,7 +2458,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         },
                     ]
                 ],
-                "PA_AKM": [
+                "67b0df202628cc933dd4c346": [
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568", 
@@ -2466,7 +2466,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         },
                     ]
                 ],
-                "Red_WPO": [
+                "67b0dfc47ad2e84630374ea3": [
                     [
                         {
                             "_tpl": "569668774bdc2da2298b4568", 
@@ -2474,7 +2474,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         },
                     ]
                 ],
-                "tx15_dml": [
+                "67b0dda771374899493c318f": [
                   [
                       {
                           "_tpl": "569668774bdc2da2298b4568", 
@@ -2482,7 +2482,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                       },
                   ]
               ],
-                "R870S": [
+                "67b0dfa828a82ee9cc57e550": [
                   [
                       {
                           "_tpl": "569668774bdc2da2298b4568", 
@@ -2490,7 +2490,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                       },
                   ]
               ],
-                "PKM_W": [
+                "67b0ddce0a1f5011b5747b79": [
                   [
                       {
                           "_tpl": "6656560053eaaa7a23349c86", 
@@ -2499,7 +2499,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                   ]
               ],
                 //? ==========================OTHER===========================
-                "Twhite_Kila": [
+                "67b0dbf271dc9ed8b7d71d49": [
                     [
                         {
                             "_tpl": "5c0e874186f7745dc7616606",
@@ -2507,7 +2507,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "Tblack": [
+                "67b0dc09e41e35479a2950be": [
                     [
                         {
                             "_tpl": "5c0e874186f7745dc7616606",
@@ -2523,7 +2523,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         },
                     ]
                 ],
-                "rsp(r)": [
+                "67b0dd8de622d9e99ac09769": [
                     [
                         {
                             "_tpl": "6656560053eaaa7a23349c86",
@@ -2531,7 +2531,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "thicc_item": [
+                "67b0e00b4e239fa303d05876": [
                     [
                         {
                             "_tpl": "59faff1d86f7746c51718c9c",
@@ -2539,7 +2539,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "w_thicc": [
+                "67b0dcfa83c59c8870603329": [
                     [
                         {
                             "_tpl": "6656560053eaaa7a23349c86",
@@ -2547,7 +2547,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "thicc_item_L": [
+                "67b0dcf01d6aadb4fc136d1c": [
                     [
                         {
                             "_tpl": "6656560053eaaa7a23349c86", 
@@ -2555,7 +2555,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "RB_VO": [
+                "67b0df40d45d3afd91ace557": [
                     [
                         {
                             "_tpl": "6656560053eaaa7a23349c86", 
@@ -2563,7 +2563,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                         }
                     ]
                 ],
-                "RB_BK": [
+                "67b0df40d45d3afd91ace556": [
                   [
                       {
                           "_tpl": "6656560053eaaa7a23349c86", 
@@ -2571,7 +2571,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                       }
                   ]
               ],
-              "RB_PKPM": [
+              "67b0dba82117a873013ad1e9": [
                   [
                       {
                           "_tpl": "6656560053eaaa7a23349c86", 
@@ -2579,7 +2579,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                       }
                   ]
               ],
-              "314_ob": [
+              "67b0df40d45d3afd91ace555": [
                 [
                     {
                         "_tpl": "6656560053eaaa7a23349c86", 
@@ -2587,7 +2587,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                     }
                 ]
             ],
-            "item_case": [
+            "67b0dfb400aefff2fd851011": [
               [
                   {
                       "_tpl": "6656560053eaaa7a23349c86", 
@@ -2595,7 +2595,7 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
                   }
               ]
           ],
-                "lega": [
+                "67b0dfe3f1b61d565763e7be": [
                     [
                         {
                             "_tpl": "59faff1d86f7746c51718c9c", 
@@ -2606,59 +2606,59 @@ class Punisher implements IPreSptLoadMod, IPostDBLoadMod
             },
             "loyal_level_items": { //! Добавить TXdml = g28/1L 
               //* === LVL1 ===
-              "PM":1,
-              "RGO":1,
-              "6sh":1,
-              "lega":1,
-              "MP5_600EU":1,
-              "Red_WPO":1,
-              "item_case":1,
-              "korundvm_5lvl_l":1,
-              "gac_5lvl_l":1,
-              "mdr_7_l":1,
-              "R870S":1,
+              "67b0dfffe0c24b45fc9b57b4":1,
+              "67b0eb8beaed4c93b7e20619":1,
+              "67b0d87638187b38b06e795c":1,
+              "67b0dfe3f1b61d565763e7be":1,
+              "67b0dbe8296b6432b4e00d73":1,
+              "67b0dfc47ad2e84630374ea3":1,
+              "67b0dfb400aefff2fd851011":1,
+              "67b0dac153279840c1d5e083":1,
+              "67b0da75176bb93564d7e950":1,
+              "67b0de085b59fdd97f601f26":1,
+              "67b0dfa828a82ee9cc57e550":1,
               //* === LVL2 ===
-              "AK_Zhukov":2,
-              "PA_AKM":2,
-              "Mark_G28":2,
-              "GayZZer_HK":2,
-              "Twhite_Kila":2,
-              "Tblack":2,
-              "7n40":2,
-              "m433":2,
-              "Igla":2,
-              "slick_black":2,
-              "slick_olive":2,
-              "slick_tan":2,
-              "LBT":2,
-              "gac_5lvl":2,
-              "korundvm_5lvl":2,
-              "RB_VO":2,
-              "RB_BK":2,
-              "314_ob":2,
-              "RB_PKPM":2,
-              "kid_colt":2,
-              "mdr_7":2,
-              "PKM_W":2,
-              "tx15_dml":2,
+              "67b0df963268dd03be003a3c":2,
+              "67b0df202628cc933dd4c346":2,
+              "67b0df8727be1d9c1bdea6bc":2,
+              "67b0df7abb5114bf3891d1a0":2,
+              "67b0dbf271dc9ed8b7d71d49":2,
+              "67b0dc09e41e35479a2950be":2,
+              "67b0ec79de78ad5768e43f94":2,
+              "67b0d7cf33f19aafa59b67ef":2,
+              "67b0d7e37f33f30f091e3c4c":2,
+              "67b0d8f56f25d7662a9f1465":2,
+              "67b0d9e835826a6cc64565b6":2,
+              "67b0ed271450ee8575f127e7":2,
+              "67b0d83590986e6f1487c02d":2,
+              "67b0da7ce97e58bca8ddea17":2,
+              "67b0dacf10c694a7644b324c":2,
+              "67b0df40d45d3afd91ace557":2,
+              "67b0df40d45d3afd91ace556":2,
+              "67b0df40d45d3afd91ace555":2,
+              "67b0dba82117a873013ad1e9":2,
+              "67b0dee890f073b776db5854":2,
+              "67b0df40d45d3afd91ace149":2,
+              "67b0ddce0a1f5011b5747b79":2,
+              "67b0dda771374899493c318f":2,
               //* === LVL3 ===
-              "m61":3,
-              "MAI_AP":3,
-              "m993":3,
-              "bs":3,
-              "lm_ap":3,
-              "rsp(r)": 3,
-              "thicc_item_L":3,
-              "kiteco_6lvl":3,
-              "kiteco_6lvl_l":3,
-              "Flir":3,
-              "Reapir":3,
-              "w_thicc":3,
-              "red_zr":3,
-              "THOR":3,
-              "fast_black":3,
+              "67b0d7ed486dd1971322bda7":3,
+              "67b0d8028a5b012868fbdd32":3,
+              "67b0d80f23d34bc138ca6331":3,
+              "67b0d81b9b788721b0921fb2":3,
+              "67b0d82535fef9417accd915":3,
+              "67b0dd8de622d9e99ac09769": 3,
+              "67b0dcf01d6aadb4fc136d1c":3,
+              "67b0daf50670f3ebc62aeafe":3,
+              "67b0daec550c9e0887169b1b":3,
+              "67b0dd05ad813bbfb5dd6f65":3,
+              "67b0db6587f6ecae45aae058":3,
+              "67b0dcfa83c59c8870603329":3,
+              "67b0dafd81f2a8576e876f53":3,
+              "67b0db0a86bebaf2c931b8b6":3,
+              "67b0d884e79303fdd740f2a5":3,
               //* === LVL4 ===
-              "thicc_item":4
+              "67b0e00b4e239fa303d05876":4
           }
         }
         return assortTable;

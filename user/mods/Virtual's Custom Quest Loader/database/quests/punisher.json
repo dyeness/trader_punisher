@@ -1,9 +1,9 @@
 {
-    "Punisher_1": {
+    "67b0d5dd749cb3008753f7f4": {
         "QuestName": "Знакомство",
-        "_id": "Punisher_1",
+        "_id": "67b0d5dd749cb3008753f7f4",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "Punisher_1 changeQuestMessageText",
+        "changeQuestMessageText": "67b0d5dd749cb3008753f7f4 changeQuestMessageText",
         "conditions": {
             "AvailableForFinish": [
                 {
@@ -12,7 +12,7 @@
                     "dogtagLevel": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_1 AFF_0",
+                    "id": "67b0d5dd749cb3008753f7f4 AFF_0",
                     "index": 0,
                     "maxDurability": 100,
                     "minDurability": 0,
@@ -31,7 +31,7 @@
                     "conditionType": "Level",
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_1 AFS_0",
+                    "id": "67b0d5dd749cb3008753f7f4 AFS_0",
                     "index": 0,
                     "parentId": "",
                     "value": 1,
@@ -40,30 +40,30 @@
             ],
             "Fail": []
         },
-        "declinePlayerMessage": "Punisher_1 declinePlayerMessage",
-        "description": "Punisher_1 description",
-        "failMessageText": "Punisher_1 failMessageText",
-        "image": "/files/quest/icon/Punisher_1_thumbnail.png",
+        "declinePlayerMessage": "67b0d5dd749cb3008753f7f4 declinePlayerMessage",
+        "description": "67b0d5dd749cb3008753f7f4 description",
+        "failMessageText": "67b0d5dd749cb3008753f7f4 failMessageText",
+        "image": "/files/quest/icon/67b0d5dd749cb3008753f7f4_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
-        "name": "Punisher_1 name",
-        "note": "Punisher_1 note",
+        "name": "67b0d5dd749cb3008753f7f4 name",
+        "note": "67b0d5dd749cb3008753f7f4 note",
         "restartable": false,
         "rewards": {
             "Fail": [],
             "Started": [],
             "Success": [
                 {
-                    "id": "Punisher_1_Reward_0",
+                    "id": "67b0d5dd749cb3008753f7f4_Reward_0",
                     "index": 0,
                     "type": "Experience",
                     "value": "6500"
                 },
                 {
-                    "id": "Punisher_1_Reward_1",
+                    "id": "67b0d5dd749cb3008753f7f4_Reward_1",
                     "index": 1,
-                    "target": "Punisher",
+                    "target": "67b0e495292db8850f2b2b67",
                     "type": "TraderStanding",
                     "value": "0.05"
                 }
@@ -71,16 +71,16 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "Punisher_1 description",
-        "successMessageText": "Punisher_1 successMessageText",
-        "traderId": "Punisher",
+        "startedMessageText": "67b0d5dd749cb3008753f7f4 description",
+        "successMessageText": "67b0d5dd749cb3008753f7f4 successMessageText",
+        "traderId": "67b0e495292db8850f2b2b67",
         "type": "PickUp"
     },
-    "Punisher_2": {
+    "67b0d5d6812e87b5dc7aef3e": {
         "QuestName": "Отголоски из армы",
-        "_id": "Punisher_2",
+        "_id": "67b0d5d6812e87b5dc7aef3e",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "Punisher_2 changeQuestMessageText",
+        "changeQuestMessageText": "67b0d5d6812e87b5dc7aef3e changeQuestMessageText",
         "conditions": {
             "AvailableForFinish": [
                     {
@@ -89,7 +89,7 @@
                         "dogtagLevel": 0,
                         "dynamicLocale": false,
                         "globalQuestCounterId": "",
-                        "id": "Punisher_2 AFF_0",
+                        "id": "67b0d5d6812e87b5dc7aef3e AFF_0",
                         "index": 0,
                         "maxDurability": 100,
                         "minDurability": 30,
@@ -110,52 +110,52 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_2 AFS_0",
+                    "id": "67b0d5d6812e87b5dc7aef3e AFS_0",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_1",
+                    "target": "67b0d5dd749cb3008753f7f4",
                     "visibilityConditions": []
                     }
                 ],
             "Fail": []
         },
-        "declinePlayerMessage": "Punisher_2 declinePlayerMessage",
-        "description": "Punisher_2 description",
-        "failMessageText": "Punisher_2 failMessageText",
-        "image": "/files/quest/icon/Punisher_2_thumbnail.png",
+        "declinePlayerMessage": "67b0d5d6812e87b5dc7aef3e declinePlayerMessage",
+        "description": "67b0d5d6812e87b5dc7aef3e description",
+        "failMessageText": "67b0d5d6812e87b5dc7aef3e failMessageText",
+        "image": "/files/quest/icon/67b0d5d6812e87b5dc7aef3e_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
-        "name": "Punisher_2 name",
-        "note": "Punisher_2 note",
+        "name": "67b0d5d6812e87b5dc7aef3e name",
+        "note": "67b0d5d6812e87b5dc7aef3e note",
         "restartable": false,
         "rewards": {
             "Fail": [],
             "Started": [],
             "Success": [
                 {
-                    "id": "Punisher_2_Reward_1",
+                    "id": "67b0d5d6812e87b5dc7aef3e_Reward_1",
                     "index": 0,
                     "type": "Experience",
                     "value": "10200"
                 },
                 {
                     "findInRaid": true,
-                    "id": "punisher_2_Reward_2",
+                    "id": "67b0d5d6812e87b5dc7aef3e_Reward_2",
                     "index": 2,
                     "items": [
                         {
-                            "_id": "punisher_2_Reward_TankBattery",
+                            "_id": "67b0d5d6812e87b5dc7aef3e_Reward_TankBattery",
                             "_tpl": "5d03794386f77420415576f5", 
                             "upd": {
                                 "StackObjectsCount": 1
                             }
                         }
                     ],
-                    "target": "punisher_2_Reward_TankBattery",
+                    "target": "67b0d5d6812e87b5dc7aef3e_Reward_TankBattery",
                     "type": "Item",
                     "value": "1"
                 }
@@ -163,16 +163,16 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "Punisher_2 startedMessageText",
-        "successMessageText": "Punisher_2 successMessageText",
-        "traderId": "Punisher",
+        "startedMessageText": "67b0d5d6812e87b5dc7aef3e startedMessageText",
+        "successMessageText": "67b0d5d6812e87b5dc7aef3e successMessageText",
+        "traderId": "67b0e495292db8850f2b2b67",
         "type": "PickUp"
     },
-    "Punisher_3": {
+    "67b0d57969e83280920bdf6d": {
         "QuestName": "Мастер гранат",
-        "_id": "Punisher_3",
+        "_id": "67b0d57969e83280920bdf6d",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "Punisher_3 changeQuestMessageText",
+        "changeQuestMessageText": "67b0d57969e83280920bdf6d changeQuestMessageText",
         "conditions": {
             "AvailableForFinish": [
                 {
@@ -196,7 +196,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_3 AFF_0_Kills",
+                                "id": "67b0d57969e83280920bdf6d AFF_0_Kills",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
                                 "target": "Any",
@@ -209,18 +209,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_3 AFF_0_Location",
+                                "id": "67b0d57969e83280920bdf6d AFF_0_Location",
                                 "target": [
                                     "any"
                                 ]
                             }
                         ],
-                        "id": "Punisher_3 AFF_0_Counter"
+                        "id": "67b0d57969e83280920bdf6d AFF_0_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_3 AFF_0",
+                    "id": "67b0d57969e83280920bdf6d AFF_0",
                     "index": 1,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -236,38 +236,38 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_3 AFS_0",
+                    "id": "67b0d57969e83280920bdf6d AFS_0",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_1",
+                    "target": "67b0d5dd749cb3008753f7f4",
                     "visibilityConditions": []
                 }
             ],
             "Fail": []
         },
-        "declinePlayerMessage": "Punisher_3 declinePlayerMessage",
-        "description": "Punisher_3 description",
-        "failMessageText": "Punisher_3 failMessageText",
-        "image": "/files/quest/icon/Punisher_3_thumbnail.png",
+        "declinePlayerMessage": "67b0d57969e83280920bdf6d declinePlayerMessage",
+        "description": "67b0d57969e83280920bdf6d description",
+        "failMessageText": "67b0d57969e83280920bdf6d failMessageText",
+        "image": "/files/quest/icon/67b0d57969e83280920bdf6d_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
-        "name": "Punisher_3 name",
-        "note": "Punisher_3 note",
+        "name": "67b0d57969e83280920bdf6d name",
+        "note": "67b0d57969e83280920bdf6d note",
         "restartable": false,
         "rewards": {
             "Fail": [],
             "Started": [
                 {
                     "findInRaid": false,
-                    "id": "Rgo_start_R",
+                    "id": "67b0d7460ccaba1960fa4ec9_R",
                     "index": 0,
                     "items": [
                     {
-                        "_id": "Rgo_start",
+                        "_id": "67b0d7460ccaba1960fa4ec9",
                         "_tpl": "618a431df1eb8e24b8741deb",
                         "upd": 
                         {
@@ -275,39 +275,39 @@
                         }
                     }
                 ],
-            "target": "Rgo_start",
+            "target": "67b0d7460ccaba1960fa4ec9",
             "type": "Item",
             "value": "5"
                 }
             ],
             "Success": [
                 {
-                    "id": "Punisher_3_Reward_0",
+                    "id": "67b0d57969e83280920bdf6d_Reward_0",
                     "index": 0,
                     "type": "Experience",
                     "value": "66666"
                 },
                 {
-                    "id": "Punisher_3_Reward_1",
+                    "id": "67b0d57969e83280920bdf6d_Reward_1",
                     "index": 1,
-                    "target": "Punisher",
+                    "target": "67b0e495292db8850f2b2b67",
                     "type": "TraderStanding",
                     "value": "0.20"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_3_Reward_2",
+                    "id": "67b0d57969e83280920bdf6d_Reward_2",
                     "index": 2,
                     "items": [
                         {
-                            "_id": "Punisher_3_Reward_GrenadeCase",
+                            "_id": "67b0d57969e83280920bdf6d_Reward_GrenadeCase",
                             "_tpl": "5e2af55f86f7746d4159f07c",
                             "upd": {
                                 "StackObjectsCount": 1
                             }
                         }
                     ],
-                    "target": "Punisher_3_Reward_GrenadeCase",
+                    "target": "67b0d57969e83280920bdf6d_Reward_GrenadeCase",
                     "type": "Item",
                     "value": "1"
                 }
@@ -315,18 +315,18 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "Punisher_3 description",
-        "successMessageText": "Punisher_3 successMessageText",
-        "traderId": "Punisher",
+        "startedMessageText": "67b0d57969e83280920bdf6d description",
+        "successMessageText": "67b0d57969e83280920bdf6d successMessageText",
+        "traderId": "67b0e495292db8850f2b2b67",
         "type": "Elimination"
     },
-    "Punisher_4": {
+    "67b0d57026f1f5a09ae93107": {
         "QuestName": "Первый большой шаг",
-        "_id": "Punisher_4",
-        "acceptPlayerMessage": "Punisher_4 acceptPlayerMessage",
+        "_id": "67b0d57026f1f5a09ae93107",
+        "acceptPlayerMessage": "67b0d57026f1f5a09ae93107 acceptPlayerMessage",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "Punisher_4 changeQuestMessageText",
-        "completePlayerMessage": "Punisher_4 completePlayerMessage",
+        "changeQuestMessageText": "67b0d57026f1f5a09ae93107 changeQuestMessageText",
+        "completePlayerMessage": "67b0d57026f1f5a09ae93107 completePlayerMessage",
         "conditions": {
             "AvailableForFinish": [
                 {
@@ -334,7 +334,7 @@
                     "dogtagLevel": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_4 AFF_0",
+                    "id": "67b0d57026f1f5a09ae93107 AFF_0",
                     "index": 0,
                     "isEncoded": false,
                     "maxDurability": 100,
@@ -352,7 +352,7 @@
                     "dogtagLevel": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_4 AFF_1",
+                    "id": "67b0d57026f1f5a09ae93107 AFF_1",
                     "index": 1,
                     "isEncoded": false,
                     "maxDurability": 100,
@@ -386,7 +386,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_4 AFF_0_Kills",
+                                "id": "67b0d57026f1f5a09ae93107 AFF_0_Kills",
                                 "resetOnSessionEnd": false,
                                 "savageRole": ["bossKojaniy"],
                                 "target": "Savage",
@@ -399,18 +399,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_4 AFF_0_Location",
+                                "id": "67b0d57026f1f5a09ae93107 AFF_0_Location",
                                 "target": [
                                     "any"
                                 ]
                             }
                         ],
-                        "id": "Punisher_4 AFF_0_Counter"
+                        "id": "67b0d57026f1f5a09ae93107 AFF_0_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_4 AFF_2",
+                    "id": "67b0d57026f1f5a09ae93107 AFF_2",
                     "index": 2,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -426,59 +426,59 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_4 AFS_0",
+                    "id": "67b0d57026f1f5a09ae93107 AFS_0",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_2",
+                    "target": "67b0d5d6812e87b5dc7aef3e",
                     "visibilityConditions": []
                 }
             ],
             "Fail": []
         },
-        "declinePlayerMessage": "Punisher_4 declinePlayerMessage",
-        "description": "Punisher_4 description",
-        "failMessageText": "Punisher_4 failMessageText",
-        "image": "/files/quest/icon/Punisher_4_thumbnail.png",
+        "declinePlayerMessage": "67b0d57026f1f5a09ae93107 declinePlayerMessage",
+        "description": "67b0d57026f1f5a09ae93107 description",
+        "failMessageText": "67b0d57026f1f5a09ae93107 failMessageText",
+        "image": "/files/quest/icon/67b0d57026f1f5a09ae93107_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
-        "name": "Punisher_4 name",
-        "note": "Punisher_4 note",
+        "name": "67b0d57026f1f5a09ae93107 name",
+        "note": "67b0d57026f1f5a09ae93107 note",
         "restartable": false,
         "rewards": {
             "Fail": [],
             "Started": [],
             "Success": [
                 {
-                    "id": "Punisher_4 reward_0",
+                    "id": "67b0d57026f1f5a09ae93107 reward_0",
                     "index": 0,
                     "type": "Experience",
                     "value": "80000"
                 },
                 {
-                    "id": "Punisher_4 reward_1",
+                    "id": "67b0d57026f1f5a09ae93107 reward_1",
                     "index": 1,
-                    "target": "Punisher",
+                    "target": "67b0e495292db8850f2b2b67",
                     "type": "TraderStanding",
                     "value": "0.25"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_4_Reward_3",
+                    "id": "67b0d57026f1f5a09ae93107_Reward_3",
                     "index": 2,
                     "items": [
                         {
-                            "_id": "Punisher_4_Reward_item_container_magbox",
+                            "_id": "67b0d57026f1f5a09ae93107_Reward_item_container_magbox",
                             "_tpl": "5c127c4486f7745625356c13",
                             "upd": {
                                 "StackObjectsCount": 2
                             }
                         }
                     ],
-                    "target": "Punisher_4_Reward_item_container_magbox",
+                    "target": "67b0d57026f1f5a09ae93107_Reward_item_container_magbox",
                     "type": "Item",
                     "value": "2"
                 }
@@ -486,16 +486,16 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "Punisher_4 startedMessageText",
-        "successMessageText": "Punisher_4 successMessageText",
-        "traderId": "Punisher",
+        "startedMessageText": "67b0d57026f1f5a09ae93107 startedMessageText",
+        "successMessageText": "67b0d57026f1f5a09ae93107 successMessageText",
+        "traderId": "67b0e495292db8850f2b2b67",
         "type": "PickUp"
     },
-    "Punisher_5": {
+    "67b0d5685b475c628a89397b": {
         "QuestName": "Недооцененная мощь",
-        "_id": "Punisher_5",
+        "_id": "67b0d5685b475c628a89397b",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "Punisher_5 changeQuestMessageText",
+        "changeQuestMessageText": "67b0d5685b475c628a89397b changeQuestMessageText",
         "conditions": {
             "AvailableForFinish": [
                 {
@@ -519,7 +519,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_5 AFF_0_Kills",
+                                "id": "67b0d5685b475c628a89397b AFF_0_Kills",
                             "resetOnSessionEnd": true,
                                 "savageRole": [],
                                 "target": "Savage",
@@ -532,18 +532,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_5 AFF_0_Location",
+                                "id": "67b0d5685b475c628a89397b AFF_0_Location",
                                 "target": [
                                     "Woods"
                                 ]
                             }
                         ],
-                        "id": "Punisher_5 AFF_0_Counter"
+                        "id": "67b0d5685b475c628a89397b AFF_0_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_5 AFF_0",
+                    "id": "67b0d5685b475c628a89397b AFF_0",
                     "index": 1,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -559,110 +559,110 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_5 AFS_0",
+                    "id": "67b0d5685b475c628a89397b AFS_0",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_4",
+                    "target": "67b0d57026f1f5a09ae93107",
                     "visibilityConditions": []
                 }
             ],
             "Fail": []
         },
-        "declinePlayerMessage": "Punisher_5 declinePlayerMessage",
-        "description": "Punisher_5 description",
-        "failMessageText": "Punisher_5 failMessageText",
-        "image": "/files/quest/icon/Punisher_5_thumbnail.png",
+        "declinePlayerMessage": "67b0d5685b475c628a89397b declinePlayerMessage",
+        "description": "67b0d5685b475c628a89397b description",
+        "failMessageText": "67b0d5685b475c628a89397b failMessageText",
+        "image": "/files/quest/icon/67b0d5685b475c628a89397b_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "5704e3c2d2720bac5b8b4567",
-        "name": "Punisher_5 name",
-        "note": "Punisher_5 note",
+        "name": "67b0d5685b475c628a89397b name",
+        "note": "67b0d5685b475c628a89397b note",
         "restartable": false,
         "rewards": {
             "Fail": [],
             "Started": [],
             "Success": [
                 {
-                    "id": "Punisher_5_Reward_0",
+                    "id": "67b0d5685b475c628a89397b_Reward_0",
                     "index": 0,
                     "type": "Experience",
                     "value": "25000"
                 },
                 {
-                    "id": "Punisher_5_Reward_1",
+                    "id": "67b0d5685b475c628a89397b_Reward_1",
                     "index": 1,
-                    "target": "Punisher",
+                    "target": "67b0e495292db8850f2b2b67",
                     "type": "TraderStanding",
                     "value": "0.25"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_5_Reward_2",
+                    "id": "67b0d5685b475c628a89397b_Reward_2",
                     "index": 2,
                     "items": [
                         {
-                            "_id": "Punisher_5_Reward_Roubles",
+                            "_id": "67b0d5685b475c628a89397b_Reward_Roubles",
                             "_tpl": "5ed51652f6c34d2cc26336a1",
                             "upd": {
                                 "StackObjectsCount": 2
                             }
                         }
                     ],
-                    "target": "Punisher_5_Reward_Roubles",
+                    "target": "67b0d5685b475c628a89397b_Reward_Roubles",
                     "type": "Item",
                     "value": "2"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_5_Reward_3",
+                    "id": "67b0d5685b475c628a89397b_Reward_3",
                     "index": 3,
                     "items": [
                         {
-                            "_id": "Punisher_5_Reward_item_equipment_armor_a18",
+                            "_id": "67b0d5685b475c628a89397b_Reward_item_equipment_armor_a18",
                             "_tpl": "59e7708286f7742cbd762753",
                             "upd": {
                                 "StackObjectsCount": 1
                             }
                         }
                     ],
-                    "target": "Punisher_5_Reward_item_equipment_armor_a18",
+                    "target": "67b0d5685b475c628a89397b_Reward_item_equipment_armor_a18",
                     "type": "Item",
                     "value": "1"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_5_Reward_4",
+                    "id": "67b0d5685b475c628a89397b_Reward_4",
                     "index": 4,
                     "items": [
                         {
-                            "_id": "Punisher_5_Reward_backpack_Raid_6SH118",
+                            "_id": "67b0d5685b475c628a89397b_Reward_backpack_Raid_6SH118",
                             "_tpl": "5df8a4d786f77412672a1e3b",
                             "upd": {
                                 "StackObjectsCount": 1
                             }
                         }
                     ],
-                    "target": "Punisher_5_Reward_backpack_Raid_6SH118",
+                    "target": "67b0d5685b475c628a89397b_Reward_backpack_Raid_6SH118",
                     "type": "Item",
                     "value": "1"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_5_Reward_5",
+                    "id": "67b0d5685b475c628a89397b_Reward_5",
                     "index": 5,
                     "items": [
                         {
-                            "_id": "Punisher_5_Reward_item_container_lopouch",
+                            "_id": "67b0d5685b475c628a89397b_Reward_item_container_lopouch",
                             "_tpl": "6656560053eaaa7a23349c86",
                             "upd": {
                                 "StackObjectsCount": 1
                             }
                         }
                     ],
-                    "target": "Punisher_5_Reward_item_container_lopouch",
+                    "target": "67b0d5685b475c628a89397b_Reward_item_container_lopouch",
                     "type": "Item",
                     "value": "1"
                 }
@@ -670,18 +670,18 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "Punisher_5 description",
-        "successMessageText": "Punisher_5 successMessageText",
-        "traderId": "Punisher",
+        "startedMessageText": "67b0d5685b475c628a89397b description",
+        "successMessageText": "67b0d5685b475c628a89397b successMessageText",
+        "traderId": "67b0e495292db8850f2b2b67",
         "type": "Elimination"
     },
-    "Punisher_6": {
+    "67b0d56047344026e50bc39a": {
         "QuestName": "Приказ | B",
-        "_id": "Punisher_6",
-        "acceptPlayerMessage": "Punisher_6 acceptPlayerMessage",
+        "_id": "67b0d56047344026e50bc39a",
+        "acceptPlayerMessage": "67b0d56047344026e50bc39a acceptPlayerMessage",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "Punisher_6 changeQuestMessageText",
-        "completePlayerMessage": "Punisher_6 completePlayerMessage",
+        "changeQuestMessageText": "67b0d56047344026e50bc39a changeQuestMessageText",
+        "completePlayerMessage": "67b0d56047344026e50bc39a completePlayerMessage",
         "conditions": {
             "AvailableForFinish": [
                 {
@@ -690,7 +690,7 @@
                     "dogtagLevel": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_6 AFF_0",
+                    "id": "67b0d56047344026e50bc39a AFF_0",
                     "index": 0,
                     "isEncoded": false,
                     "maxDurability": 100,
@@ -709,7 +709,7 @@
                     "dogtagLevel": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_6 AFF_1",
+                    "id": "67b0d56047344026e50bc39a AFF_1",
                     "index": 1,
                     "isEncoded": false,
                     "maxDurability": 100,
@@ -728,7 +728,7 @@
                     "dogtagLevel": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_6 AFF_2",
+                    "id": "67b0d56047344026e50bc39a AFF_2",
                     "index": 2,
                     "isEncoded": true,
                     "maxDurability": 100,
@@ -762,7 +762,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_6 AFF_0_Kills",
+                                "id": "67b0d56047344026e50bc39a AFF_0_Kills",
                                 "resetOnSessionEnd": false,
                                 "savageRole": ["exUsec"],
                                 "target": "Savage",
@@ -775,18 +775,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_6 AFF_0_Location",
+                                "id": "67b0d56047344026e50bc39a AFF_0_Location",
                                 "target": [
                                     "any"
                                 ]
                             }
                         ],
-                        "id": "Punisher_6 AFF_0_Counter"
+                        "id": "67b0d56047344026e50bc39a AFF_0_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_6 AFF_3",
+                    "id": "67b0d56047344026e50bc39a AFF_3",
                     "index": 3,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -802,93 +802,93 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_6 AFS_0",
+                    "id": "67b0d56047344026e50bc39a AFS_0",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_3",
+                    "target": "67b0d57969e83280920bdf6d",
                     "visibilityConditions": []
                 }
             ],
             "Fail": []
         },
-        "declinePlayerMessage": "Punisher_6 declinePlayerMessage",
-        "description": "Punisher_6 description",
-        "failMessageText": "Punisher_6 failMessageText",
-        "image": "/files/quest/icon/Punisher_6_thumbnail.png",
+        "declinePlayerMessage": "67b0d56047344026e50bc39a declinePlayerMessage",
+        "description": "67b0d56047344026e50bc39a description",
+        "failMessageText": "67b0d56047344026e50bc39a failMessageText",
+        "image": "/files/quest/icon/67b0d56047344026e50bc39a_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
-        "name": "Punisher_6 name",
-        "note": "Punisher_6 note",
+        "name": "67b0d56047344026e50bc39a name",
+        "note": "67b0d56047344026e50bc39a note",
         "restartable": false,
         "rewards": {
             "Fail": [],
             "Started": [],
             "Success": [
                 {
-                    "id": "Punisher_6 reward_0",
+                    "id": "67b0d56047344026e50bc39a reward_0",
                     "index": 0,
                     "type": "Experience",
                     "value": "100069"
                 },
                 {
-                    "id": "Punisher_6 reward_1",
+                    "id": "67b0d56047344026e50bc39a reward_1",
                     "index": 1,
-                    "target": "Punisher",
+                    "target": "67b0e495292db8850f2b2b67",
                     "type": "TraderStanding",
                     "value": "0.25"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_6_Reward_2",
+                    "id": "67b0d56047344026e50bc39a_Reward_2",
                     "index": 2,
                     "items": [
                         {
-                            "_id": "Punisher_6_Reward_item_container_items_thicc",
+                            "_id": "67b0d56047344026e50bc39a_Reward_item_container_items_thicc",
                             "_tpl": "5c0a840b86f7742ffa4f2482",
                             "upd": {
                                 "StackObjectsCount": 1
                             }
                         }
                     ],
-                    "target": "Punisher_6_Reward_item_container_items_thicc",
+                    "target": "67b0d56047344026e50bc39a_Reward_item_container_items_thicc",
                     "type": "Item",
                     "value": "1"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_6_Reward_4",
+                    "id": "67b0d56047344026e50bc39a_Reward_4",
                     "index": 4,
                     "items": [
                         {
-                            "_id": "Punisher_6_Reward_item_container_items_gp",
+                            "_id": "67b0d56047344026e50bc39a_Reward_item_container_items_gp",
                             "_tpl": "6656560053eaaa7a23349c86",
                             "upd": {
                                 "StackObjectsCount": 5
                             }
                         }
                     ],
-                    "target": "Punisher_6_Reward_item_container_items_gp",
+                    "target": "67b0d56047344026e50bc39a_Reward_item_container_items_gp",
                     "type": "Item",
                     "value": "5"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_6_Reward_3",
+                    "id": "67b0d56047344026e50bc39a_Reward_3",
                     "index": 3,
                     "items": [
                         {
-                            "_id": "Punisher_6_Reward_item_container_items_silicon",
+                            "_id": "67b0d56047344026e50bc39a_Reward_item_container_items_silicon",
                             "_tpl": "6389c8fb46b54c634724d847",
                             "upd": {
                                 "StackObjectsCount": 1
                             }
                         }
                     ],
-                    "target": "Punisher_6_Reward_item_container_items_silicon",
+                    "target": "67b0d56047344026e50bc39a_Reward_item_container_items_silicon",
                     "type": "Item",
                     "value": "1"
                 }
@@ -896,16 +896,16 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "Punisher_6 startedMessageText",
-        "successMessageText": "Punisher_6 successMessageText",
-        "traderId": "Punisher",
+        "startedMessageText": "67b0d56047344026e50bc39a startedMessageText",
+        "successMessageText": "67b0d56047344026e50bc39a successMessageText",
+        "traderId": "67b0e495292db8850f2b2b67",
         "type": "Elimination"
     },
-    "Punisher_7": {
+    "67b0d5590e9aaa63e4bf0ba3": {
         "QuestName": "На богатом | AS",
-        "_id": "Punisher_7",
+        "_id": "67b0d5590e9aaa63e4bf0ba3",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "Punisher_7 changeQuestMessageText",
+        "changeQuestMessageText": "67b0d5590e9aaa63e4bf0ba3 changeQuestMessageText",
         "conditions": {
             "AvailableForFinish": [
                 {
@@ -929,7 +929,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_7 AFF_0_Kills",
+                                "id": "67b0d5590e9aaa63e4bf0ba3 AFF_0_Kills",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
                                 "target": "Savage",
@@ -942,18 +942,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_7 AFF_0_Location",
+                                "id": "67b0d5590e9aaa63e4bf0ba3 AFF_0_Location",
                                 "target": [
                                     "Shoreline"
                                 ]
                             }
                         ],
-                        "id": "Punisher_7 AFF_0_Counter"
+                        "id": "67b0d5590e9aaa63e4bf0ba3 AFF_0_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_7 AFF_0",
+                    "id": "67b0d5590e9aaa63e4bf0ba3 AFF_0",
                     "index": 1,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -969,95 +969,95 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_7 AFS_0",
+                    "id": "67b0d5590e9aaa63e4bf0ba3 AFS_0",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_5",
+                    "target": "67b0d5685b475c628a89397b",
                     "visibilityConditions": []
                 }
             ],
             "Fail": []
         },
-        "declinePlayerMessage": "Punisher_7 declinePlayerMessage",
-        "description": "Punisher_7 description",
-        "failMessageText": "Punisher_7 failMessageText",
-        "image": "/files/quest/icon/Punisher_7_thumbnail.png",
+        "declinePlayerMessage": "67b0d5590e9aaa63e4bf0ba3 declinePlayerMessage",
+        "description": "67b0d5590e9aaa63e4bf0ba3 description",
+        "failMessageText": "67b0d5590e9aaa63e4bf0ba3 failMessageText",
+        "image": "/files/quest/icon/67b0d5590e9aaa63e4bf0ba3_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "5704e554d2720bac5b8b456e",
-        "name": "Punisher_7 name",
-        "note": "Punisher_7 note",
+        "name": "67b0d5590e9aaa63e4bf0ba3 name",
+        "note": "67b0d5590e9aaa63e4bf0ba3 note",
         "restartable": false,
         "rewards": {
             "Fail": [],
             "Started": [],
             "Success": [
                 {
-                    "id": "Punisher_7_Reward_0",
+                    "id": "67b0d5590e9aaa63e4bf0ba3_Reward_0",
                     "index": 0,
                     "type": "Experience",
                     "value": "69420"
                 },
                 {
-                    "id": "Punisher_7_Reward_1",
+                    "id": "67b0d5590e9aaa63e4bf0ba3_Reward_1",
                     "index": 1,
-                    "target": "Punisher",
+                    "target": "67b0e495292db8850f2b2b67",
                     "type": "TraderStanding",
                     "value": "0.50"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_7_Reward_2",
+                    "id": "67b0d5590e9aaa63e4bf0ba3_Reward_2",
                     "index": 2,
                     "items": [
                         {
-                            "_id": "Punisher_7_Reward_Roubles",
+                            "_id": "67b0d5590e9aaa63e4bf0ba3_Reward_Roubles",
                             "_tpl": "6656560053eaaa7a23349c86", 
                             "upd": {
                                 "StackObjectsCount": 2
                             }
                         }
                     ],
-                    "target": "Punisher_7_Reward_Roubles",
+                    "target": "67b0d5590e9aaa63e4bf0ba3_Reward_Roubles",
                     "type": "Item",
                     "value": "2"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_7_Reward_3",
+                    "id": "67b0d5590e9aaa63e4bf0ba3_Reward_3",
                     "index": 3,
                     "items": [
                         {
-                            "_id": "Punisher_7_Reward_item_container_weaponcase_THICC",
+                            "_id": "67b0d5590e9aaa63e4bf0ba3_Reward_item_container_weaponcase_THICC",
                             "_tpl": "5b6d9ce188a4501afc1b2b25",
                             "upd": {
                                 "StackObjectsCount": 1
                             }
                         }
                     ],
-                    "target": "Punisher_7_Reward_item_container_weaponcase_THICC",
+                    "target": "67b0d5590e9aaa63e4bf0ba3_Reward_item_container_weaponcase_THICC",
                     "type": "Item",
                     "value": "1"
                 },
                 {
-                    "id": "Punisher_7_Reward_4",
+                    "id": "67b0d5590e9aaa63e4bf0ba3_Reward_4",
                     "index": 4,
                     "target": "579dc571d53a0658a154fbec",
                     "type": "TraderStanding", 
                     "value": "-0.55"
                 },
                 {
-                    "id": "Punisher_7_Reward_5",
+                    "id": "67b0d5590e9aaa63e4bf0ba3_Reward_5",
                     "index": 5,
                     "target": "5c0647fdd443bc2504c2d371",
                     "type": "TraderStanding", 
                     "value": "1.0"
                 },
                 {
-                    "id": "Punisher_7_Reward_6",
+                    "id": "67b0d5590e9aaa63e4bf0ba3_Reward_6",
                     "index": 6,
                     "target": "5935c25fb3acc3127c3d8cd9",
                     "type": "TraderStanding", 
@@ -1067,18 +1067,18 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "Punisher_7 description",
-        "successMessageText": "Punisher_7 successMessageText",
-        "traderId": "Punisher",
+        "startedMessageText": "67b0d5590e9aaa63e4bf0ba3 description",
+        "successMessageText": "67b0d5590e9aaa63e4bf0ba3 successMessageText",
+        "traderId": "67b0e495292db8850f2b2b67",
         "type": "Elimination"
     },
-    "Punisher_8": {
+    "67b0d54dfa1026d8d562ddf6": {
         "QuestName": "Свои методы 1 | C",
-        "_id": "Punisher_8",
-        "acceptPlayerMessage": "Punisher_8 acceptPlayerMessage",
+        "_id": "67b0d54dfa1026d8d562ddf6",
+        "acceptPlayerMessage": "67b0d54dfa1026d8d562ddf6 acceptPlayerMessage",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "Punisher_8 changeQuestMessageText",
-        "completePlayerMessage": "Punisher_8 completePlayerMessage",
+        "changeQuestMessageText": "67b0d54dfa1026d8d562ddf6 changeQuestMessageText",
+        "completePlayerMessage": "67b0d54dfa1026d8d562ddf6 completePlayerMessage",
         "conditions": {
             "AvailableForFinish": [
                 {
@@ -1102,7 +1102,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_8 AFF_0_Kills",
+                                "id": "67b0d54dfa1026d8d562ddf6 AFF_0_Kills",
                                 "resetOnSessionEnd": false,
                                 "savageRole": ["bossBully"],
                                 "target": "Savage",
@@ -1115,18 +1115,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_8 AFF_0_Location",
+                                "id": "67b0d54dfa1026d8d562ddf6 AFF_0_Location",
                                 "target": [
                                     "any"
                                 ]
                             }
                         ],
-                        "id": "Punisher_8 AFF_0_Counter"
+                        "id": "67b0d54dfa1026d8d562ddf6 AFF_0_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_8 AFF_0",
+                    "id": "67b0d54dfa1026d8d562ddf6 AFF_0",
                     "index": 1,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -1142,47 +1142,47 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_8 AFS_0",
+                    "id": "67b0d54dfa1026d8d562ddf6 AFS_0",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_7",
+                    "target": "67b0d5590e9aaa63e4bf0ba3",
                     "visibilityConditions": []
                 }
             ],
             "Fail": []
         },
-        "declinePlayerMessage": "Punisher_8 declinePlayerMessage",
-        "description": "Punisher_8 description",
-        "failMessageText": "Punisher_8 failMessageText",
-        "image": "/files/quest/icon/Punisher_8_thumbnail.png",
+        "declinePlayerMessage": "67b0d54dfa1026d8d562ddf6 declinePlayerMessage",
+        "description": "67b0d54dfa1026d8d562ddf6 description",
+        "failMessageText": "67b0d54dfa1026d8d562ddf6 failMessageText",
+        "image": "/files/quest/icon/67b0e495292db8850f2b2b67_11_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
-        "name": "Punisher_8 name",
-        "note": "Punisher_8 note",
+        "name": "67b0d54dfa1026d8d562ddf6 name",
+        "note": "67b0d54dfa1026d8d562ddf6 note",
         "restartable": false,
         "rewards": {
             "Fail": [],
             "Started": [],
             "Success": [
                 {
-                    "id": "Punisher_8 reward_0",
+                    "id": "67b0d54dfa1026d8d562ddf6 reward_0",
                     "index": 0,
                     "type": "Experience",
                     "value": "75000"
                 },
                 {
-                    "id": "Punisher_8 reward_1",
+                    "id": "67b0d54dfa1026d8d562ddf6 reward_1",
                     "index": 1,
-                    "target": "Punisher",
+                    "target": "67b0e495292db8850f2b2b67",
                     "type": "TraderStanding",
                     "value": "0.20"
                 },
                 {
-                    "id": "Punisher_8_Reward_2",
+                    "id": "67b0d54dfa1026d8d562ddf6_Reward_2",
                     "index": 2,
                     "type": "Skill",
                     "target": "Pistol", 
@@ -1190,18 +1190,18 @@
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_8_Reward_2",
+                    "id": "67b0d54dfa1026d8d562ddf6_Reward_2",
                     "index": 3,
                     "items": [
                         {
-                            "_id": "Punisher_8_Reward_item_keycard_lab_red",
+                            "_id": "67b0d54dfa1026d8d562ddf6_Reward_item_keycard_lab_red",
                             "_tpl": "5580223e4bdc2d1c128b457f",
                             "upd": {
                                 "StackObjectsCount": 1
                             }
                         }
                     ],
-                    "target": "Punisher_8_Reward_item_keycard_lab_red",
+                    "target": "67b0d54dfa1026d8d562ddf6_Reward_item_keycard_lab_red",
                     "type": "Item",
                     "value": "1"
                 }
@@ -1209,18 +1209,18 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "Punisher_8 startedMessageText",
-        "successMessageText": "Punisher_8 successMessageText",
-        "traderId": "Punisher",
+        "startedMessageText": "67b0d54dfa1026d8d562ddf6 startedMessageText",
+        "successMessageText": "67b0d54dfa1026d8d562ddf6 successMessageText",
+        "traderId": "67b0e495292db8850f2b2b67",
         "type": "Elimination"
     },
-    "Punisher_9": {
+    "67b0d545bfdf74ac29de1f28": {
         "QuestName": "Свои методы 2 | С",
-        "_id": "Punisher_9",
-        "acceptPlayerMessage": "Punisher_9 acceptPlayerMessage",
+        "_id": "67b0d545bfdf74ac29de1f28",
+        "acceptPlayerMessage": "67b0d545bfdf74ac29de1f28 acceptPlayerMessage",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "Punisher_9 changeQuestMessageText",
-        "completePlayerMessage": "Punisher_9 completePlayerMessage",
+        "changeQuestMessageText": "67b0d545bfdf74ac29de1f28 changeQuestMessageText",
+        "completePlayerMessage": "67b0d545bfdf74ac29de1f28 completePlayerMessage",
         "conditions": {
             "AvailableForFinish": [
                 {
@@ -1244,7 +1244,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_9 AFF_0_Kills",
+                                "id": "67b0d545bfdf74ac29de1f28 AFF_0_Kills",
                                 "resetOnSessionEnd": false,
                                 "savageRole": ["Tagilla "],
                                 "target": "Savage",
@@ -1257,18 +1257,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_9 AFF_0_Location",
+                                "id": "67b0d545bfdf74ac29de1f28 AFF_0_Location",
                                 "target": [
                                     "any"
                                 ]
                             }
                         ],
-                        "id": "Punisher_9 AFF_0_Counter"
+                        "id": "67b0d545bfdf74ac29de1f28 AFF_0_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_9 AFF_0",
+                    "id": "67b0d545bfdf74ac29de1f28 AFF_0",
                     "index": 1,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -1284,47 +1284,47 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_9 AFS_0",
+                    "id": "67b0d545bfdf74ac29de1f28 AFS_0",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_8",
+                    "target": "67b0d54dfa1026d8d562ddf6",
                     "visibilityConditions": []
                 }
             ],
             "Fail": []
         },
-        "declinePlayerMessage": "Punisher_9 declinePlayerMessage",
-        "description": "Punisher_9 description",
-        "failMessageText": "Punisher_9 failMessageText",
-        "image": "/files/quest/icon/Punisher_8_thumbnail.png",
+        "declinePlayerMessage": "67b0d545bfdf74ac29de1f28 declinePlayerMessage",
+        "description": "67b0d545bfdf74ac29de1f28 description",
+        "failMessageText": "67b0d545bfdf74ac29de1f28 failMessageText",
+        "image": "/files/quest/icon/67b0e495292db8850f2b2b67_11_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
-        "name": "Punisher_9 name",
-        "note": "Punisher_9 note",
+        "name": "67b0d545bfdf74ac29de1f28 name",
+        "note": "67b0d545bfdf74ac29de1f28 note",
         "restartable": false,
         "rewards": {
             "Fail": [],
             "Started": [],
             "Success": [
                 {
-                    "id": "Punisher_9_Reward_0",
+                    "id": "67b0d545bfdf74ac29de1f28_Reward_0",
                     "index": 0,
                     "type": "Experience",
                     "value": "90420"
                 },
                 {
-                    "id": "Punisher_9_Reward_1",
+                    "id": "67b0d545bfdf74ac29de1f28_Reward_1",
                     "index": 1,
-                    "target": "Punisher",
+                    "target": "67b0e495292db8850f2b2b67",
                     "type": "TraderStanding",
                     "value": "0.3"
                 },
                 {
-                    "id": "Punisher_9_Reward_2",
+                    "id": "67b0d545bfdf74ac29de1f28_Reward_2",
                     "index": 2,
                     "type": "Skill",
                     "target": "Shotgun", 
@@ -1332,18 +1332,18 @@
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_9_Reward_3",
+                    "id": "67b0d545bfdf74ac29de1f28_Reward_3",
                     "index": 3,
                     "items": [
                         {
-                            "_id": "Punisher_9_LEDX_0",
+                            "_id": "67b0d545bfdf74ac29de1f28_LEDX_0",
                             "_tpl": "5c0530ee86f774697952d952",
                             "upd": {
                                 "StackObjectsCount": 3
                             }
                         }
                     ],
-                    "target": "Punisher_9_LEDX_0",
+                    "target": "67b0d545bfdf74ac29de1f28_LEDX_0",
                     "type": "Item",
                     "value": "3"
                 }
@@ -1351,18 +1351,18 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "Punisher_9 description",
-        "successMessageText": "Punisher_9 successMessageText",
-        "traderId": "Punisher",
+        "startedMessageText": "67b0d545bfdf74ac29de1f28 description",
+        "successMessageText": "67b0d545bfdf74ac29de1f28 successMessageText",
+        "traderId": "67b0e495292db8850f2b2b67",
         "type": "Elimination"
     },
-    "Punisher_10": {
+    "67b0d536f7aa4ca191f4490c": {
         "QuestName": "Свои методы 3 | C",
-        "_id": "Punisher_10",
-        "acceptPlayerMessage": "Punisher_10 acceptPlayerMessage",
+        "_id": "67b0d536f7aa4ca191f4490c",
+        "acceptPlayerMessage": "67b0d536f7aa4ca191f4490c acceptPlayerMessage",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "Punisher_10 changeQuestMessageText",
-        "completePlayerMessage": "Punisher_10 completePlayerMessage",
+        "changeQuestMessageText": "67b0d536f7aa4ca191f4490c changeQuestMessageText",
+        "completePlayerMessage": "67b0d536f7aa4ca191f4490c completePlayerMessage",
         "conditions": {
             "AvailableForFinish": [
                 {
@@ -1386,7 +1386,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_10 AFF_0_Kills",
+                                "id": "67b0d536f7aa4ca191f4490c AFF_0_Kills",
                                 "resetOnSessionEnd": false,
                                 "savageRole": ["bossKnight"],
                                 "target": "Savage",
@@ -1399,18 +1399,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_10 AFF_0_Location",
+                                "id": "67b0d536f7aa4ca191f4490c AFF_0_Location",
                                 "target": [
                                     "any"
                                 ]
                             }
                         ],
-                        "id": "Punisher_10 AFF_0_Counter"
+                        "id": "67b0d536f7aa4ca191f4490c AFF_0_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_10 AFF_0",
+                    "id": "67b0d536f7aa4ca191f4490c AFF_0",
                     "index": 1,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -1439,7 +1439,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_10 AFF_1_Kills",
+                                "id": "67b0d536f7aa4ca191f4490c AFF_1_Kills",
                                 "resetOnSessionEnd": false,
                                 "savageRole": ["followerBigPipe"],
                                 "target": "Savage",
@@ -1452,18 +1452,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_10 AFF_1_Location",
+                                "id": "67b0d536f7aa4ca191f4490c AFF_1_Location",
                                 "target": [
                                     "any"
                                 ]
                             }
                         ],
-                        "id": "Punisher_10 AFF_1_Counter"
+                        "id": "67b0d536f7aa4ca191f4490c AFF_1_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_10 AFF_1",
+                    "id": "67b0d536f7aa4ca191f4490c AFF_1",
                     "index": 1,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -1492,7 +1492,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_10 AFF_2_Kills",
+                                "id": "67b0d536f7aa4ca191f4490c AFF_2_Kills",
                                 "resetOnSessionEnd": false,
                                 "savageRole": ["followerBirdEye"],
                                 "target": "Savage",
@@ -1505,18 +1505,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_10 AFF_2_Location",
+                                "id": "67b0d536f7aa4ca191f4490c AFF_2_Location",
                                 "target": [
                                     "any"
                                 ]
                             }
                         ],
-                        "id": "Punisher_10 AFF_2_Counter"
+                        "id": "67b0d536f7aa4ca191f4490c AFF_2_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_10 AFF_2",
+                    "id": "67b0d536f7aa4ca191f4490c AFF_2",
                     "index": 1,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -1532,97 +1532,97 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_10 AFS_0",
+                    "id": "67b0d536f7aa4ca191f4490c AFS_0",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_9",
+                    "target": "67b0d545bfdf74ac29de1f28",
                     "visibilityConditions": []
                 }
             ],
             "Fail": []
         },
-        "declinePlayerMessage": "Punisher_10 declinePlayerMessage",
-        "description": "Punisher_10 description",
-        "failMessageText": "Punisher_10 failMessageText",
-        "image": "/files/quest/icon/Punisher_8_thumbnail.png",
+        "declinePlayerMessage": "67b0d536f7aa4ca191f4490c declinePlayerMessage",
+        "description": "67b0d536f7aa4ca191f4490c description",
+        "failMessageText": "67b0d536f7aa4ca191f4490c failMessageText",
+        "image": "/files/quest/icon/67b0e495292db8850f2b2b67_11_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
-        "name": "Punisher_10 name",
-        "note": "Punisher_10 note",
+        "name": "67b0d536f7aa4ca191f4490c name",
+        "note": "67b0d536f7aa4ca191f4490c note",
         "restartable": false,
         "rewards": {
             "Fail": [],
             "Started": [],
             "Success": [
                 {
-                    "id": "Punisher_10_Reward_1",
+                    "id": "67b0d536f7aa4ca191f4490c_Reward_1",
                     "index": 0,
                     "type": "Experience",
                     "value": "150000"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_10_Reward_1",
+                    "id": "67b0d536f7aa4ca191f4490c_Reward_1",
                     "index": 1,
                     "items": [
                         {
-                            "_id": "Punisher_10_Reward_Roubles",
+                            "_id": "67b0d536f7aa4ca191f4490c_Reward_Roubles",
                             "_tpl": "6656560053eaaa7a23349c86",
                             "upd": {
                                 "StackObjectsCount": 7
                             }
                         }
                     ],
-                    "target": "Punisher_10_Reward_Roubles",
+                    "target": "67b0d536f7aa4ca191f4490c_Reward_Roubles",
                     "type": "Item",
                     "value": "7"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_10_Reward_2",
+                    "id": "67b0d536f7aa4ca191f4490c_Reward_2",
                     "index": 2,
                     "items": [
                         {
-                            "_id": "Punisher_10_Reward_tetriz",
+                            "_id": "67b0d536f7aa4ca191f4490c_Reward_tetriz",
                             "_tpl": "5c052e6986f7746b207bc3c9",
                             "upd": {
                                 "StackObjectsCount": 4
                             }
                         }
                     ],
-                    "target": "Punisher_10_Reward_tetriz",
+                    "target": "67b0d536f7aa4ca191f4490c_Reward_tetriz",
                     "type": "Item",
                     "value": "4"
                 },
                 {
-                    "id": "Punisher_9_Reward_2",
+                    "id": "67b0d545bfdf74ac29de1f28_Reward_2",
                     "index": 3,
                     "type": "Skill",
                     "target": "Sniper", 
                     "value": 500 
                 },
                 {
-                    "id": "Punisher_9_Reward_2",
+                    "id": "67b0d545bfdf74ac29de1f28_Reward_2",
                     "index": 4,
                     "type": "Skill",
                     "target": "StressResistance", 
                     "value": 500 
                 },
                 {
-                    "id": "Punisher_9_Reward_2",
+                    "id": "67b0d545bfdf74ac29de1f28_Reward_2",
                     "index": 5,
                     "type": "Skill",
                     "target": "RecoilControl", 
                     "value": 500 
                 },
                 {
-                    "id": "Punisher_10_Reward_5",
+                    "id": "67b0d536f7aa4ca191f4490c_Reward_5",
                     "index": 6,
-                    "target": "Punisher",
+                    "target": "67b0e495292db8850f2b2b67",
                     "type": "TraderStanding",
                     "value": "1.00"
                 }
@@ -1630,18 +1630,18 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "Punisher_10 startedMessageText",
-        "successMessageText": "Punisher_10 successMessageText",
-        "traderId": "Punisher",
+        "startedMessageText": "67b0d536f7aa4ca191f4490c startedMessageText",
+        "successMessageText": "67b0d536f7aa4ca191f4490c successMessageText",
+        "traderId": "67b0e495292db8850f2b2b67",
         "type": "Elimination"
     },
-    "Punisher_11": {
+    "67b0d530d6715151523c2508": {
         "QuestName": "Демонстрация силы 1 | D",
-        "_id": "Punisher_11",
-        "acceptPlayerMessage": "Punisher_11 acceptPlayerMessage",
+        "_id": "67b0d530d6715151523c2508",
+        "acceptPlayerMessage": "67b0d530d6715151523c2508 acceptPlayerMessage",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "Punisher_11 changeQuestMessageText",
-        "completePlayerMessage": "Punisher_11 completePlayerMessage",
+        "changeQuestMessageText": "67b0d530d6715151523c2508 changeQuestMessageText",
+        "completePlayerMessage": "67b0d530d6715151523c2508 completePlayerMessage",
         "conditions": {
             "AvailableForFinish": [
                 {
@@ -1665,7 +1665,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_11 AFF_0_Kills",
+                                "id": "67b0d530d6715151523c2508 AFF_0_Kills",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
                                 "target": "any",
@@ -1678,18 +1678,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_11 AFF_0_Location",
+                                "id": "67b0d530d6715151523c2508 AFF_0_Location",
                                 "target": [
                                     "The Lab"
                                 ]
                             }
                         ],
-                        "id": "Punisher_11 AFF_0_Counter"
+                        "id": "67b0d530d6715151523c2508 AFF_0_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_11 AFF_0",
+                    "id": "67b0d530d6715151523c2508 AFF_0",
                     "index": 0,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -1705,76 +1705,76 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_11 AFS_0",
+                    "id": "67b0d530d6715151523c2508 AFS_0",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_5",
+                    "target": "67b0d5685b475c628a89397b",
                     "visibilityConditions": []
                 }
             ],
             "Fail": []
         },
-        "declinePlayerMessage": "Punisher_11 declinePlayerMessage",
-        "description": "Punisher_11 description",
-        "failMessageText": "Punisher_11 failMessageText",
-        "image": "/files/quest/icon/Punisher_11_thumbnail.png",
+        "declinePlayerMessage": "67b0d530d6715151523c2508 declinePlayerMessage",
+        "description": "67b0d530d6715151523c2508 description",
+        "failMessageText": "67b0d530d6715151523c2508 failMessageText",
+        "image": "/files/quest/icon/67b0d54dfa1026d8d562ddf6_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "5b0fc42d86f7744a585f9105",
-        "name": "Punisher_11 name",
-        "note": "Punisher_11 note",
+        "name": "67b0d530d6715151523c2508 name",
+        "note": "67b0d530d6715151523c2508 note",
         "restartable": false,
         "rewards": {
             "Fail": [],
             "Started": [],
             "Success": [
                 {
-                    "id": "Punisher_11_Reward_1",
+                    "id": "67b0d530d6715151523c2508_Reward_1",
                     "index": 0,
                     "type": "Experience",
                     "value": "50000"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_11_Reward_2",
+                    "id": "67b0d530d6715151523c2508_Reward_2",
                     "index": 1,
                     "items": [
                         {
-                            "_id": "Punisher_11_gpu",
+                            "_id": "67b0d530d6715151523c2508_gpu",
                             "_tpl": "57347ca924597744596b4e71",
                             "upd": {
                                 "StackObjectsCount": 3
                             }
                         }
                     ],
-                    "target": "Punisher_11_gpu",
+                    "target": "67b0d530d6715151523c2508_gpu",
                     "type": "Item",
                     "value": "3"
                 },
                 {
-                    "id": "Punisher_11_Reward_3",
+                    "id": "67b0d530d6715151523c2508_Reward_3",
                     "index": 2,
-                    "target": "Punisher",
+                    "target": "67b0e495292db8850f2b2b67",
                     "type": "TraderStanding",
                     "value": "0.30"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_11_Reward_4",
+                    "id": "67b0d530d6715151523c2508_Reward_4",
                     "index": 3,
                     "items": [
                         {
-                            "_id": "Punisher_11_kit",
+                            "_id": "67b0d530d6715151523c2508_kit",
                             "_tpl": "5910968f86f77425cf569c32",
                             "upd": {
                                 "StackObjectsCount": 5
                             }
                         }
                     ],
-                    "target": "Punisher_11_kit",
+                    "target": "67b0d530d6715151523c2508_kit",
                     "type": "Item",
                     "value": "1"
                 }
@@ -1782,16 +1782,16 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "Punisher_11 startedMessageText",
-        "successMessageText": "Punisher_11 successMessageText",
-        "traderId": "Punisher",
+        "startedMessageText": "67b0d530d6715151523c2508 startedMessageText",
+        "successMessageText": "67b0d530d6715151523c2508 successMessageText",
+        "traderId": "67b0e495292db8850f2b2b67",
         "type": "Elimination"
     },
-    "Punisher_12": {
+    "67b0d5289f4368bcfd0f918c": {
         "QuestName": "Демонстрация силы 2 | D",
-        "_id": "Punisher_12",
+        "_id": "67b0d5289f4368bcfd0f918c",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "Punisher_12 changeQuestMessageText",
+        "changeQuestMessageText": "67b0d5289f4368bcfd0f918c changeQuestMessageText",
         "conditions": {
             "AvailableForFinish": [
                 {
@@ -1815,7 +1815,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_12 AFF_0_Kills",
+                                "id": "67b0d5289f4368bcfd0f918c AFF_0_Kills",
                                 "resetOnSessionEnd": true,
                                 "savageRole": [],
                                 "target": "any",
@@ -1840,18 +1840,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_12 AFF_0_Location",
+                                "id": "67b0d5289f4368bcfd0f918c AFF_0_Location",
                                 "target": [
                                     "Factory Day"
                                 ]
                             }
                         ],
-                        "id": "Punisher_12 AFF_0_Counter"
+                        "id": "67b0d5289f4368bcfd0f918c AFF_0_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_12 AFF_0",
+                    "id": "67b0d5289f4368bcfd0f918c AFF_0",
                     "index": 1,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -1867,41 +1867,41 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_12 AFS_0",
+                    "id": "67b0d5289f4368bcfd0f918c AFS_0",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_11",
+                    "target": "67b0d530d6715151523c2508",
                     "visibilityConditions": []
                 }
             ],
             "Fail": []
         },
-        "declinePlayerMessage": "Punisher_12 declinePlayerMessage",
-        "description": "Punisher_12 description",
-        "failMessageText": "Punisher_12 failMessageText",
-        "image": "/files/quest/icon/Punisher_11_thumbnail.png",
+        "declinePlayerMessage": "67b0d5289f4368bcfd0f918c declinePlayerMessage",
+        "description": "67b0d5289f4368bcfd0f918c description",
+        "failMessageText": "67b0d5289f4368bcfd0f918c failMessageText",
+        "image": "/files/quest/icon/67b0d54dfa1026d8d562ddf6_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "55f2d3fd4bdc2d5f408b4567",
-        "name": "Punisher_12 name",
-        "note": "Punisher_12 note",
+        "name": "67b0d5289f4368bcfd0f918c name",
+        "note": "67b0d5289f4368bcfd0f918c note",
         "restartable": false,
         "rewards": {
             "Fail": [],
             "Started": [],
             "Success": [
                 {
-                    "id": "Punisher_12_Reward_1",
+                    "id": "67b0d5289f4368bcfd0f918c_Reward_1",
                     "index": 0,
                     "type": "Experience",
                     "value": "30000"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_12_Reward_2",
+                    "id": "67b0d5289f4368bcfd0f918c_Reward_2",
                     "index": 1,
                     "items": [
                         {
@@ -2026,42 +2026,42 @@
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_12_Reward_4",
+                    "id": "67b0d5289f4368bcfd0f918c_Reward_4",
                     "index": 2,
                     "items": [
                         {
-                            "_id": "Punisher_12_Reward_patron_68x51",
+                            "_id": "67b0d5289f4368bcfd0f918c_Reward_patron_68x51",
                             "_tpl": "6529243824cbe3c74a05e5c1",
                             "upd": {
                                 "StackObjectsCount": 60
                             }
                         }
                     ],
-                    "target": "Punisher_12_Reward_patron_68x51",
+                    "target": "67b0d5289f4368bcfd0f918c_Reward_patron_68x51",
                     "type": "Item",
                     "value": "60"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_11_Reward_2",
+                    "id": "67b0d530d6715151523c2508_Reward_2",
                     "index": 3,
                     "items": [
                         {
-                            "_id": "Punisher_12_gpu",
+                            "_id": "67b0d5289f4368bcfd0f918c_gpu",
                             "_tpl": "57347ca924597744596b4e71",
                             "upd": {
                                 "StackObjectsCount": 5
                             }
                         }
                     ],
-                    "target": "Punisher_12_gpu",
+                    "target": "67b0d5289f4368bcfd0f918c_gpu",
                     "type": "Item",
                     "value": "5"
                 },
                 {
-                    "id": "Punisher_12_Reward_3",
+                    "id": "67b0d5289f4368bcfd0f918c_Reward_3",
                     "index": 4,
-                    "target": "Punisher",
+                    "target": "67b0e495292db8850f2b2b67",
                     "type": "TraderStanding",
                     "value": "0.30"
                 }
@@ -2069,16 +2069,16 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "Punisher_12 startedMessageText",
-        "successMessageText": "Punisher_12 successMessageText",
-        "traderId": "Punisher",
+        "startedMessageText": "67b0d5289f4368bcfd0f918c startedMessageText",
+        "successMessageText": "67b0d5289f4368bcfd0f918c successMessageText",
+        "traderId": "67b0e495292db8850f2b2b67",
         "type": "Elimination"
     },
-    "Punisher_13": {
+    "67b0d51da44ea26d8bbd5757": {
         "QuestName": "Демонстрация силы 3 | D",
-        "_id": "Punisher_13",
+        "_id": "67b0d51da44ea26d8bbd5757",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "Punisher_13 changeQuestMessageText",
+        "changeQuestMessageText": "67b0d51da44ea26d8bbd5757 changeQuestMessageText",
         "conditions": {
             "AvailableForFinish": [
                 {
@@ -2088,7 +2088,7 @@
                     "dogtagLevel": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_13 AFF_0",
+                    "id": "67b0d51da44ea26d8bbd5757 AFF_0",
                     "location": "",
                     "index": 0,
                     "isEncoded": false,
@@ -2123,7 +2123,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_13 AFF_0_Kills",
+                                "id": "67b0d51da44ea26d8bbd5757 AFF_0_Kills",
                                 "resetOnSessionEnd": false,
                                 "savageRole": ["bossKilla"],
                                 "target": "Savage",
@@ -2136,18 +2136,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_13 AFF_0_Location",
+                                "id": "67b0d51da44ea26d8bbd5757 AFF_0_Location",
                                 "target": [
                                     "any"
                                 ]
                             }
                         ],
-                        "id": "Punisher_13 AFF_0_Counter"
+                        "id": "67b0d51da44ea26d8bbd5757 AFF_0_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_13 AFF_1",
+                    "id": "67b0d51da44ea26d8bbd5757 AFF_1",
                     "index": 1,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -2163,59 +2163,59 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_13 AFS_0",
+                    "id": "67b0d51da44ea26d8bbd5757 AFS_0",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_12",
+                    "target": "67b0d5289f4368bcfd0f918c",
                     "visibilityConditions": []
                 }
             ],
             "Fail": []
         },
-        "declinePlayerMessage": "Punisher_13 declinePlayerMessage",
-        "description": "Punisher_13 description",
-        "failMessageText": "Punisher_13 failMessageText",
-        "image": "/files/quest/icon/Punisher_11_thumbnail.png",
+        "declinePlayerMessage": "67b0d51da44ea26d8bbd5757 declinePlayerMessage",
+        "description": "67b0d51da44ea26d8bbd5757 description",
+        "failMessageText": "67b0d51da44ea26d8bbd5757 failMessageText",
+        "image": "/files/quest/icon/67b0d54dfa1026d8d562ddf6_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
-        "name": "Punisher_13 name",
-        "note": "Punisher_13 note",
+        "name": "67b0d51da44ea26d8bbd5757 name",
+        "note": "67b0d51da44ea26d8bbd5757 note",
         "restartable": false,
         "rewards": {
             "Fail": [],
             "Started": [],
             "Success": [
                 {
-                    "id": "Punisher_13_Reward_1",
+                    "id": "67b0d51da44ea26d8bbd5757_Reward_1",
                     "index": 0,
                     "type": "Experience",
                     "value": "80000"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_13_Reward_2",
+                    "id": "67b0d51da44ea26d8bbd5757_Reward_2",
                     "index": 1,
                     "items": [
                         {
-                            "_id": "Punisher_13_Reward_Roubles",
+                            "_id": "67b0d51da44ea26d8bbd5757_Reward_Roubles",
                             "_tpl": "569668774bdc2da2298b4568",
                             "upd": {
                                 "StackObjectsCount": 1111
                             }
                         }
                     ],
-                    "target": "Punisher_13_Reward_Roubles",
+                    "target": "67b0d51da44ea26d8bbd5757_Reward_Roubles",
                     "type": "Item",
                     "value": "1111"
                 },
                 {
-                    "id": "Punisher_13_Reward_3",
+                    "id": "67b0d51da44ea26d8bbd5757_Reward_3",
                     "index": 2,
-                    "target": "Punisher",
+                    "target": "67b0e495292db8850f2b2b67",
                     "type": "TraderStanding",
                     "value": "0.50"
                 }
@@ -2223,16 +2223,16 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "Punisher_13 startedMessageText",
-        "successMessageText": "Punisher_13 successMessageText",
-        "traderId": "Punisher",
+        "startedMessageText": "67b0d51da44ea26d8bbd5757 startedMessageText",
+        "successMessageText": "67b0d51da44ea26d8bbd5757 successMessageText",
+        "traderId": "67b0e495292db8850f2b2b67",
         "type": "PickUp"
     },
-    "Punisher_14": {
+    "67b0d51731f4e6ce06e2af96": {
         "QuestName": "Что такое безумие? | E",
-        "_id": "Punisher_14",
+        "_id": "67b0d51731f4e6ce06e2af96",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "Punisher_14 changeQuestMessageText",
+        "changeQuestMessageText": "67b0d51731f4e6ce06e2af96 changeQuestMessageText",
         "conditions": {
             "AvailableForFinish": [
                 {
@@ -2256,7 +2256,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_14 AFF_0_Kills",
+                                "id": "67b0d51731f4e6ce06e2af96 AFF_0_Kills",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [],
                                 "target": "any",
@@ -2269,18 +2269,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_14 AFF_0_Location",
+                                "id": "67b0d51731f4e6ce06e2af96 AFF_0_Location",
                                 "target": [
                                     "any"
                                 ]
                             }
                         ],
-                        "id": "Punisher_14 AFF_0_Counter"
+                        "id": "67b0d51731f4e6ce06e2af96 AFF_0_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_14 AFF_0",
+                    "id": "67b0d51731f4e6ce06e2af96 AFF_0",
                     "index": 0,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -2296,13 +2296,13 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_14 AFS_0",
+                    "id": "67b0d51731f4e6ce06e2af96 AFS_0",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_12",
+                    "target": "67b0d5289f4368bcfd0f918c",
                     "visibilityConditions": []
                 },
                 {
@@ -2311,48 +2311,48 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_14 AFS_3",
+                    "id": "67b0d51731f4e6ce06e2af96 AFS_3",
                     "index": 2,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_6",
+                    "target": "67b0d56047344026e50bc39a",
                     "visibilityConditions": []
                 }
             ],
             "Fail": []
         },
-        "declinePlayerMessage": "Punisher_14 declinePlayerMessage",
-        "description": "Punisher_14 description",
-        "failMessageText": "Punisher_14 failMessageText",
-        "image": "/files/quest/icon/Punisher_14_thumbnail.png",
+        "declinePlayerMessage": "67b0d51731f4e6ce06e2af96 declinePlayerMessage",
+        "description": "67b0d51731f4e6ce06e2af96 description",
+        "failMessageText": "67b0d51731f4e6ce06e2af96 failMessageText",
+        "image": "/files/quest/icon/67b0d51731f4e6ce06e2af96_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
-        "name": "Punisher_14 name",
-        "note": "Punisher_14 note",
+        "name": "67b0d51731f4e6ce06e2af96 name",
+        "note": "67b0d51731f4e6ce06e2af96 note",
         "restartable": false,
         "rewards": {
             "Fail": [],
             "Started": [],
             "Success": [
                 {
-                    "id": "Punisher_14_Reward_1",
+                    "id": "67b0d51731f4e6ce06e2af96_Reward_1",
                     "index": 0,
                     "type": "Skill",
                     "target": "AimDrills", 
                     "value":2000 
                 },
                 {
-                    "id": "Punisher_14_Reward_2",
+                    "id": "67b0d51731f4e6ce06e2af96_Reward_2",
                     "index": 1,
                     "type": "Skill",
                     "target": "RecoilControl", 
                     "value": 2000 
                 },
                 {
-                    "id": "Punisher_14_Reward_3",
+                    "id": "67b0d51731f4e6ce06e2af96_Reward_3",
                     "index": 2,
                     "type": "Skill",
                     "target": "Strength", 
@@ -2360,25 +2360,25 @@
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_14_Reward_4",
+                    "id": "67b0d51731f4e6ce06e2af96_Reward_4",
                     "index": 3,
                     "items": [
                         {
-                            "_id": "Punisher_14_Reward_thicc",
+                            "_id": "67b0d51731f4e6ce06e2af96_Reward_thicc",
                             "_tpl": "5c0a840b86f7742ffa4f2482",
                             "upd": {
                                 "StackObjectsCount": 2
                             }
                         }
                     ],
-                    "target": "Punisher_14_Reward_thicc",
+                    "target": "67b0d51731f4e6ce06e2af96_Reward_thicc",
                     "type": "Item",
                     "value": "2"
                 },
                 {
-                    "id": "Punisher_14_Reward_5",
+                    "id": "67b0d51731f4e6ce06e2af96_Reward_5",
                     "index": 4,
-                    "target": "Punisher",
+                    "target": "67b0e495292db8850f2b2b67",
                     "type": "TraderStanding",
                     "value": "1.00"
                 }
@@ -2386,18 +2386,18 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "Punisher_14 startedMessageText",
-        "successMessageText": "Punisher_14 successMessageText",
-        "traderId": "Punisher",
+        "startedMessageText": "67b0d51731f4e6ce06e2af96 startedMessageText",
+        "successMessageText": "67b0d51731f4e6ce06e2af96 successMessageText",
+        "traderId": "67b0e495292db8850f2b2b67",
         "type": "Elimination"
     },
-    "Punisher_15": {
+    "67b0d50a4832de38e9d68f84": {
         "QuestName": "Кепка второго класса и уши Spynker`а | E",
-        "_id": "Punisher_15",
-        "acceptPlayerMessage": "Punisher_15 acceptPlayerMessage",
+        "_id": "67b0d50a4832de38e9d68f84",
+        "acceptPlayerMessage": "67b0d50a4832de38e9d68f84 acceptPlayerMessage",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "Punisher_15 changeQuestMessageText",
-        "completePlayerMessage": "Punisher_15 completePlayerMessage",
+        "changeQuestMessageText": "67b0d50a4832de38e9d68f84 changeQuestMessageText",
+        "completePlayerMessage": "67b0d50a4832de38e9d68f84 completePlayerMessage",
         "conditions": {
             "AvailableForFinish": [
                 {
@@ -2405,7 +2405,7 @@
                     "dogtagLevel": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_15 AFF_0",
+                    "id": "67b0d50a4832de38e9d68f84 AFF_0",
                     "index": 0,
                     "isEncoded": false,
                     "maxDurability": 100,
@@ -2423,7 +2423,7 @@
                     "dogtagLevel": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_15 AFF_1",
+                    "id": "67b0d50a4832de38e9d68f84 AFF_1",
                     "index": 1,
                     "isEncoded": false,
                     "maxDurability": 100,
@@ -2444,86 +2444,86 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_15 AFS_0",
+                    "id": "67b0d50a4832de38e9d68f84 AFS_0",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_14",
+                    "target": "67b0d51731f4e6ce06e2af96",
                     "visibilityConditions": []
                 }
             ],
             "Fail": []
         },
-        "declinePlayerMessage": "Punisher_15 declinePlayerMessage",
-        "description": "Punisher_15 description",
-        "failMessageText": "Punisher_15 failMessageText",
-        "image": "/files/quest/icon/Punisher_15_thumbnail.png",
+        "declinePlayerMessage": "67b0d50a4832de38e9d68f84 declinePlayerMessage",
+        "description": "67b0d50a4832de38e9d68f84 description",
+        "failMessageText": "67b0d50a4832de38e9d68f84 failMessageText",
+        "image": "/files/quest/icon/67b0d50a4832de38e9d68f84_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "56f40101d2720b2a4d8b45d6",
-        "name": "Punisher_15 name",
-        "note": "Punisher_15 note",
+        "name": "67b0d50a4832de38e9d68f84 name",
+        "note": "67b0d50a4832de38e9d68f84 note",
         "restartable": false,
         "rewards": {
             "Fail": [],
             "Started": [],
             "Success": [
                 {
-                    "id": "Punisher_15 reward_0",
+                    "id": "67b0d50a4832de38e9d68f84 reward_0",
                     "index": 0,
                     "type": "Experience",
                     "value": "20000"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_15 reward_3",
+                    "id": "67b0d50a4832de38e9d68f84 reward_3",
                     "index": 3,
                     "items": [
                         {
-                            "_id": "Punisher_15 reward_3_0",
+                            "_id": "67b0d50a4832de38e9d68f84 reward_3_0",
                             "_tpl": "5a154d5cfcdbcb001a3b00da",
                             "upd": {
                                 "StackObjectsCount": 5
                             }
                         }
                     ],
-                    "target": "Punisher_15 reward_3_0",
+                    "target": "67b0d50a4832de38e9d68f84 reward_3_0",
                     "type": "Item",
                     "value": "5"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_15 reward_8",
+                    "id": "67b0d50a4832de38e9d68f84 reward_8",
                     "index": 2,
                     "items": [
                         {
-                            "_id": "Punisher_15 reward_8_0",
+                            "_id": "67b0d50a4832de38e9d68f84 reward_8_0",
                             "_tpl": "619cf0335771dd3c390269ae",
                             "upd": {
                                 "StackObjectsCount": 3
                             }
                         }
                     ],
-                    "target": "Punisher_15 reward_8_0",
+                    "target": "67b0d50a4832de38e9d68f84 reward_8_0",
                     "type": "Item",
                     "value": "3"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_15 reward_7",
+                    "id": "67b0d50a4832de38e9d68f84 reward_7",
                     "index": 4,
                     "items": [
                         {
-                            "_id": "Punisher_15 reward_7_0",
+                            "_id": "67b0d50a4832de38e9d68f84 reward_7_0",
                             "_tpl": "6656560053eaaa7a23349c86",
                             "upd": {
                                 "StackObjectsCount": 1
                             }
                         }
                     ],
-                    "target": "Punisher_15 reward_7_0",
+                    "target": "67b0d50a4832de38e9d68f84 reward_7_0",
                     "type": "Item",
                     "value": "1"
                 }
@@ -2531,16 +2531,16 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "Punisher_15 startedMessageText",
-        "successMessageText": "Punisher_15 successMessageText",
-        "traderId": "Punisher",
+        "startedMessageText": "67b0d50a4832de38e9d68f84 startedMessageText",
+        "successMessageText": "67b0d50a4832de38e9d68f84 successMessageText",
+        "traderId": "67b0e495292db8850f2b2b67",
         "type": "PickUp"
     },
-    "Punisher_16": {
+    "67b0d4f638997bd34c9c3f08": {
         "QuestName": "Вершина пищевой цепочки | DC",
-        "_id": "Punisher_16",
+        "_id": "67b0d4f638997bd34c9c3f08",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "Punisher_16 changeQuestMessageText",
+        "changeQuestMessageText": "67b0d4f638997bd34c9c3f08 changeQuestMessageText",
         "conditions": {
             "AvailableForFinish": [
                 {
@@ -2564,7 +2564,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_16 AFF_0_Kills",
+                                "id": "67b0d4f638997bd34c9c3f08 AFF_0_Kills",
                                 "resetOnSessionEnd": true,
                                 "savageRole": ["bossKnight"],
                                 "target": "Savage",
@@ -2577,18 +2577,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_16 AFF_0_Location",
+                                "id": "67b0d4f638997bd34c9c3f08 AFF_0_Location",
                                 "target": [
                                     "any"
                                 ]
                             }
                         ],
-                        "id": "Punisher_16 AFF_0_Counter"
+                        "id": "67b0d4f638997bd34c9c3f08 AFF_0_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_16 AFF_0",
+                    "id": "67b0d4f638997bd34c9c3f08 AFF_0",
                     "index": 0,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -2617,7 +2617,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_16 AFF_1_Kills",
+                                "id": "67b0d4f638997bd34c9c3f08 AFF_1_Kills",
                                 "resetOnSessionEnd": true,
                                 "savageRole": ["followerBigPipe"],
                                 "target": "Savage",
@@ -2630,18 +2630,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_16 AFF_1_Location",
+                                "id": "67b0d4f638997bd34c9c3f08 AFF_1_Location",
                                 "target": [
                                     "any"
                                 ]
                             }
                         ],
-                        "id": "Punisher_16 AFF_1_Counter"
+                        "id": "67b0d4f638997bd34c9c3f08 AFF_1_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_16 AFF_1",
+                    "id": "67b0d4f638997bd34c9c3f08 AFF_1",
                     "index": 1,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -2670,7 +2670,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_16 AFF_2_Kills",
+                                "id": "67b0d4f638997bd34c9c3f08 AFF_2_Kills",
                                 "resetOnSessionEnd": true,
                                 "savageRole": ["followerBirdEye"],
                                 "target": "Savage",
@@ -2683,18 +2683,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_16 AFF_2_Location",
+                                "id": "67b0d4f638997bd34c9c3f08 AFF_2_Location",
                                 "target": [
                                     "any"
                                 ]
                             }
                         ],
-                        "id": "Punisher_16 AFF_2_Counter"
+                        "id": "67b0d4f638997bd34c9c3f08 AFF_2_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_16 AFF_2",
+                    "id": "67b0d4f638997bd34c9c3f08 AFF_2",
                     "index": 2,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -2710,13 +2710,13 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_16 AFS_0",
+                    "id": "67b0d4f638997bd34c9c3f08 AFS_0",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_13",
+                    "target": "67b0d51da44ea26d8bbd5757",
                     "visibilityConditions": []
                 },
                 {
@@ -2725,27 +2725,27 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_16 AFS_3",
+                    "id": "67b0d4f638997bd34c9c3f08 AFS_3",
                     "index": 2,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_10",
+                    "target": "67b0d536f7aa4ca191f4490c",
                     "visibilityConditions": []
                 }
             ],
             "Fail": []
         },
-        "declinePlayerMessage": "Punisher_16 declinePlayerMessage",
-        "description": "Punisher_16 description",
-        "failMessageText": "Punisher_16 failMessageText",
-        "image": "/files/quest/icon/Punisher_16_thumbnail.png",
+        "declinePlayerMessage": "67b0d4f638997bd34c9c3f08 declinePlayerMessage",
+        "description": "67b0d4f638997bd34c9c3f08 description",
+        "failMessageText": "67b0d4f638997bd34c9c3f08 failMessageText",
+        "image": "/files/quest/icon/67b0d4f638997bd34c9c3f08_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
-        "name": "Punisher_16 name",
-        "note": "Punisher_16 note",
+        "name": "67b0d4f638997bd34c9c3f08 name",
+        "note": "67b0d4f638997bd34c9c3f08 note",
         "restartable": false,
         "rewards": {
             "Fail": [],
@@ -2753,103 +2753,103 @@
             "Success": [
                 {
                     "findInRaid": true,
-                    "id": "Punisher_16_Reward_0",
+                    "id": "67b0d4f638997bd34c9c3f08_Reward_0",
                     "index": 0,
                     "items": [
                         {
-                            "_id": "Punisher_16_Reward_LCard_B",
+                            "_id": "67b0d4f638997bd34c9c3f08_Reward_LCard_B",
                             "_tpl": "5c1d0c5f86f7744bb2683cf0",
                             "upd": {
                                 "StackObjectsCount": 1
                             }
                         }
                     ],
-                    "target": "Punisher_16_Reward_LCard_B",
+                    "target": "67b0d4f638997bd34c9c3f08_Reward_LCard_B",
                     "type": "Item",
                     "value": "1"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_16_Reward_1",
+                    "id": "67b0d4f638997bd34c9c3f08_Reward_1",
                     "index": 1,
                     "items": [
                         {
-                            "_id": "Punisher_16_Reward_LCard_Y",
+                            "_id": "67b0d4f638997bd34c9c3f08_Reward_LCard_Y",
                             "_tpl": "5c1d0d6d86f7744bb2683e1f",
                             "upd": {
                                 "StackObjectsCount": 1
                             }
                         }
                     ],
-                    "target": "Punisher_16_Reward_LCard_Y",
+                    "target": "67b0d4f638997bd34c9c3f08_Reward_LCard_Y",
                     "type": "Item",
                     "value": "1"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_16_Reward_2",
+                    "id": "67b0d4f638997bd34c9c3f08_Reward_2",
                     "index": 2,
                     "items": [
                         {
-                            "_id": "Punisher_16_Reward_LCard_G",
+                            "_id": "67b0d4f638997bd34c9c3f08_Reward_LCard_G",
                             "_tpl": "5c1d0dc586f7744baf2e7b79",
                             "upd": {
                                 "StackObjectsCount": 1
                             }
                         }
                     ],
-                    "target": "Punisher_16_Reward_LCard_G",
+                    "target": "67b0d4f638997bd34c9c3f08_Reward_LCard_G",
                     "type": "Item",
                     "value": "1"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_16_Reward_3",
+                    "id": "67b0d4f638997bd34c9c3f08_Reward_3",
                     "index": 3,
                     "items": [
                         {
-                            "_id": "Punisher_16_Reward_LCard_R",
+                            "_id": "67b0d4f638997bd34c9c3f08_Reward_LCard_R",
                             "_tpl": "5c1d0efb86f7744baf2e7b7b",
                             "upd": {
                                 "StackObjectsCount": 1
                             }
                         }
                     ],
-                    "target": "Punisher_16_Reward_LCard_R",
+                    "target": "67b0d4f638997bd34c9c3f08_Reward_LCard_R",
                     "type": "Item",
                     "value": "1"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_16_Reward_4",
+                    "id": "67b0d4f638997bd34c9c3f08_Reward_4",
                     "index": 4,
                     "items": [
                         {
-                            "_id": "Punisher_16_Reward_LCard_Bl",
+                            "_id": "67b0d4f638997bd34c9c3f08_Reward_LCard_Bl",
                             "_tpl": "5c1d0f4986f7744bb01837fa",
                             "upd": {
                                 "StackObjectsCount": 1
                             }
                         }
                     ],
-                    "target": "Punisher_16_Reward_LCard_Bl",
+                    "target": "67b0d4f638997bd34c9c3f08_Reward_LCard_Bl",
                     "type": "Item",
                     "value": "1"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_16_Reward_5",
+                    "id": "67b0d4f638997bd34c9c3f08_Reward_5",
                     "index": 5,
                     "items": [
                         {
-                            "_id": "Punisher_16_Reward_LCard_V",
+                            "_id": "67b0d4f638997bd34c9c3f08_Reward_LCard_V",
                             "_tpl": "5c1e495a86f7743109743dfb",
                             "upd": {
                                 "StackObjectsCount": 1
                             }
                         }
                     ],
-                    "target": "Punisher_16_Reward_LCard_V",
+                    "target": "67b0d4f638997bd34c9c3f08_Reward_LCard_V",
                     "type": "Item",
                     "value": "1"
                 }
@@ -2857,16 +2857,16 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "Punisher_16 startedMessageText",
-        "successMessageText": "Punisher_16 successMessageText",
-        "traderId": "Punisher",
+        "startedMessageText": "67b0d4f638997bd34c9c3f08 startedMessageText",
+        "successMessageText": "67b0d4f638997bd34c9c3f08 successMessageText",
+        "traderId": "67b0e495292db8850f2b2b67",
         "type": "Elimination"
     },
-    "Punisher_17": {
+    "67b0d4ea72dffea0c50e4349": {
         "QuestName": "Вероотступничество | B",
-        "_id": "Punisher_17",
+        "_id": "67b0d4ea72dffea0c50e4349",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "Punisher_17 changeQuestMessageText",
+        "changeQuestMessageText": "67b0d4ea72dffea0c50e4349 changeQuestMessageText",
         "conditions": {
             "AvailableForFinish": [
                 {
@@ -2890,7 +2890,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_17 AFF_0_Kills",
+                                "id": "67b0d4ea72dffea0c50e4349 AFF_0_Kills",
                                 "resetOnSessionEnd": true,
                                 "savageRole": ["sectantWarrior","sectantPriest"],
                                 "target": "any",
@@ -2903,18 +2903,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_17 AFF_0_Location",
+                                "id": "67b0d4ea72dffea0c50e4349 AFF_0_Location",
                                 "target": [
                                     "Shoreline"
                                 ]
                             }
                         ],
-                        "id": "Punisher_14 AFF_0_Counter"
+                        "id": "67b0d51731f4e6ce06e2af96 AFF_0_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_17 AFF_0",
+                    "id": "67b0d4ea72dffea0c50e4349 AFF_0",
                     "index": 0,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -2930,13 +2930,13 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_17 AFS_0",
+                    "id": "67b0d4ea72dffea0c50e4349 AFS_0",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_6",
+                    "target": "67b0d56047344026e50bc39a",
                     "visibilityConditions": []
                 },
                 {
@@ -2945,34 +2945,34 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_17 AFS_3",
+                    "id": "67b0d4ea72dffea0c50e4349 AFS_3",
                     "index": 2,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_6",
+                    "target": "67b0d56047344026e50bc39a",
                     "visibilityConditions": []
                 }
             ],
             "Fail": []
         },
-        "declinePlayerMessage": "Punisher_17 declinePlayerMessage",
-        "description": "Punisher_17 description",
-        "failMessageText": "Punisher_17 failMessageText",
-        "image": "/files/quest/icon/Punisher_17_thumbnail.png",
+        "declinePlayerMessage": "67b0d4ea72dffea0c50e4349 declinePlayerMessage",
+        "description": "67b0d4ea72dffea0c50e4349 description",
+        "failMessageText": "67b0d4ea72dffea0c50e4349 failMessageText",
+        "image": "/files/quest/icon/67b0d4ea72dffea0c50e4349_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "5704e554d2720bac5b8b456e",
-        "name": "Punisher_17 name",
-        "note": "Punisher_17 note",
+        "name": "67b0d4ea72dffea0c50e4349 name",
+        "note": "67b0d4ea72dffea0c50e4349 note",
         "restartable": false,
         "rewards": {
             "Fail": [],
             "Started": [],
             "Success": [
                 {
-                    "id": "Punisher_17_Reward_1",
+                    "id": "67b0d4ea72dffea0c50e4349_Reward_1",
                     "index": 0,
                     "type": "Skill",
                     "target": "Endurance", 
@@ -2980,49 +2980,49 @@
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_17 reward_7",
+                    "id": "67b0d4ea72dffea0c50e4349 reward_7",
                     "index": 1,
                     "items": [
                         {
-                            "_id": "Punisher_17 reward_7_0",
+                            "_id": "67b0d4ea72dffea0c50e4349 reward_7_0",
                             "_tpl": "6656560053eaaa7a23349c86",
                             "upd": {
                                 "StackObjectsCount": 5
                             }
                         }
                     ],
-                    "target": "Punisher_17 reward_7_0",
+                    "target": "67b0d4ea72dffea0c50e4349 reward_7_0",
                     "type": "Item",
                     "value": "5"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_17 reward_8",
+                    "id": "67b0d4ea72dffea0c50e4349 reward_8",
                     "index": 1,
                     "items": [
                         {
-                            "_id": "Punisher_17 reward_8_1",
+                            "_id": "67b0d4ea72dffea0c50e4349 reward_8_1",
                             "_tpl": "5bffe7930db834001b734a39",
                             "upd": {
                                 "StackObjectsCount": 1
                             }
                         }
                     ],
-                    "target": "Punisher_17 reward_8_1",
+                    "target": "67b0d4ea72dffea0c50e4349 reward_8_1",
                     "type": "Item",
                     "value": "1"
                 },
                 {
-                    "id": "Punisher_17_Reward_5",
+                    "id": "67b0d4ea72dffea0c50e4349_Reward_5",
                     "index": 3,
                     "target": "58330581ace78e27b8b10cee",
                     "type": "TraderStanding",
                     "value": "0.5"
                 },
                 {
-                    "id": "Punisher_17_Reward_5",
+                    "id": "67b0d4ea72dffea0c50e4349_Reward_5",
                     "index": 4,
-                    "target": "Punisher",
+                    "target": "67b0e495292db8850f2b2b67",
                     "type": "TraderStanding",
                     "value": "1.0"
                 }
@@ -3030,16 +3030,16 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "Punisher_17 startedMessageText",
-        "successMessageText": "Punisher_17 successMessageText",
-        "traderId": "Punisher",
+        "startedMessageText": "67b0d4ea72dffea0c50e4349 startedMessageText",
+        "successMessageText": "67b0d4ea72dffea0c50e4349 successMessageText",
+        "traderId": "67b0e495292db8850f2b2b67",
         "type": "Elimination"
     },
-    "Punisher_18": {
+    "67b0d4e4fb5bb81cfdd4e047": {
         "QuestName": "Makin' Groceries",
-        "_id": "Punisher_18",
+        "_id": "67b0d4e4fb5bb81cfdd4e047",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "Punisher_18 changeQuestMessageText",
+        "changeQuestMessageText": "67b0d4e4fb5bb81cfdd4e047 changeQuestMessageText",
         "conditions": {
             "AvailableForFinish": [
                 {
@@ -3063,7 +3063,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_18 AFF_0_Kills",
+                                "id": "67b0d4e4fb5bb81cfdd4e047 AFF_0_Kills",
                                 "resetOnSessionEnd": false,
                                 "savageRole": ["bossSanitar"],
                                 "target": "Savage",
@@ -3088,18 +3088,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_18 AFF_0_Location",
+                                "id": "67b0d4e4fb5bb81cfdd4e047 AFF_0_Location",
                                 "target": [
                                     "any"
                                 ]
                             }
                         ],
-                        "id": "Punisher_18 AFF_0_Counter"
+                        "id": "67b0d4e4fb5bb81cfdd4e047 AFF_0_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_18 AFF_0",
+                    "id": "67b0d4e4fb5bb81cfdd4e047 AFF_0",
                     "index": 1,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -3128,7 +3128,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_18 AFF_1_Kills",
+                                "id": "67b0d4e4fb5bb81cfdd4e047 AFF_1_Kills",
                                 "resetOnSessionEnd": false,
                                 "savageRole": ["bossSanitar"],
                                 "target": "Savage",
@@ -3153,18 +3153,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_18 AFF_1_Location",
+                                "id": "67b0d4e4fb5bb81cfdd4e047 AFF_1_Location",
                                 "target": [
                                     "any"
                                 ]
                             }
                         ],
-                        "id": "Punisher_18 AFF_1_Counter"
+                        "id": "67b0d4e4fb5bb81cfdd4e047 AFF_1_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_18 AFF_1",
+                    "id": "67b0d4e4fb5bb81cfdd4e047 AFF_1",
                     "index": 2,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -3193,7 +3193,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_18 AFF_2_Kills",
+                                "id": "67b0d4e4fb5bb81cfdd4e047 AFF_2_Kills",
                                 "resetOnSessionEnd": false,
                                 "savageRole": ["bossSanitar"],
                                 "target": "Savage",
@@ -3218,18 +3218,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_18 AFF_2_Location",
+                                "id": "67b0d4e4fb5bb81cfdd4e047 AFF_2_Location",
                                 "target": [
                                     "any"
                                 ]
                             }
                         ],
-                        "id": "Punisher_18 AFF_2_Counter"
+                        "id": "67b0d4e4fb5bb81cfdd4e047 AFF_2_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_18 AFF_2",
+                    "id": "67b0d4e4fb5bb81cfdd4e047 AFF_2",
                     "index": 3,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -3258,7 +3258,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_18 AFF_3_Kills",
+                                "id": "67b0d4e4fb5bb81cfdd4e047 AFF_3_Kills",
                                 "resetOnSessionEnd": false,
                                 "savageRole": ["bossSanitar"],
                                 "target": "Savage",
@@ -3283,18 +3283,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_18 AFF_3_Location",
+                                "id": "67b0d4e4fb5bb81cfdd4e047 AFF_3_Location",
                                 "target": [
                                     "any"
                                 ]
                             }
                         ],
-                        "id": "Punisher_18 AFF_3_Counter"
+                        "id": "67b0d4e4fb5bb81cfdd4e047 AFF_3_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_18 AFF_3",
+                    "id": "67b0d4e4fb5bb81cfdd4e047 AFF_3",
                     "index": 4,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -3323,7 +3323,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_18 AFF_4_Kills",
+                                "id": "67b0d4e4fb5bb81cfdd4e047 AFF_4_Kills",
                                 "resetOnSessionEnd": false,
                                 "savageRole": ["bossSanitar"],
                                 "target": "Savage",
@@ -3348,18 +3348,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_18 AFF_4_Location",
+                                "id": "67b0d4e4fb5bb81cfdd4e047 AFF_4_Location",
                                 "target": [
                                     "any"
                                 ]
                             }
                         ],
-                        "id": "Punisher_18 AFF_4_Counter"
+                        "id": "67b0d4e4fb5bb81cfdd4e047 AFF_4_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_18 AFF_4",
+                    "id": "67b0d4e4fb5bb81cfdd4e047 AFF_4",
                     "index": 5,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -3388,7 +3388,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_18 AFF_5_Kills",
+                                "id": "67b0d4e4fb5bb81cfdd4e047 AFF_5_Kills",
                                 "resetOnSessionEnd": false,
                                 "savageRole": ["bossSanitar"],
                                 "target": "Savage",
@@ -3413,18 +3413,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_18 AFF_5_Location",
+                                "id": "67b0d4e4fb5bb81cfdd4e047 AFF_5_Location",
                                 "target": [
                                     "any"
                                 ]
                             }
                         ],
-                        "id": "Punisher_18 AFF_5_Counter"
+                        "id": "67b0d4e4fb5bb81cfdd4e047 AFF_5_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_18 AFF_5",
+                    "id": "67b0d4e4fb5bb81cfdd4e047 AFF_5",
                     "index": 6,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -3453,7 +3453,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_18 AFF_6_Kills",
+                                "id": "67b0d4e4fb5bb81cfdd4e047 AFF_6_Kills",
                                 "resetOnSessionEnd": false,
                                 "savageRole": ["bossSanitar"],
                                 "target": "Savage",
@@ -3478,18 +3478,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_18 AFF_6_Location",
+                                "id": "67b0d4e4fb5bb81cfdd4e047 AFF_6_Location",
                                 "target": [
                                     "any"
                                 ]
                             }
                         ],
-                        "id": "Punisher_18 AFF_6_Counter"
+                        "id": "67b0d4e4fb5bb81cfdd4e047 AFF_6_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_18 AFF_6",
+                    "id": "67b0d4e4fb5bb81cfdd4e047 AFF_6",
                     "index": 7,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -3504,7 +3504,7 @@
                     "dogtagLevel": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_18 AFF_7",
+                    "id": "67b0d4e4fb5bb81cfdd4e047 AFF_7",
                     "location": "",
                     "index": 8,
                     "isEncoded": false,
@@ -3525,7 +3525,7 @@
                     "dogtagLevel": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_18 AFF_8",
+                    "id": "67b0d4e4fb5bb81cfdd4e047 AFF_8",
                     "location": "",
                     "index": 9,
                     "isEncoded": false,
@@ -3547,13 +3547,13 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_18 AFS_0",
+                    "id": "67b0d4e4fb5bb81cfdd4e047 AFS_0",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_17",
+                    "target": "67b0d4ea72dffea0c50e4349",
                     "visibilityConditions": []
                 },
                 {
@@ -3562,93 +3562,93 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_18 AFS_1",
+                    "id": "67b0d4e4fb5bb81cfdd4e047 AFS_1",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_15",
+                    "target": "67b0d50a4832de38e9d68f84",
                     "visibilityConditions": []
                 }
             ],
             "Fail": []
         },
-        "declinePlayerMessage": "Punisher_18 declinePlayerMessage",
-        "description": "Punisher_18 description",
-        "failMessageText": "Punisher_18 failMessageText",
-        "image": "/files/quest/icon/Punisher_18_thumbnail.png",
+        "declinePlayerMessage": "67b0d4e4fb5bb81cfdd4e047 declinePlayerMessage",
+        "description": "67b0d4e4fb5bb81cfdd4e047 description",
+        "failMessageText": "67b0d4e4fb5bb81cfdd4e047 failMessageText",
+        "image": "/files/quest/icon/67b0d4e4fb5bb81cfdd4e047_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
-        "name": "Punisher_18 name",
-        "note": "Punisher_18 note",
+        "name": "67b0d4e4fb5bb81cfdd4e047 name",
+        "note": "67b0d4e4fb5bb81cfdd4e047 note",
         "restartable": false,
         "rewards": {
             "Fail": [],
             "Started": [],
             "Success": [
                 {
-                    "id": "Punisher_18_Reward_1",
+                    "id": "67b0d4e4fb5bb81cfdd4e047_Reward_1",
                     "index": 0,
                     "type": "Experience",
                     "value": "200000"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_18_Reward_2",
+                    "id": "67b0d4e4fb5bb81cfdd4e047_Reward_2",
                     "index": 1,
                     "items": [
                         {
-                            "_id": "Punisher_18_Reward_Roubles",
+                            "_id": "67b0d4e4fb5bb81cfdd4e047_Reward_Roubles",
                             "_tpl": "6656560053eaaa7a23349c86",
                             "upd": {
                                 "StackObjectsCount": 10
                             }
                         }
                     ],
-                    "target": "Punisher_18_Reward_Roubles",
+                    "target": "67b0d4e4fb5bb81cfdd4e047_Reward_Roubles",
                     "type": "Item",
                     "value": "10"
                 },
                 {
-                    "id": "Punisher_18_Reward_3",
+                    "id": "67b0d4e4fb5bb81cfdd4e047_Reward_3",
                     "index": 2,
-                    "target": "Punisher",
+                    "target": "67b0e495292db8850f2b2b67",
                     "type": "TraderStanding",
                     "value": "1.0"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_18_Reward_2",
+                    "id": "67b0d4e4fb5bb81cfdd4e047_Reward_2",
                     "index": 3,
                     "items": [
                         {
-                            "_id": "Punisher_18_Reward_ig",
+                            "_id": "67b0d4e4fb5bb81cfdd4e047_Reward_ig",
                             "_tpl": "657025ebc5d7d4cb4d078588",
                             "upd": {
                                 "StackObjectsCount": 600
                             }
                         }
                     ],
-                    "target": "Punisher_18_Reward_ig",
+                    "target": "67b0d4e4fb5bb81cfdd4e047_Reward_ig",
                     "type": "Item",
                     "value": "600"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_18_Reward_2",
+                    "id": "67b0d4e4fb5bb81cfdd4e047_Reward_2",
                     "index": 4,
                     "items": [
                         {
-                            "_id": "Punisher_18_gpu",
+                            "_id": "67b0d4e4fb5bb81cfdd4e047_gpu",
                             "_tpl": "57347ca924597744596b4e71",
                             "upd": {
                                 "StackObjectsCount": 5
                             }
                         }
                     ],
-                    "target": "Punisher_18_gpu",
+                    "target": "67b0d4e4fb5bb81cfdd4e047_gpu",
                     "type": "Item",
                     "value": "5"
                 }
@@ -3656,16 +3656,16 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "Punisher_18 startedMessageText",
-        "successMessageText": "Punisher_18 successMessageText",
-        "traderId": "Punisher",
+        "startedMessageText": "67b0d4e4fb5bb81cfdd4e047 startedMessageText",
+        "successMessageText": "67b0d4e4fb5bb81cfdd4e047 successMessageText",
+        "traderId": "67b0e495292db8850f2b2b67",
         "type": "Elimination"
     },
-    "Punisher_19": {
+    "67b0d4d7a6b8f106eeec2787": {
         "QuestName": "Тень в кастрюле | E",
-        "_id": "Punisher_19",
+        "_id": "67b0d4d7a6b8f106eeec2787",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "Punisher_19 changeQuestMessageText",
+        "changeQuestMessageText": "67b0d4d7a6b8f106eeec2787 changeQuestMessageText",
         "conditions": {
             "AvailableForFinish": [
                 {
@@ -3689,7 +3689,7 @@
                                 "enemyEquipmentExclusive": [],
                                 "enemyEquipmentInclusive": [],
                                 "enemyHealthEffects": [],
-                                "id": "Punisher_19 AFF_0_Kills",
+                                "id": "67b0d4d7a6b8f106eeec2787 AFF_0_Kills",
                                 "resetOnSessionEnd": false,
                                 "savageRole": [""],
                                 "target": "AnyPmc",
@@ -3715,18 +3715,18 @@
                             {
                                 "conditionType": "Location",
                                 "dynamicLocale": false,
-                                "id": "Punisher_19 AFF_0_Location",
+                                "id": "67b0d4d7a6b8f106eeec2787 AFF_0_Location",
                                 "target": [
                                     "Shoreline"
                                 ]
                             }
                         ],
-                        "id": "Punisher_19 AFF_0_Counter"
+                        "id": "67b0d4d7a6b8f106eeec2787 AFF_0_Counter"
                     },
                     "doNotResetIfCounterCompleted": false,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_19 AFF_0",
+                    "id": "67b0d4d7a6b8f106eeec2787 AFF_0",
                     "index": 1,
                     "oneSessionOnly": false,
                     "parentId": "",
@@ -3742,93 +3742,93 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_19 AFS_0",
+                    "id": "67b0d4d7a6b8f106eeec2787 AFS_0",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_18",
+                    "target": "67b0d4e4fb5bb81cfdd4e047",
                     "visibilityConditions": []
                 }
             ],
             "Fail": []
         },
-        "declinePlayerMessage": "Punisher_19 declinePlayerMessage",
-        "description": "Punisher_19 description",
-        "failMessageText": "Punisher_19 failMessageText",
-        "image": "/files/quest/icon/Punisher_11_thumbnail.png",
+        "declinePlayerMessage": "67b0d4d7a6b8f106eeec2787 declinePlayerMessage",
+        "description": "67b0d4d7a6b8f106eeec2787 description",
+        "failMessageText": "67b0d4d7a6b8f106eeec2787 failMessageText",
+        "image": "/files/quest/icon/67b0d54dfa1026d8d562ddf6_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
-        "name": "Punisher_19 name",
-        "note": "Punisher_19 note",
+        "name": "67b0d4d7a6b8f106eeec2787 name",
+        "note": "67b0d4d7a6b8f106eeec2787 note",
         "restartable": false,
         "rewards": {
             "Fail": [],
             "Started": [],
             "Success": [
                 {
-                    "id": "Punisher_19_Reward_1",
+                    "id": "67b0d4d7a6b8f106eeec2787_Reward_1",
                     "index": 0,
                     "type": "Experience",
                     "value": "80000"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_19_Reward_2",
+                    "id": "67b0d4d7a6b8f106eeec2787_Reward_2",
                     "index": 1,
                     "items": [
                         {
-                            "_id": "Punisher_19_Reward_Roubles",
+                            "_id": "67b0d4d7a6b8f106eeec2787_Reward_Roubles",
                             "_tpl": "6656560053eaaa7a23349c86",
                             "upd": {
                                 "StackObjectsCount": 3
                             }
                         }
                     ],
-                    "target": "Punisher_19_Reward_Roubles",
+                    "target": "67b0d4d7a6b8f106eeec2787_Reward_Roubles",
                     "type": "Item",
                     "value": "3"
                 },
                 {
-                    "id": "Punisher_19_Reward_3",
+                    "id": "67b0d4d7a6b8f106eeec2787_Reward_3",
                     "index": 2,
-                    "target": "Punisher",
+                    "target": "67b0e495292db8850f2b2b67",
                     "type": "TraderStanding",
                     "value": "1.0"
                 },
                 {
                     "findInRaid": false,
-                    "id": "Punisher_19_Reward_2",
+                    "id": "67b0d4d7a6b8f106eeec2787_Reward_2",
                     "index": 3,
                     "items": [
                         {
-                            "_id": "Punisher_19_Reward_ig",
+                            "_id": "67b0d4d7a6b8f106eeec2787_Reward_ig",
                             "_tpl": "5c1d0f4986f7744bb01837fa",
                             "upd": {
                                 "StackObjectsCount": 2
                             }
                         }
                     ],
-                    "target": "Punisher_19_Reward_ig",
+                    "target": "67b0d4d7a6b8f106eeec2787_Reward_ig",
                     "type": "Item",
                     "value": "2"
                 },
                 {
                     "findInRaid": true,
-                    "id": "Punisher_19_Reward_2",
+                    "id": "67b0d4d7a6b8f106eeec2787_Reward_2",
                     "index": 4,
                     "items": [
                         {
-                            "_id": "Punisher_19_w",
+                            "_id": "67b0d4d7a6b8f106eeec2787_w",
                             "_tpl": "5b6d9ce188a4501afc1b2b25",
                             "upd": {
                                 "StackObjectsCount": 3
                             }
                         }
                     ],
-                    "target": "Punisher_19_w",
+                    "target": "67b0d4d7a6b8f106eeec2787_w",
                     "type": "Item",
                     "value": "3"
                 }
@@ -3836,16 +3836,16 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "Punisher_19 startedMessageText",
-        "successMessageText": "Punisher_19 successMessageText",
-        "traderId": "Punisher",
+        "startedMessageText": "67b0d4d7a6b8f106eeec2787 startedMessageText",
+        "successMessageText": "67b0d4d7a6b8f106eeec2787 successMessageText",
+        "traderId": "67b0e495292db8850f2b2b67",
         "type": "Elimination"
     },
-    "Punisher_20": {
+    "67b0d41e1035c5e39c69ef06": {
         "QuestName": "Карточный коллекционер | E",
-        "_id": "Punisher_20",
+        "_id": "67b0d41e1035c5e39c69ef06",
         "canShowNotificationsInGame": true,
-        "changeQuestMessageText": "Punisher_20 changeQuestMessageText",
+        "changeQuestMessageText": "67b0d41e1035c5e39c69ef06 changeQuestMessageText",
         "conditions": {
             "AvailableForFinish": [
                     {
@@ -3854,7 +3854,7 @@
                         "dogtagLevel": 0,
                         "dynamicLocale": false,
                         "globalQuestCounterId": "",
-                        "id": "Punisher_20 AFF_0",
+                        "id": "67b0d41e1035c5e39c69ef06 AFF_0",
                         "index": 0,
                         "maxDurability": 100,
                         "minDurability": 0,
@@ -3872,7 +3872,7 @@
                         "dogtagLevel": 0,
                         "dynamicLocale": false,
                         "globalQuestCounterId": "",
-                        "id": "Punisher_20 AFF_1",
+                        "id": "67b0d41e1035c5e39c69ef06 AFF_1",
                         "index": 1,
                         "maxDurability": 100,
                         "minDurability": 0,
@@ -3890,7 +3890,7 @@
                         "dogtagLevel": 0,
                         "dynamicLocale": false,
                         "globalQuestCounterId": "",
-                        "id": "Punisher_20 AFF_2",
+                        "id": "67b0d41e1035c5e39c69ef06 AFF_2",
                         "index": 2,
                         "maxDurability": 100,
                         "minDurability": 0,
@@ -3908,7 +3908,7 @@
                         "dogtagLevel": 0,
                         "dynamicLocale": false,
                         "globalQuestCounterId": "",
-                        "id": "Punisher_20 AFF_3",
+                        "id": "67b0d41e1035c5e39c69ef06 AFF_3",
                         "index": 3,
                         "maxDurability": 100,
                         "minDurability": 0,
@@ -3926,7 +3926,7 @@
                         "dogtagLevel": 0,
                         "dynamicLocale": false,
                         "globalQuestCounterId": "",
-                        "id": "Punisher_20 AFF_4",
+                        "id": "67b0d41e1035c5e39c69ef06 AFF_4",
                         "index": 4,
                         "maxDurability": 100,
                         "minDurability": 0,
@@ -3944,7 +3944,7 @@
                         "dogtagLevel": 0,
                         "dynamicLocale": false,
                         "globalQuestCounterId": "",
-                        "id": "Punisher_20 AFF_5",
+                        "id": "67b0d41e1035c5e39c69ef06 AFF_5",
                         "index": 5,
                         "maxDurability": 100,
                         "minDurability": 0,
@@ -3964,27 +3964,27 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "Punisher_20 AFS_0",
+                    "id": "67b0d41e1035c5e39c69ef06 AFS_0",
                     "index": 1,
                     "parentId": "",
                     "status": [
                         4
                     ],
-                    "target": "Punisher_19",
+                    "target": "67b0d4d7a6b8f106eeec2787",
                     "visibilityConditions": []
                     }
                 ],
             "Fail": []
         },
-        "declinePlayerMessage": "Punisher_20 declinePlayerMessage",
-        "description": "Punisher_20 description",
-        "failMessageText": "Punisher_20 failMessageText",
-        "image": "/files/quest/icon/Punisher_20_thumbnail.png",
+        "declinePlayerMessage": "67b0d41e1035c5e39c69ef06 declinePlayerMessage",
+        "description": "67b0d41e1035c5e39c69ef06 description",
+        "failMessageText": "67b0d41e1035c5e39c69ef06 failMessageText",
+        "image": "/files/quest/icon/67b0d41e1035c5e39c69ef06_thumbnail.png",
         "instantComplete": false,
         "isKey": false,
         "location": "any",
-        "name": "Punisher_20 name",
-        "note": "Punisher_20 note",
+        "name": "67b0d41e1035c5e39c69ef06 name",
+        "note": "67b0d41e1035c5e39c69ef06 note",
         "restartable": false,
         "rewards": {
             "Fail": [],
@@ -3992,41 +3992,41 @@
             "Success": [
                 {
                     "findInRaid": true,
-                    "id": "punisher_20_Reward_1",
+                    "id": "67b0d41e1035c5e39c69ef06_Reward_1",
                     "index": 1,
                     "items": [
                         {
-                            "_id": "punisher_20_Reward_kappa",
+                            "_id": "67b0d41e1035c5e39c69ef06_Reward_kappa",
                             "_tpl": "5c093ca986f7740a1867ab12", 
                             "upd": {
                                 "StackObjectsCount": 1
                             }
                         }
                     ],
-                    "target": "punisher_20_Reward_kappa",
+                    "target": "67b0d41e1035c5e39c69ef06_Reward_kappa",
                     "type": "Item",
                     "value": "1"
                 },
                 {
-                    "id": "Punisher_20_Reward_2",
+                    "id": "67b0d41e1035c5e39c69ef06_Reward_2",
                     "index": 0,
                     "type": "Experience",
                     "value": "200000"
                 },
                 {
                     "findInRaid": true,
-                    "id": "punisher_20_Reward_3",
+                    "id": "67b0d41e1035c5e39c69ef06_Reward_3",
                     "index": 1,
                     "items": [
                         {
-                            "_id": "punisher_20_Reward_lega",
+                            "_id": "67b0d41e1035c5e39c69ef06_Reward_lega",
                             "_tpl": "6656560053eaaa7a23349c86", 
                             "upd": {
                                 "StackObjectsCount": 50
                             }
                         }
                     ],
-                    "target": "punisher_20_Reward_lega",
+                    "target": "67b0d41e1035c5e39c69ef06_Reward_lega",
                     "type": "Item",
                     "value": "1"
                 }
@@ -4034,9 +4034,9 @@
         },
         "secretQuest": false,
         "side": "Pmc",
-        "startedMessageText": "Punisher_20 startedMessageText",
-        "successMessageText": "Punisher_20 successMessageText",
-        "traderId": "Punisher",
+        "startedMessageText": "67b0d41e1035c5e39c69ef06 startedMessageText",
+        "successMessageText": "67b0d41e1035c5e39c69ef06 successMessageText",
+        "traderId": "67b0e495292db8850f2b2b67",
         "type": "PickUp"
     }
 }
